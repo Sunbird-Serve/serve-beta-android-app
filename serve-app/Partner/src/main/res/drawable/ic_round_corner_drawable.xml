@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/top_right_round_corner_primary"/>
+    <item
+        android:top="@dimen/size_20dp"
+        android:drawable="@drawable/ic_landing_bg"/>
+</layer-list>

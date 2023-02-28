@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_16dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_organization_pic"
+                android:layout_width="@dimen/size_80dp"
+                android:layout_height="@dimen/size_80dp"
+                android:src="@drawable/ic_oval"
+                app:srcCompat="@drawable/ic_school_logo_placeholder" />
+
+            <TextView
+                android:id="@+id/tv_organization_name"
+                style="@style/Theme.LabelText.OnSurface.PrimaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_12dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size_16dp"
+            android:foreground="#343D8BFF"
+            android:visibility="visible"
+            app:cardBackgroundColor="#343D8BFF"
+            app:cardCornerRadius="@dimen/size_14dp"
+            app:contentPadding="@dimen/padding_20dp"
+            app:strokeColor="#4050A7"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_under_verification" />
+
+                <TextView
+                    android:id="@+id/tv_under_verification"
+                    style="@style/Theme.LabelText.OnSurface.PrimaryColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/padding_10dp"
+                    android:layout_marginEnd="@dimen/padding_8dp"
+                    android:text="@string/you_have_not_been_assigned_to_any_school_please_contact_your_partner"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/size_14sp" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D256E</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorOnSecondary">#02122C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#DEDEDE</color>
+    <color name="transparent">#00000000</color>
+    <color name="buttoncolor">#FF7F2D</color>
+    <color name="color_gray">#BABCD9</color>
+
+    <color name="colorOnPrimary_60opc">#99FFFFFF</color>
+    <color name="colorOnSecondary_40">#6602122C</color>
+
+    <color name="colorOnSecondary_30opc">#4D02122C</color>
+    <color name="colorOnSecondary_50opc">#5002122C</color>
+    <color name="colorOnSecondary_60opc">#9902122C</color>
+    <color name="colorOnSecondary_80opc">#8002122C</color>
+
+    <color name="white_45opc">#75FFFFFF</color>
+
+    <color name="cv_landing_active">#1D256E</color>
+    <color name="cv_landing_inactive">#DEE1E2</color>
+    <color name="cv_under_verification_color">#4050A7</color>
+
+    <color name="green_approved">#5EB670</color>
+    <color name="red_rejected">#FF5757</color>
+    <color name="yellow_pending">#F9AA27</color>
+
+    <color name="passwordToggleTint">#1D256E</color>
+    <color name="item_decoration_dot_color">#4DD8D8D8</color>
+    <color name="dash">#CCD0D5</color>
+
+    <color name="viewSeparatorColor">#DBDFE3</color>
+    <color name="radio_button_selected_color">#FFFFFF</color>
+    <color name="radio_button_unselected_color">#653D8BFF</color>
+    <color name="colorAlert">#FF002E</color>
+
+    <color name="success">#1D256E</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color">@color/white</color>
+
+
+    <color name="red">#FFFFFF</color>
+
+    <color name="list_even">#FFF5F5</color>
+    <color name="list_odd">#F3FFFF</color>
+    <color name="list_selected">#455FB6</color>
+
+    <color name="stroke_border">#D7D7D7</color>
+    <color name="persona_radio">#1C286C</color>
+    <color name="rippelColor">#FFFFFF</color>
+
+    <color name="calendar_text_color">#1D1B15</color>
+    <color name="calendar_weekday_color">#9296AB</color>
+
+    <color name="line_spacing_color">#E3E3E3</color>
+
+    <color name="subject_maths">#00C6C9 </color>
+    <color name="subject_science">#9454F4 </color>
+    <color name="subject_english">#EF5A98 </color>
+    <color name="subject_social_studies">#00ACFF </color>
+    <color name="subject_hindi">#FF7D61 </color>
+    <color name="subject_kannada">#00DC97 </color>
+    <color name="subject_telugu">#00C4C9 </color>
+    <color name="subject_tamil">#FFA460 </color>
+    <color name="subject_malayalam">#A55DFF </color>
+    <color name="subject_computer">#50C051 </color>
+    <color name="subject_marathi">#CAC53E </color>
+    <color name="subject_bengali">#FFA581 </color>
+
+    <color name="banner_yellow">#FFE300</color>
+    <color name="banner_blue">#00D6FF</color>
+
+    <!-- Activity item colors -->
+    <color name="activity_color_1">#A775FB</color>
+    <color name="activity_color_2">#FF6D6D</color>
+    <color name="activity_color_3">#00D792</color>
+    <color name="activity_color_4">#CD77F7</color>
+    <color name="activity_color_5">#0097FF</color>
+    <color name="activity_color_6">#00C2FF</color>
+    <color name="activity_color_7">#FF765F</color>
+    <color name="activity_color_8">#00D0C3</color>
+    <color name="activity_color_9">#FF719E</color>
+    <color name="activity_color_10">#FFA561</color>
+    <color name="bottom_nav_selected_color">#FF611E</color>
+    <color name="bottom_nav_unselected_color">#B8BFC7</color>
+
+    <!-- Subject Progress Color -->
+    <color name="english_progress_color">#80c94b7f</color>
+    <color name="maths_progress_color">#80009897</color>
+    <color name="science_progress_color">#807746CA</color>
+    <color name="hindi_progress_color">#80cf6751</color>
+    <color name="social_science_progress_color">#800091D0</color>
+    <color name="kannada_progress_color">#8002a874</color>
+    <color name="telugu_progress_color">#80029a9e</color>
+    <color name="tamil_progress_color">#80b04d02</color>
+    <color name="malayalam_progress_color">#807945ba</color>
+    <color name="cs_progress_color">#803f9940</color>
+    <color name="marathi_progress_color">#8094902e</color>
+    <color name="bengali_progress_color">#80cf8567</color>
+    <color name="missed_class_bg">#2F3642</color>
+
+</resources>

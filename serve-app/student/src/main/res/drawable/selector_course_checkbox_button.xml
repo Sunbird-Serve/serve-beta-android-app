@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/org.evidyaloka.student">
+
+    <item  android:state_checked="false" >
+        <layer-list>
+            <!--This item is creates check mark button with transparent color-->
+            <item  android:width="@dimen/size_22dp" android:height="@dimen/size_22dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/size_15dp" />
+                    <solid android:color="@color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" >
+
+        <layer-list>
+            <item  android:width="@dimen/size_22dp" android:height="@dimen/size_22dp">
+                <!--This item is holder for check mark with transparent background-->
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/size_15dp" />
+                    <solid android:color="@color/transparent" />
+                </shape>
+            </item>
+            <item
+                android:left="2dp"
+                android:drawable="@drawable/ic_tick" android:gravity="center" >
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

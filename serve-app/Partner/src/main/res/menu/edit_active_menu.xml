@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/edit"
+        app:showAsAction="collapseActionView|withText" />
+
+    <item
+        android:id="@+id/menu_active"
+        android:title="@string/active"
+        android:visible="false"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/menu_inactive"
+        android:title="@string/in_active"
+        android:visible="false"
+        app:showAsAction="collapseActionView" />
+</menu>

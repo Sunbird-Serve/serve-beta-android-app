@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SelectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/margin_10dp"
+    android:layout_marginTop="@dimen/margin_10dp"
+    android:layout_marginBottom="@dimen/margin_10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/size_15dp"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_student_radio"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/size_21dp"
+        android:paddingRight="@dimen/size_22dp">
+
+        <ImageView
+            android:id="@+id/iv_type_logo"
+            android:layout_width="@dimen/size_64dp"
+            android:layout_height="@dimen/size_64dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/curved_corner_bg"
+            android:backgroundTint="#E4EBEE"
+            android:outlineProvider="background"
+            android:padding="@dimen/size_2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/size_17dp"
+            android:layout_weight="0.52"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:lineHeight="@dimen/size_21dp"
+                android:maxLines="1"
+                android:textColor="@color/student_black"
+                android:textSize="@dimen/size_14sp" />
+
+            <TextView
+                android:id="@+id/tv_subtitle"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="@dimen/size_12sp"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:lineHeight="@dimen/size_18dp"
+                android:maxLines="1"
+                android:textColor="@color/student_black_60opc"
+                android:textSize="@dimen/size_12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_download"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/course_cardview_padding"
+            android:layout_marginBottom="@dimen/course_cardview_padding"
+            android:gravity="center"
+            android:minWidth="@dimen/size_60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iv_download"
+                android:layout_width="@dimen/size_60dp"
+                android:layout_height="@dimen/size_60dp"
+                android:background="@null"
+                android:padding="20dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_download" />
+
+            <ImageButton
+                android:id="@+id/ib_delete"
+                android:layout_width="@dimen/size_60dp"
+                android:layout_height="@dimen/size_60dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:visibility="gone"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

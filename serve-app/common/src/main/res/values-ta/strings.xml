@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectall">அனைத்தையும் தெரிவுசெய்</string>
+    <string name="label_video_lessons">வீடியோ பாடங்கள்</string>
+    <string name="label_worksheet">பணித்தாள்</string>
+    <string name="label_activity">செயல்பாடுகள்</string>
+    <string name="label_textbook">பாடநூல்</string>
+    <string name="label_bt_view">காண்க</string>
+    <string name="label_bt_read">படி</string>
+    <string name="label_bt_done">முடிந்தது</string>
+    <string name="no_document_available">எந்த ஆவணமும் கிடைக்கவில்லை</string>
+    <string name="video_not_found">வீடியோ கிடைக்கவில்லை</string>
+    <string name="video_is_not_playable">வீடியோ இயங்கவில்லை</string>
+    <string name="invalid_video_url">தவறான வீடியோ இணைப்பு</string>
+    <string name="video_not_allow_to_play_embed">வீடியோ உட்பொதிக்க அனுமதிக்காது</string>
+    <string name="unknown_error">கண்டறியப்படாத பிழை</string>
+    <string name="device_memory_full">உபகரண நினைவகம் நிரம்பியுள்ளது</string>
+    <string name="ok">ஓகே</string>
+    <string name="not_found">கிடைக்கவில்லை!</string>
+    <string name="we_have_around_d_students_enrolled_and_avail_the_better_learning_experience">எங்களிடம் சுமார் %s மாணவர்கள் சேர்ந்துள்ளனர் மற்றும் சிறந்த கற்றல் அனுபவத்தைப் பெறுகிறார்கள்.</string>
+    <string name="enter_full_name">முழு பெயரை உள்ளிடவும்</string>
+    <string name="enter_mobile_number">மொபைல் எண்ணை உள்ளிடவும்</string>
+    <string name="tnc_1">தொடர்வதன் மூலம், எங்கள் </string>
+    <string name="tnc_2"><b><u>பயன்பாட்டு விதிமுறைகள் </u></b>ஐ ஒப்புக்கொள்கிறீர்கள்</string>
+    <string name="tnc_3">\u0020மற்றும்\u0020</string>
+    <string name="tnc_4"><b><u>தனியுரிமைக் கொள்கை</u></b></string>
+    <!-- Banners -->
+
+    <!--Student -->
+
+    <string name="banner_1_grasp_concepts">கருத்துக்களை எளிதில் புரிந்து கொள்ளுங்கள்.</string>
+
+    <string name="banner_2_ask_doubts">உங்கள் சந்தேகங்களைக் கேளுங்கள்</string>
+    <string name="banner_2_we_will_clarify">நாங்கள் உங்களுக்காக அவற்றை தெளிவுபடுத்துவோம்!</string>
+
+    <string name="banner_3_learn_from">ஈடுபாட்டுடன்  கற்றுக்கொள்ளுங்கள்</string>
+
+    <!-- Parent -->
+
+    <string name="banner_parent_1">5 - 8 ஆம் வகுப்பு மாணவர்களுக்கு ஒரு விரிவான கற்றல் பயன்பாடு..</string>
+    <string name="banner_parent_2">மாணவர்கள் ஈடுபாட்டுடன் மற்றும் சேகரிக்கப்பட்ட பாடத்திலிருந்து கற்றுக்கொள்கிறார்கள் - பாடவாரியான வீடியோக்கள்!</string>
+    <string name="banner_parent_3">உங்கள் குழந்தையை பதிவு செய்யுங்கள்.\n கற்றல் தொடங்குங்கள்!</string>
+
+    <!-- Partner -->
+    <string name="banner_1_partner">உங்கள் சொந்த டிஜிட்டல் பள்ளியை எங்கிருந்தும், எந்த நேரத்திலும் தொடங்கி நிர்வகிக்கவும்!</string>
+    <string name="banner_2_partner">இந்தியா முழுவதும் உள்ள பல்வேறு மாநில வாரியங்களிலிருந்து பாடத்திட்டத்திற்கான  அணுகலைப் பெறுங்கள்!</string>
+    <string name="banner_3_partner">ஒரு வாரியத்தைத் தேர்வுசெய்க, ஒரு பாடத்தைத் தேர்ந்தெடுங்கள், மாணவர்களைச் சேர்க்கவும்! தொடங்குங்கள்!</string>
+    <string name="students_enrolled">சேர்க்கப்பட்ட  மாணவர்கள் </string>
+    <string name="organization_information">அமைப்பு பற்றிய  தகவல்</string>
+    <string name="contact_person_details">தொடர்பு கொள்ளவேண்டிய நபரின் விபரம் </string>
+    <string name="school_board">பள்ளி வாரியம்</string>
+    <string name="grade">வகுப்பு </string>
+    <string name="ngo_n_partner">என்ஜிஓ \n பார்ட்னர்</string>
+    <string name="digital_school_n_manager">டிஜிட்டல் பள்ளி \n மேலாளர்</string>
+    <string name="about_us">எங்களை பற்றி</string>
+    <string name="courses_offered">வழங்கப்படும் படிப்புகள்</string>
+    <string name="digital_school_name">டிஜிட்டல் பள்ளி பெயர்</string>
+    <string name="item_name">பொருளின் பெயர்</string>
+    <string name="join_school">பள்ளியில் சேருங்கள்</string>
+    <string name="access_the_entire_course_and_start_learning">முழு பாட திட்டத்தையும் கற்கத் தொடங்குங்கள்!</string>
+    <string name="join">சேர்க </string>
+    <string name="be_a_part_of_us_and_run_your_own_digital_school_here">எங்கள் ஒரு பகுதியாக இருங்கள் மற்றும் உங்கள் சொந்த டிஜிட்டல் பள்ளியை இங்கே நடத்துங்கள்</string>
+
+    <string name="search_your_board">உங்கள் வாரியத்தைத் தேடுங்கள்</string>
+    <string name="label_continue">தொடரவும்</string>
+    <string name="remember_to_solve_the_worksheet">பணித்தாள் தீர்க்கவும். பின்னர் பதில்களைச் சரிபார்க்கவும்.</string>
+    <string name="the_digital_school_about_us">அரசுப் பள்ளிகளிலும், இந்தியாவின் கிராமப்புறங்களிலும் படிக்கும் குழந்தைகளுக்கு தரமான ஆன்லைன் கற்றல் அனுபவத்தை வழங்கும் நோக்கத்துடன் டிஜிட்டல் பள்ளி அமைக்கப்பட்டுள்ளது.\n\nஈடுபாட்டை தூண்டக் கூடிய ,ஆராய்ந்து சேகரிக்கப்பட்ட ஆன்லைன் வீடியோ பாடங்கள், பயிற்சிக்கான பணித்தாள்கள், செயல்பாடுகள், நேரடி இணைய வகுப்புகள் மற்றும் பாடப்புத்தகங்கள் ஆகியவற்றின் மூலம், தரமான கல்வியை உங்கள் வீட்டு வாசலுக்கு கொண்டு வருவோம் என்று நம்பிக்கை அளிக்கிறோம்.\n\nஎங்கள் டிஜிட்டல் பள்ளியில் சேருங்கள், ஒரு வாரியம் மற்றும் பாடத்தை தேர்ந்தெடுத்து படிக்கத் தொடங்குங்கள் !</string>
+    <string name="medium_of_instruction">பாடம் நடத்தப்படும் மொழி </string>
+    <string name="about_digital_school">டிஜிட்டல் பள்ளி பற்றி</string>
+    <string name="network_partner">நெட்வொர்க்   \n பார்ட்னர்</string>
+    <string name="banner_1_practice_your_learning">அத்தியாயம் வாரியாக சேகரிக்கப்பட்ட  வீடியோக்களைப் பாருங்கள், பணித்தாள் மற்றும் செயல்பாடுகளுடன் உங்கள் கற்றலைப் பயிற்சி செய்யுங்கள்</string>
+    <string name="banner_3_and_curated">மற்றும் அத்தியாயம் வாரியான உள்ளடக்கம்</string>
+    <string name="banner_parent_4">மாணவர்கள் தங்கள் சந்தேகங்களை கேட்கலாம். எங்கள் ஆசிரியர்கள் அவற்றை தெளிவுபடுத்துவார்கள்!</string>
+    <string name="subtopics">துணை தலைப்புகள்</string>
+    <string name="lesson">பாடம்</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="permission_required">அனுமதிகள் தேவை</string>
+    <string name="permission_ask_setting">கோரப்பட்ட அனுமதிகள் இல்லாமல் இந்த ஆப் சரியாக வேலை செய்யாமல் போகலாம். பயன்பாட்டு அனுமதிகளை மாற்ற பயன்பாட்டு அமைப்புகள் திரையைத் திறக்கவும்.</string>
+    <string name="medium">பாடமொழி</string>
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    <string name="warning">எச்சரிக்கை!</string>
+    <string name="click_to_open">திறக்க கிளிக் செய்யவும்</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    android:padding="@dimen/size_30dp">
+
+    <ImageView
+        android:id="@+id/iv_toolbar_profile"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="@dimen/margin_8dp"
+        android:background="@drawable/ic_circular_bg"
+        android:padding="@dimen/size_40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198"
+        app:srcCompat="@drawable/ic_success_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Theme.LabelText.OnSurface.PrimaryColor.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_40dp"
+        android:text="@string/thank_you"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_toolbar_profile" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Theme.Text.SecondaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/student_enrolled_success_msg"
+        android:textAppearance="@style/TextAppearance.Subtitle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bt_add_another"
+        style="@style/Theme.Student.Button.Gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_60dp"
+        android:elevation="12dp"
+        android:text="@string/enroll_another_student"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/bt_start_learning"
+        style="@style/Theme.Student.Button.White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_30dp"
+        android:elevation="12dp"
+        android:text="@string/start_learning"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_add_another" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

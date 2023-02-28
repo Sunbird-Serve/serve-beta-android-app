@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:isScrollContainer="true"
+    android:overScrollMode="ifContentScrolls"
+    tools:context=".ui.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:theme="@style/Theme.EVidyalokaPartner.AppBarOverlay">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                style="@style/Theme.EVidyalokaPartner.ActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:theme="@style/Theme.EVidyalokaPartner.PopupOverlay"
+                app:navigationIcon="@drawable/ic_nav_menu"
+                app:popupTheme="@style/Theme.EVidyalokaPartner.PopupOverlay"
+                app:titleTextAppearance="@style/TitleToolBarTextApperance">
+
+                <TextView
+                    android:id="@+id/toolbarTitle"
+                    style="@style/Theme.LabelText.OnSurface.PrimaryColor.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/margin_16dp"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:paddingEnd="@dimen/size_17dp"
+                    android:textAlignment="viewEnd"
+                    android:textAppearance="@style/TextAppearance.Subtitle1"
+                    tools:ignore="RtlCompat" />
+
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <include layout="@layout/content_main" />
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="@dimen/margin_32dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/buttoncolor"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:padding="@dimen/padding_medium"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="@dimen/margin_32dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:padding="@dimen/padding_medium"
+        android:progress="1"
+        android:progressBackgroundTint="@android:color/darker_gray"
+        android:progressTint="@color/colorPrimary"
+        android:visibility="gone" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

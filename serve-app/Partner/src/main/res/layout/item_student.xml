@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_student_profile"
+        android:layout_width="@dimen/size_60dp"
+        android:layout_height="@dimen/size_60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_course_placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:maxLines="1"
+        android:textColor="@color/colorOnSecondary"
+        android:textSize="@dimen/size_14sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintEnd_toStartOf="@id/checkBox"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/iv_student_profile"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_student_grade"
+        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:maxLines="1"
+        android:textColor="@color/colorOnSecondary_60opc"
+        android:textSize="@dimen/size_10sp"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/checkBox"
+        app:layout_constraintStart_toEndOf="@+id/iv_student_profile"
+        app:layout_constraintTop_toBottomOf="@+id/tv_student_name" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/Preference.CheckBoxPreference"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorPrimary"
+        android:buttonTintMode="src_in"
+        android:checked="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

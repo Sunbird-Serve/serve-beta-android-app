@@ -1,0 +1,329 @@
+<resources>
+    <!-- OTP Generetation Screen -->
+    <string name="error_required_fields_missing">ಅಗತ್ಯವಿರುವ ಕ್ಷೇತ್ರಗಳು ಕಾಣೆಯಾಗಿವೆ.</string>
+    <string name="error_user_profile_not_exist">" 'ಬಳಕೆದಾರರು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. ವಿದ್ಯಾರ್ಥಿ ಖಾತೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು 080-47091716 ಅಥವಾ digitalchool@evidyaloka.org ನಲ್ಲಿ ಸಂಪರ್ಕಿಸಿ. '"</string>
+    <string name="error_invalid_mobile">ಅಮಾನ್ಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ.</string>
+
+    <!-- OTP Validation Screen -->
+    <string name="error_data_not_valid">ಸಲ್ಲಿಸಿದ ಡೇಟಾ ಮಾನ್ಯವಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="error_otp_expired">ಒಟಿಪಿ ಅವಧಿ ಮೀರಿದೆ.</string>
+    <string name="error_otp_invalid">ಒಟಿಪಿ ಅಮಾನ್ಯವಾಗಿದೆ.</string>
+
+    <string name="title_activity_student_home" translatable="false">StudentHomeActivity</string>
+    <string name="navigation_drawer_open" translatable="false">ನ್ಯಾವಿಗೇಷನ್ ಡ್ರಾಯರ್ ತೆರೆಯಿರಿ</string>
+    <string name="navigation_drawer_close" translatable="false">ನ್ಯಾವಿಗೇಷನ್ ಡ್ರಾಯರ್ ಅನ್ನು ಮುಚ್ಚಿ</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- Home page child -->
+    <string name="label_grade_with_colon">ಗ್ರೇಡ್:</string>
+    <string name="label_lets_start">ಪ್ರಾರಂಭಿಸೋಣ</string>
+    <string name="label_logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="label_sorry">ಕ್ಷಮಿಸಿ!</string>
+    <string name="label_your_account_inactive">ನಿಮ್ಮ ಖಾತೆ ಇನ್ನೂ ಸಕ್ರಿಯವಾಗಿಲ್ಲ.</string>
+    <string name="label_ok">ಸರಿ</string>
+
+
+    <!-- Landing Enroll Student to Class -->
+    <string name="learn">ಕಲಿ</string>
+    <string name="label_courses">ಕೋರ್ಸ್‌ಗಳು</string>
+    <string name="label_welcome_to">ಸುಸ್ವಾಗತ</string>
+
+
+    <!-- OTP verification -->
+    <string name="enter_otp">ಒಟಿಪಿ ನಮೂದಿಸಿ</string>
+    <string name="enter_otp_sent_to">ನಿಮ್ಮ ಸಂಖ್ಯೆಗೆ ಕಳುಹಿಸಲಾದ ಒಟಿಪಿ ನಮೂದಿಸಿ</string>
+    <string name="change">ಬದಲಾವಣೆ</string>
+    <string name="resend_otp">ಒಟಿಪಿಯನ್ನು ಮರುಹೊಂದಿಸಿ</string>
+    <string name="verify">ಪರಿಶೀಲಿಸಿ</string>
+
+    <!-- Login -->
+    <string name="send_otp">ಒಟಿಪಿ ಕಳುಹಿಸಿ</string>
+    <string name="enter_mobile">ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="student_greeting_1">ಹಾಯ್ ಸ್ವಾಗತ!</string>
+    <string name="student_greeting_3">ಹಾಯ್ ದೇರ್!</string>
+    <string name="student_greeting_2">ಆತ್ಮೀಯ ವಿದ್ಯಾರ್ಥಿ, \nಕಲಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="parent_greeting_2">ಆತ್ಮೀಯ ಪೋಷಕರೇ, \nದಯವಿಟ್ಟು ನಿಮ್ಮ ಖಾತೆಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="label_heading_student_selection">ದಯವಿಟ್ಟು ವಿದ್ಯಾರ್ಥಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+
+    <string name="take_your_first_step_by_choosing_your_subjects_to_start_learning_now">ಈಗ ಕಲಿಯಲು ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ವಿಷಯಗಳನ್ನು ಆರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಮೊದಲ ಹೆಜ್ಜೆ ಇರಿಸಿ.</string>
+    <string name="data_submited_not_valid">ಸಲ್ಲಿಸಿದ ಡೇಟಾ ಮಾನ್ಯವಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="error">ದೋಷ</string>
+    <string name="user_should_be_guardian">ಬಳಕೆದಾರರು ರಕ್ಷಕರಾಗಿರಬೇಕು</string>
+    <string name="digital_school_doesnot_exist">ಡಿಜಿಟಲ್ ಶಾಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ</string>
+    <string name="center_doesnot_exist">ಕೇಂದ್ರ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ</string>
+    <string name="could_not_able_to_fetch_data">ಡೇಟಾವನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+
+    <string name="label_timetable">ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="label_subjects">ವಿಷಯಗಳ</string>
+    <string name="label_course_timetable">ಕೋರ್ಸ್ ವೇಳಾಪಟ್ಟಿ</string>
+
+    <string name="label_toolbar_title_classes">ತರಗತಿಗಳು</string>
+    <string name="label_faculty">ಸಿಬ್ಬಂದಿ :</string>
+
+    <string name="please_select_course">ದಯವಿಟ್ಟು ಕೋರ್ಸ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="hi">"ನಮಸ್ತೆ "</string>
+    <string name="today">"ಇಂದು,"</string>
+    <string name="congratulations_you_may_begin_your_classes_now">ಅಭಿನಂದನೆಗಳು! <br/> ನೀವು ಈಗ ನಿಮ್ಮ ತರಗತಿಗಳನ್ನು ಪ್ರಾರಂಭಿಸಬಹುದು</string>
+    <string name="err_network">ಏನೋ ತಪ್ಪಾಗಿದೆ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ದಯವಿಟ್ಟು ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="attend">ಹಾಜರಾಗಲು</string>
+
+
+    <!-- Landing Schedule Course-->
+    <string name="label_pick_your_day">ಕಲಿಯಲು ಪ್ರಾರಂಭಿಸಲು ನಿಮ್ಮ ದಿನ ಮತ್ತು ಸಮಯವನ್ನು ಆರಿಸಿ</string>
+    <string name="label_i_would_like">ನಾನು ಅಧ್ಯಯನ ಮಾಡಲು ಬಯಸುತ್ತೇನೆ</string>
+    <string name="label_begin_class">ವರ್ಗ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="label_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="label_save">ಉಳಿಸಿ</string>
+
+    <string name="guardian_not_active">ಗಾರ್ಡಿಯನ್ ಸಕ್ರಿಯವಾಗಿಲ್ಲ.</string>
+    <string name="select_more_time">ವಿಷಯಗಳನ್ನು ಒಳಗೊಳ್ಳಲು ಹೆಚ್ಚಿನ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+
+    <string name="monday">ಸೋಮವಾರ</string>
+    <string name="tuesday">ಮಂಗಳವಾರ</string>
+    <string name="wednesday">ಬುಧವಾರ</string>
+    <string name="thursday">ಗುರುವಾರ</string>
+    <string name="friday">ಶುಕ್ರವಾರ</string>
+    <string name="saturday">ಶನಿವಾರ</string>
+    <string name="sunday">ಭಾನುವಾರ</string>
+
+    <string name="early_morning">ಮುಂಜಾನೆ</string>
+    <string name="morning">ಬೆಳಗ್ಗೆ</string>
+    <string name="afternoon">ಮಧ್ಯಾಹ್ನ</string>
+    <string name="evening">ಸಂಜೆ</string>
+
+    <string name="early_morning_timing">ಬೆಳಿಗ್ಗೆ 6 ಘಂಟೆ - ಬೆಳಿಗ್ಗೆ 9 ಘಂಟೆ</string>
+    <string name="morning_timing">ಬೆಳಿಗ್ಗೆ 9 ಘಂಟೆ- ಮಧ್ಯಾಹ್ನ 12 ಘಂಟೆ</string>
+    <string name="afternoon_timing">ಮಧ್ಯಾಹ್ನ 12 ಘಂಟೆ - ಸಂಜೆ 4 ಘಂಟೆ</string>
+    <string name="evening_timing">ಸಂಜೆ 4 ಘಂಟೆ - ಸಂಜೆ 7 ಘಂಟೆ</string>
+
+    <string name="min_1_study_time">ದಯವಿಟ್ಟು ಕನಿಷ್ಠ 1 ಅಧ್ಯಯನ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="min_3_study_day">ದಯವಿಟ್ಟು ಕನಿಷ್ಠ 3 ದಿನ ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="min_1_time_3_days">ದಯವಿಟ್ಟು ಕನಿಷ್ಠ 1 ಅಧ್ಯಯನ ಸಮಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ &amp; 3 ದಿನಗಳು.</string>
+    <string name="menu_my_school">ನನ್ನ ಶಾಲೆ</string>
+    <string name="menu_your_doubts">ನಿಮ್ಮ ಅನುಮಾನಗಳು</string>
+    <string name="menu_terms_of_use">ಬಳಕೆಯ ನಿಯಮಗಳು</string>
+    <string name="menu_privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="menu_support">ಬೆಂಬಲ</string>
+    <string name="student">ವಿದ್ಯಾರ್ಥಿ</string>
+    <string name="parent">ಪೋಷಕರು</string>
+    <string name="grade">ಗ್ರೇಡ್</string>
+    <string name="join_class">ತರಗತಿಗೆ ಸೇರಿ</string>
+    <string name="live_class">ಲೈವ್ ವರ್ಗ</string>
+    <string name="live_session_link_missing">ಲೈವ್ ಸೆಷನ್ ಲಿಂಕ್ ಕಾಣೆಯಾಗಿದೆ</string>
+    <string name="open_with">ಇದರೊಂದಿಗೆ ತೆರೆಯಿರಿ</string>
+
+    <string name="you_have_no_classes">ನಿಮಗೆ ಇವತ್ತು %d ತರಗತಿಗಳು ಇವೆ</string>
+    <string name="you_will_have_no_classes_next">ನೀವು ಮುಂದಿನ%d ತರಗತಿಗಳನ್ನು ಹೊಂದಿರುತ್ತೀರಿ</string>
+    <string name="you_have_no_subtopics">ನಿಮಗೆ %d ಉಪ-ವಿಷಯಗಳು ಇರುತ್ತದೆ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Course Timetable -->
+    <string name="label_heading_course_timetable">ಕೋರ್ಸ್ ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="labeL_all_class">ಎಲ್ಲಾ</string>
+    <string name="labeL_missed_class">ತಪ್ಪಿದ ವರ್ಗ</string>
+    <string name="label_scheduled">ಪರಿಶಿಷ್ಟ</string>
+    <string name="label_class_taken">ವರ್ಗ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ</string>
+    <string name="label_bt_apply">ಅನ್ವಯಿಸು</string>
+    <string name="label_bt_reset">ಮರುಹೊಂದಿಸಿ</string>
+    <string name="join">ಸೇರಿ</string>
+
+    <string name="label_filter" >ಫಿಲ್ಟರ್ ಮಾಡಿ</string>
+    <string name="plural_classes">%d ತರಗತಿಗಳು</string>
+    <string name="singular_classes">%d ವರ್ಗ</string>
+
+    <!--worksheet/activity-->
+    <string name="label_bt_view">ನೋಟ</string>
+    <string name="label_bt_read">ಓದಿ</string>
+    <string name="label_bt_done">ಮುಗಿದಿದೆ</string>
+
+    <!-- RTC View -->
+    <string name="label_doubt">ಅನುಮಾನ ಕೇಳಿದರು</string>
+    <string name="label_asked_doubt">ಅನುಮಾನ ಕೇಳಿದರು</string>
+    <string name="label_bookmark">ಬುಕ್ಮಾರ್ಕ್</string>
+
+    <!--TABS -->
+    <string name="label_video_lessons">ವೀಡಿಯೊ ಪಾಠಗಳು</string>
+    <string name="label_worksheet">ವರ್ಕ್‌ಶೀಟ್</string>
+    <string name="label_activity">ಚಟುವಟಿಕೆ</string>
+    <string name="label_textbook">ಪಠ್ಯಪುಸ್ತಕ</string>
+    <string name="video_not_found">ವೀಡಿಯೊ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="video_is_not_playable">ವೀಡಿಯೊ ಪ್ಲೇ ಮಾಡಲಾಗುವುದಿಲ್ಲ</string>
+    <string name="unknown_error">ಅಜ್ಞಾತ ದೋಷ</string>
+    <string name="invalid_video_url">ಅಮಾನ್ಯ ವೀಡಿಯೊ url</string>
+    <string name="device_memory_full">ಸಾಧನದ ಮೆಮೊರಿ ತುಂಬಿದೆ</string>
+    <string name="choose">ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="rationale_storage_doubt">ಅನುಮಾನ ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಸಂಗ್ರಹ ಪ್ರವೇಶವನ್ನು ನೀಡಿ</string>
+    <string name="rationale_camera_storage_doubt">ನಿಮ್ಮ ಅನುಮಾನದ ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಕ್ಯಾಮೆರಾ ಮತ್ತು ಶೇಖರಣಾ ಪ್ರವೇಶವನ್ನು ನೀಡಿ</string>
+    <string name="video_not_allow_to_play_embed">ಎಂಬೆಡ್‌ನಲ್ಲಿ ಆಡಲು ವೀಡಿಯೊ ಅನುಮತಿಸುವುದಿಲ್ಲ</string>
+    <string name="submit">ಸಲ್ಲಿಸು</string>
+    <string name="ask_doubt">ಅನುಮಾನ ಕೇಳಿ</string>
+    <string name="camera">ಕ್ಯಾಮೆರಾ</string>
+    <string name="gallery">ಗ್ಯಾಲರಿ</string>
+    <string name="field_missing">ಕೆಲವು ಕ್ಷೇತ್ರಗಳು ಕಾಣೆಯಾಗಿವೆ</string>
+    <string name="invalid_request">ಅಮಾನ್ಯ ವಿನಂತಿ</string>
+    <string name="student_is_not_related_to_guardian">ವಿದ್ಯಾರ್ಥಿ ರಕ್ಷಕನಿಗೆ ಸಂಬಂಧಿಸಿಲ್ಲ</string>
+    <string name="invalid_session">ಅಮಾನ್ಯ ಅಧಿವೇಶನ</string>
+    <string name="file_does_not_exist">ಕಡತ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ</string>
+    <string name="your_doubt_submitted_successfully">ನಿಮ್ಮ ಅನುಮಾನವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ</string>
+    <string name="success">ಯಶಸ್ಸು</string>
+    <string name="failed">ವಿಫಲವಾಗಿದೆ</string>
+    <string name="no_content">ಈ ವಿಷಯಕ್ಕೆ ಯಾವುದೇ ವಿಷಯವಿಲ್ಲ</string>
+
+    <!--Doubts -->
+    <string name="label_no_doubts">ನೀವು ಇನ್ನೂ ಅನುಮಾನಗಳನ್ನು ಕೇಳಿಲ್ಲ.</string>
+    <string name="label_heading_your_doubts">ನನ್ನ ಅನುಮಾನಗಳು</string>
+    <string name="no_of_doubt_singular">%d ಅನುಮಾನ</string>
+    <string name="no_of_doubt_plural">%d ಅನುಮಾನಗಳು</string>
+    <string name="label_today">ಇಂದು</string>
+
+    <!--Doubts -->
+    <string name="label_heading_asked_doubts">ಕೇಳಿದ ಅನುಮಾನಗಳು</string>
+    <string name="label_bt_make_correction">ತಿದ್ದುಪಡಿ ಮಾಡಿ</string>
+    <string name="subject_count">%d ಪಾಠಗಳಲ್ಲಿ%d</string>
+    <string name="title_lessons">%s ಪಾಠಗಳು</string>
+    <string name="no_document_available">ಯಾವುದೇ ಡಾಕ್ಯುಮೆಂಟ್ ಲಭ್ಯವಿಲ್ಲ</string>
+
+    <!-- PDF Error -->
+    <string name="device_not_supported">ಸಾಧನ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ, ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="pdf_on_fail">ಪಿಡಿಎಫ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+
+    <!-- Attendance -->
+    <string name="attendance_submit_error">ಅಧಿವೇಶನ ಹಾಜರಾತಿಯನ್ನು ಸಲ್ಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="please_attend_previous_class">ಈ ವರ್ಗವನ್ನು ವೀಕ್ಷಿಸಲು ದಯವಿಟ್ಟು ಹಿಂದಿನ ತರಗತಿಗೆ ಹಾಜರಾಗಿ</string>
+    <string name="steps_to_ask_you_doubt">ಅನುಮಾನ ಕೇಳುವ ಕ್ರಮಗಳು,</string>
+    <string name="_1_write_down_your_doubt_in_your_notebook_paper">1. ನಿಮ್ಮ ಅನುಮಾನವನ್ನು ನಿಮ್ಮ ನೋಟ್ಬುಕ್ / ಕಾಗದದಲ್ಲಿ ಬರೆಯಿರಿ</string>
+    <string name="_2_click_a_picture">2. ಚಿತ್ರ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="_3_upload_here">3. ಇಲ್ಲಿ ಅಪ್ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="one_of_the_teachers_will_clarify_your_doubts_as_a_reply_here_shortly">ಶಿಕ್ಷಕರೊಬ್ಬರು ನಿಮ್ಮ ಅನುಮಾನಗಳನ್ನು ಇಲ್ಲಿ ಉತ್ತರವಾಗಿ ಶೀಘ್ರದಲ್ಲೇ ಸ್ಪಷ್ಟಪಡಿಸುತ್ತಾರೆ.</string>
+
+    <string name="student_greeting_4">ನಿಮ್ಮ ಕಲಿಕೆಯ ಪ್ರಯಾಣವನ್ನು ಪ್ರಾರಂಭಿಸಿ!</string>
+
+    <!-- MySchools -->
+    <string name="label_my_courses">ನನ್ನ ಕೋರ್ಸ್‌ಗಳು</string>
+    <string name="label_tv_study_timings">ಅಧ್ಯಯನದ ಸಮಯ</string>
+
+    <string name="label_tv_study_timing">ಅಧ್ಯಯನದ ಸಮಯ</string>
+    <string name="label_tv_change_timing">ಸಮಯವನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="label_tv_change_timings">ಸಮಯಗಳನ್ನು ಬದಲಾಯಿಸಿ</string>
+
+    <string name="label_school_count_plural">%d ಶಾಲೆಗಳಿಗೆ ಸೇರಿದರು</string>
+    <string name="label_school_count_singular">%d ಶಾಲೆಗೆ ಸೇರಿದರು</string>
+
+    <string name="label_my_study_days">ನನ್ನ ಅಧ್ಯಯನದ ದಿನಗಳು</string>
+    <string name="label_my_study_time">ನನ್ನ ಅಧ್ಯಯನದ ಸಮಯ</string>
+
+    <string name="you_do_not_have_an_active_internet_connection_please_check_your_internet_connection_and_retry">ನೀವು ಸಕ್ರಿಯ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿಲ್ಲ, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮರುಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="no_internet_connection">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲ</string>
+    <string name="retry">ಮರುಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="rating_submit_error">ಅಧಿವೇಶನ ರೇಟಿಂಗ್ ಸಲ್ಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+
+    <string name="label_all_subjects">ಎಲ್ಲಾ - </string>
+
+    <string name="menu_home">ಮುಖಪುಟ</string>
+    <string name="menu_classes">ತರಗತಿಗಳು</string>
+    <string name="menu_feedback">ಪ್ರತಿಕ್ರಿಯೆ</string>
+
+    <string name="error_invalid_offerings">ಅಮಾನ್ಯ ಆಫರಿಂಗ್‌ಗಳು</string>
+    <string name="error_invalid_student">ಅಮಾನ್ಯ ವಿದ್ಯಾರ್ಥಿ</string>
+    <string name="error_slots_not_enough">ಸ್ಲಾಟ್ಗಳು ಸಾಕಾಗುವುದಿಲ್ಲ.</string>
+    <string name="error_system_settings_defined_wrong">ಸಿಸ್ಟಮ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತಪ್ಪಾಗಿ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿದೆ.</string>
+
+    <string name="login">ಲಾಗಿನ್</string>
+
+    <string name="menu_language">Language</string>
+    <string name="video">ವೀಡಿಯೊ</string>
+    <string name="audio">ಆಡಿಯೋ</string>
+    <string name="chat">ಚಾಟ್</string>
+    <string name="link">ಲಿಂಕ್</string>
+    <string name="you_have_no_class">ನೀವು ಇಂದು %d ವರ್ಗವನ್ನು ಹೊಂದಿದ್ದೀರಿ</string>
+    <string name="you_will_have_no_class_next">ನೀವು ಮುಂದಿನ %d ವರ್ಗವನ್ನು ಹೊಂದಿರುತ್ತೀರಿ</string>
+    <string name="you_were_absent_for_some_classes_click_here_to_attend">ನೀವು ಕೆಲವು ತರಗತಿಗಳಿಗೆ ಗೈರುಹಾಜರಾಗಿದ್ದೀರಿ. ಹಾಜರಾಗಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
+    <string name="click_on_the_link_below_to_join_class">ವರ್ಗಕ್ಕೆ ಸೇರಲು ಕೆಳಗಿನ ಲಿಂಕ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="like">ಲೈಕ್</string>
+    <string name="error_otp_used">ಒಟಿಪಿ ಅನ್ನು ಈಗಾಗಲೇ ಬಳಸಲಾಗಿದೆ.</string>
+    <string name="student_error_user_not_exist">ಬಳಕೆದಾರರು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. ನೋಂದಾಯಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪೋಷಕರು / ಗಾರ್ಡಿಯನ್ ಕೇಳಿ.</string>
+    <string name="get_started">ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="dear_parent">ಆತ್ಮೀಯ ಪೋಷಕರು</string>
+    <string name="label_login_to_your_account">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಖಾತೆಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="no_account_create_parent">ನನಗೆ ಖಾತೆ ಇಲ್ಲ. <b><u> ಖಾತೆಯನ್ನು ರಚಿಸಿ </u></b></string>
+
+    <string name="label_join_thank_you">ನಮ್ಮೊಂದಿಗೆ ಸೇರಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು!</string>
+    <string name="label_join_like_to_know_more">ನಿಮ್ಮ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಲು ನಾವು ಬಯಸುತ್ತೇವೆ.</string>
+    <string name="label_join_relation_with_child">ಮಗುವಿನೊಂದಿಗಿನ ಸಂಬಂಧ</string>
+    <string name="label_location">ಸ್ಥಳ</string>
+    <string name="label_guardian">ಗಾರ್ಡಿಯನ್</string>
+    <string name="rationale_location">ದಯವಿಟ್ಟು ಸ್ಥಳ ಪ್ರವೇಶವನ್ನು ನೀಡಿ ಇದರಿಂದ ನಾವು ನಿಮಗೆ ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ನೀಡಬಹುದು.</string>
+    <string name="geocoder_error">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಕಂಡುಹಿಡಿಯಲಾಗಲಿಲ್ಲ, ದಯವಿಟ್ಟು ಪಿನ್‌ಕೋಡ್ ಅನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ನಮೂದಿಸಿ.</string>
+    <string name="label_enter_pincode">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಿನ್‌ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="label_child_class">ನನ್ನ ಮಗು ತರಗತಿಯಲ್ಲಿದೆ</string>
+    <string name="label_next">ಮುಂದೆ</string>
+    <string name="student_preference">ವಿದ್ಯಾರ್ಥಿಗಳ ಆದ್ಯತೆ</string>
+    <string name="error_guardian_exists">ಗಾರ್ಡಿಯನ್ / ಪೋಷಕರು ಈಗಾಗಲೇ ನಮ್ಮೊಂದಿಗೆ ನೋಂದಾಯಿಸಿಕೊಂಡಿದ್ದಾರೆ. ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಆಗಿ.</string>
+    <string name="school_board">ನಿಮ್ಮ ಶಾಲಾ ಮಂಡಳಿಯನ್ನು ಆರಿಸಿ</string>
+    <string name="student_enrolled_success_msg">ನಿಮ್ಮ ಅರ್ಜಿಯನ್ನು ನಾವು ಯಶಸ್ವಿಯಾಗಿ ಸ್ವೀಕರಿಸಿದ್ದೇವೆ.</string>
+    <string name="thank_you">ಧನ್ಯವಾದಗಳು!</string>
+    <string name="enroll_another_student">ಇನ್ನೊಬ್ಬ ವಿದ್ಯಾರ್ಥಿಯನ್ನು ದಾಖಲಿಸಿ</string>
+    <string name="start_learning">ಕಲಿಯಲು ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="boy">ಹುಡುಗ</string>
+    <string name="girl">ಹುಡುಗಿ</string>
+    <string name="gender">ಲಿಂಗ</string>
+    <string name="father">ತಂದೆ</string>
+    <string name="mother">ತಾಯಿ</string>
+    <string name="guardian">ಗಾರ್ಡಿಯನ್</string>
+    <string name="student_full_name">ವಿದ್ಯಾರ್ಥಿ ಪೂರ್ಣ ಹೆಸರು*</string>
+    <string name="student_s_date_of_birth">ವಿದ್ಯಾರ್ಥಿಯ ಹುಟ್ಟಿದ ದಿನಾಂಕ*</string>
+    <string name="student_grade">ವಿದ್ಯಾರ್ಥಿ ದರ್ಜೆ*</string>
+    <string name="student_s_school_name">ವಿದ್ಯಾರ್ಥಿಯ ಶಾಲೆಯ ಹೆಸರು*</string>
+    <string name="student_s_medium_of_study">ವಿದ್ಯಾರ್ಥಿಗಳ ಅಧ್ಯಯನದ ಮಾಧ್ಯಮ*</string>
+    <string name="please_select_grade_first">ದಯವಿಟ್ಟು ಮೊದಲು ಗ್ರೇಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="taken_parent_guardian_consent">ಪೋಷಕರು / ಪೋಷಕರ ಒಪ್ಪಿಗೆ ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ</string>
+    <string name="invalid_name">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಹೆಸರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="invalid_grade">ಗ್ರೇಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="invalid_school_details">ಅಮಾನ್ಯ ಶಾಲೆಯ ವಿವರಗಳು</string>
+    <string name="invalid_medium">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಮಾಧ್ಯಮವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="invalid_school_board">ದಯವಿಟ್ಟು ಮಾನ್ಯ ಶಾಲಾ ಮಂಡಳಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="rationale_read_storage">ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಸಂಗ್ರಹ ಪ್ರವೇಶವನ್ನು ನೀಡಿ</string>
+    <string name="invalid_image">ಅಮಾನ್ಯ ಫೈಲ್. ದಯವಿಟ್ಟು ಇನ್ನೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="student_form_title">ವಿದ್ಯಾರ್ಥಿ ಫಾರ್ಮ್</string>
+    <string name="join_to">ಸೇರಿ %s</string>
+    <string name="access_the_entire_course_and_start_learning">ಸಂಪೂರ್ಣ ಕೋರ್ಸ್ ಅನ್ನು ಪ್ರವೇಶಿಸಿ ಮತ್ತು ಕಲಿಯಲು ಪ್ರಾರಂಭಿಸಿ!</string>
+    <string name="join_us">ನಮ್ಮ ಜೊತೆಗೂಡು!</string>
+    <string name="join_school">ಶಾಲೆಗೆ ಸೇರಿ</string>
+    <string name="please_wait">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ…</string>
+    <string name="missed_class">Missed Class</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="live">ಲೈವ್</string>
+    <string name="your_timetable_will_be_available_shortly">ನಿಮ್ಮ ವೇಳಾಪಟ್ಟಿ ಶೀಘ್ರದಲ್ಲೇ ಲಭ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="i_consent_to_my_child_using_the_evidyaloka_learning_app_for_learning_purpose">ಕಲಿಕೆಯ ಉದ್ದೇಶಕ್ಕಾಗಿ ಇವಿಧ್ಯಾಲೋಕ ಕಲಿಕೆ ಅಪ್ಲಿಕೇಶನ್ ಬಳಸಲು ನನ್ನ ಮಗುವಿಗೆ ನಾನು ಒಪ್ಪುತ್ತೇನೆ.</string>
+    <string name="no_class_today">ಇಂದು ಯಾವುದೇ ವರ್ಗವಿಲ್ಲ</string>
+    <string name="there_is_no_class_scheduled_for_today">ಇಂದು ಯಾವುದೇ ವರ್ಗವನ್ನು ನಿಗದಿಪಡಿಸಿಲ್ಲ</string>
+    <string name="only_1_class_per_subject">ದಯವಿಟ್ಟು ಗಮನಿಸಿ: ಒಂದು ವಿಷಯಕ್ಕೆ ಒಂದು ತರಗತಿಯನ್ನು ಮಾತ್ರ ದಿನದಲ್ಲಿ ನಿಗದಿಪಡಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="invalid_language_type">ಅಮಾನ್ಯ ಭಾಷೆಯ ಪ್ರಕಾರ</string>
+    <string name="enrollment_failed_contact_admin">ವಿದ್ಯಾರ್ಥಿಗಳ ದಾಖಲಾತಿ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="invalid_gender_type">ಅಮಾನ್ಯ ಲಿಂಗ ಪ್ರಕಾರ</string>
+    <string name="menu_learn_through_television">ಟೆಲಿವಿಷನ್ ಮೂಲಕ ಕಲಿಯಿರಿ</string>
+    <string name="learn_throuht_tv">ಟೆಲಿವಿಷನ್ ಮೂಲಕ ಕಲಿಯಿರಿ</string>
+    <string name="join_this_digital_school_for_free">ಈ ಡಿಜಿಟಲ್ ಶಾಲೆಗೆ ಉಚಿತವಾಗಿ ಸೇರಿ!</string>
+    <string name="menu_faq">ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ</string>
+    <string name="medium">ಮಾಧ್ಯಮ</string>
+    <string name="downloaded">ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="delete_offline_content_alert">ನೀವು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ %s ಫೈಲ್ ಅನ್ನು ಖಚಿತವಾಗಿ ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ?</string>
+    <string name="delete">ಅಳಿಸು</string>
+    <string name="content_can_be_viewed_offline">%s ವಿಷಯವನ್ನು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಬಹುದು</string>
+    <string name="menu_downloads">ಡೌನ್‌ಲೋಡ್‌ಗಳು</string>
+    <string name="not_enough_space">%s ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಈ ಸಾಧನವು ಸಾಕಷ್ಟು ಜಾಗವನ್ನು ಹೊಂದಿಲ್ಲ.</string>
+    <string name="unable_to_download_file">%s ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="do_not_have_access">ಆಪ್ ಫೈಲ್ ಸ್ಥಳಕ್ಕೆ ಪ್ರವೇಶವನ್ನು ಹೊಂದಿಲ್ಲ</string>
+    <string name="both">ಎರಡೂ</string>
+    <string name="select_student">ವಿದ್ಯಾರ್ಥಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="select_content_type">ವಿಷಯದ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="you_are_offline_please_click_on_downloads_under_menu_to_view_the_downloaded_videos_worksheets">ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿದ್ದೀರಿ. ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ವೀಡಿಯೊಗಳು / ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಲು ದಯವಿಟ್ಟು ಡೌನ್‌ಲೋಡ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
+    <string name="Please_connect_to_internet_to_like_the_video">ದಯವಿಟ್ಟು ವಿಡಿಯೋ ಲೈಕ್ ಮಾಡಲು ಇಂಟರ್ನೆಟ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿ</string>
+    <string name="Please_connect_to_internet_to_ask_doubt">ಸಂದೇಹವನ್ನು ಕೇಳಲು ದಯವಿಟ್ಟು ಇಂಟರ್ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="Please_connect_to_internet_to_view_asked_doubts">ಕೇಳಲಾದ ಸಂದೇಹಗಳನ್ನು ನೋಡಲು ದಯವಿಟ್ಟು ಇಂಟರ್ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="your_course_started_on">ನಿಮ್ಮ ಕೋರ್ಸ್ %s ರಂದು ಪ್ರಾರಂಭವಾಯಿತು. ತಪ್ಪಿದ ತರಗತಿಗಳು ಯಾವುದಾದರೂ ಇದ್ದರೆ ದಯವಿಟ್ಟು ವೀಕ್ಷಿಸಿ / ಹಾಜರಾಗಿ.</string>
+</resources>

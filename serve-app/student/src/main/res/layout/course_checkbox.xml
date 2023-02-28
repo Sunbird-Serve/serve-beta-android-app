@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/subject_bengali"
+    app:cardCornerRadius="@dimen/card_view_radius"
+    tools:layout_gravity="center"
+    tools:layout_height="wrap_content"
+    tools:layout_width="match_parent"
+    tools:parentTag="androidx.cardview.widget.CardView">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_time_head"
+            style="@style/Theme.Text.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_50dp"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/padding_20dp"
+            android:textAppearance="@style/TextAppearance.Subtitle1"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/iborder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/course_cardview_padding">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_weight="0.16"
+                tools:srcCompat="@drawable/bg_subject_english" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_weight="0.54"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/course_cardview_padding">
+
+                <TextView
+                    android:id="@+id/tv_subject"
+                    style="@style/Theme.Text.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Title" />
+
+                <TextView
+                    android:id="@+id/tv_topic"
+                    style="@style/Theme.Text.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Overline"
+                    android:textColor="#F0515050"
+                    android:textSize="11sp"
+                    android:textStyle="italic"
+                    android:visibility="gone"
+                    tools:text="@tools:sample/full_names"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_faculty"
+                    style="@style/Theme.Text.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Overline"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_medium"
+                    style="@style/Theme.Text.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Caption" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_checkbox"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/course_cardview_padding"
+                android:layout_weight="0.076"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="@dimen/size_22dp"
+                    android:layout_height="@dimen/size_22dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_course_checkbox_bg"
+                    android:button="@drawable/selector_course_checkbox_button"
+                    android:buttonTint="@color/colorAlert"
+                    android:clickable="false"
+                    android:duplicateParentState="true"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/padding_5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_schedule"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.30"
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_marginEnd="@dimen/course_button_margin_right"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:background="@drawable/button_capsule_white"
+                    android:gravity="center"
+                    android:text="@string/attend"
+                    android:textColor="@color/colorAlert"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/Theme.Text.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="@dimen/margin_10dp"
+                    android:layout_marginBottom="@dimen/course_cardview_margin_right"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:textAppearance="@style/TextAppearance.Overline"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_completed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_10dp"
+                android:paddingEnd="@dimen/course_cardview_padding"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_complete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_subject_hindi" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/live_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/item_live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</merge>

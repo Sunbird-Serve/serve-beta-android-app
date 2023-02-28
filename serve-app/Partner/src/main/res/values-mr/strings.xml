@@ -1,0 +1,401 @@
+<resources>
+    <string name="app_name">इविद्यालोका</string>
+    <string name="organization_name">संस्थेचे नाव </string>
+    <string name="organization_email">संस्थेचा ईमेल</string>
+    <string name="organization_phone">संस्थेचा दूरध्वनी क्रमांक</string>
+    <string name="organization_address">संस्थेचा पत्ता</string>
+    <string name="city_district_taluk">शहर/जिल्हा, तालुका</string>
+    <string name="taluk">तालुका</string>
+    <string name="district">जिल्हा</string>
+
+    <string name="state">राज्य</string>
+    <string name="pincode">पिनकोड</string>
+
+    <string name="description_default_partner_admin">खालील रखान्यात साथीदारांची माहिती भरा </string>
+    <string name="person_s_email">व्यक्तीचा ईमेल</string>
+    <string name="person_s_contact_number">व्यक्तीचा संपर्क नंबर</string>
+    <string name="have_an_account_login">खाते आहे <b><u>लॉग इन</u></b></string>
+
+    <string name="menu_dashboard_users">वापरकर्ता </string>
+    <string name="menu_dashboard_about_us">आमच्याबद्दल माहिती</string>
+    <string name="menu_dashboard_contact_us">संपर्क साधा</string>
+    <string name="menu_dashboard_log_issues">तक्रार नोंदवा</string>
+    <string name="menu_dashboard_logout"> बाहेर पडणे </string>
+
+
+    <string name="personal_email_id">व्यक्तीचा ईमेल</string>
+    <string name="personal_contact_no">व्यक्तीचा संपर्क नंबर</string>
+    <string name="personal_details_save_button">जतन करा</string>
+
+    <string name="organizationn_details_full_name">नाव</string>
+    <string name="organization_contact_number">संस्थेचा संपर्क नंबर</string>
+
+
+    <!-- Profile TAB -->
+    <string name="tab_personal_details">वैयक्तिक माहिती</string>
+    <string name="tab_organization_details">संस्थेची माहिती</string>
+
+
+    <string name="user_name">वापरकर्त्याचे नाव </string>
+    <string name="password">पासवर्ड </string>
+    <string name="forgot_password">पासवर्ड विसरलात ?</string>
+    <string name="login">सदस्य प्रवेश </string>
+    <string name="no_account_register_as_partner">माझे खाते नाही. <b><u> भागीदार म्हणून नोंदणी करा</u></b></string>
+    <string name="invalid_credentials">अवैध वापरकर्त्याचं नाव / पासवर्ड </string>
+    <string name="partner_not_approved">भागीदार अद्याप मंजूर झाला  नाही.</string>
+
+    <string name="dsp_under_verification">आपल्या खात्याची पडताळणी चालू आहे.</string>
+    <string name="dsp_begin_journey">आपला प्रवास सुरू करण्यासाठी, \nआपली शाळा आणि वापरकर्त्याला जोडायला प्रारंभ करा</string>
+    <string name="add_your_digital_school">आपली डिजिटल शाळा जोडा</string>
+    <string name="add_users">वापरकर्ते जोडा</string>
+
+    <string name="digital_school_name">डिजिटल शाळेचे नाव</string>
+    <string name="statement_of_purpose">हेतू विधान</string>
+    <string name="add_digital_school">डिजिटल शाळा जोडा</string>
+    <string name="rationale_read_storage">कृपया चित्र अपलोड करण्यासाठी, अॅप सक्षम करण्यासाठी संचय प्रवेश मंजूर करा</string>
+    <string name="change_your_password">पासवर्ड बदला</string>
+    <string name="old_password">जुना पासवर्ड </string>
+    <string name="new_password">नवीन पासवर्ड</string>
+    <string name="confirm_new_password">नवीन पासवर्ड खात्री करा</string>
+    <string name="update">अद्यतनित करा</string>
+
+    <string name="send">पाठवा</string>
+    <string name="successful">यशस्वी !</string>
+    <string name="passwor_reset_success">आपला पासवर्ड यशस्वीरित्या बदलला आहे</string>
+    <string name="old_pass_new_cant_not_same">जुना पासवर्ड आणि नवीन पासवर्ड वेगवेगळा असावा</string>
+    <string name="enter_valid_old_pass">कृपया योग्य जुना पासवर्ड प्रविष्ट करा</string>
+
+    <string name="invalid_password">पासवर्ड मध्ये कमीतकमी 1 लोअर केस अक्षर [a-z], 1 अप्पर केस अक्षर [A-Z], 1 संख्यात्मक वर्ण [0-9], 1 विशेष वर्ण असणे आवश्यक आहे: [@ # $% ^ &amp; + =], (8-32 वर्ण लांब)</string>
+    <string name="invalid_password_new_re_no_match">नवीन पासवर्ड आणि पुष्टीकरण पासवर्ड जुळत नाही..</string>
+
+    <string name="description">वर्णन</string>
+    <string name="card_view_landing_students_enrolled">विद्यार्थ्यांची नावनोंदणी केली</string>
+    <string name="card_view_landing_courses_offered">पाठ्यक्रम</string>
+
+    <string name="home_my_digital_school">माझी डिजिटल शाळा</string>
+    <string name="home_add_digital_school">डिजिटल शाळा जोडा</string>
+    <string name="not_assigned">डीएसएम नियुक्त केलेले नाही</string>
+    <string name="school_enrolled_on">शाळेमध्ये नोंदणी केव्हा झाली?</string>
+    <string name="enter_the_details_to_add_new_school_to_evidyaloka">नवीन शाळा जोडा</string>
+    <string name="fname"> प्रथम नाव</string>
+    <string name="lname">आडनाव</string>
+    <string name="partner">भागीदार</string>
+    <string name="dsm">डीएसएम</string>
+    <string name="app_version">अ‍ॅप आवृत्ती </string>
+
+    <!-- AddUserFragment -->
+    <string name="bt_submit">प्रस्तुत करा</string>
+    <string name="bt_submit_another">जमा &amp; आणखी एक जोडा</string>
+    <string name="bt_save">जतन करा</string>
+
+    <string name="email_id">ई - मेल आयडी</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="role">भूमिका</string>
+    <string name="assign_to">नियुक्त करा</string>
+
+    <string name="user_added_success">वापरकर्ता यशस्वीरित्या जोडला गेला आहे</string>
+
+    <string name="err_name_already_registered">नाव आधीच नोंदणीकृत आहे</string>
+    <string name="err_mobile_number_already_registered">मोबाइल नंबर आधीपासून नोंदणीकृत आहे</string>
+    <string name="err_email_already_registered">ईमेल आधीच नोंदणीकृत आहे</string>
+
+    <!-- DSM user -->
+
+    <string name="hint_search">शोधा</string>
+    <string name="all_users">सर्व वापरकर्ते</string>
+    <string name="one_school_assigned">1 शाळा</string>
+    <string name="no_of_school_assigned">%d शाळा</string>
+    <string name="label_schools_assigned">नियुक्त केलेल्या शाळा: </string>
+    <string name="total_users">" "(%d)</string>
+
+
+    <string name="label_fragment_users">वापरकर्ते</string>
+    <string name="label_user_details">वापरकर्त्याचा तपशील</string>
+    <string name="school_assigned_success">शाळा यशस्वीरित्या नियुक्त केली गेली आहे</string>
+
+    <string name="same_dsm_assigned_to_ds">डीएसएम आधीच डिजिटल स्कूलला  नियुक्त  केले आहे</string>
+
+    <string name="dsm_profile_update_success">डीएसएम प्रोफाइल यशस्वीरित्या अद्यतनित केले !</string>
+
+    <string name="invalid_role">कृपया वैध भूमिका निवडा</string>
+    <string name="invalid_school">कृपया वैध शाळा निवडा</string>
+    <string name="invalid_name">कृपया  वैध नाव जोडा</string>
+    <string name="invalid_description">कृपया वैध वर्णन जोडा</string>
+    <string name="invalid_statement_purpose">कृपया हेतूचे वैध विधान जोडा</string>
+    <string name="invalid_first_name">कृपया वैध नाव जोडा</string>
+    <string name="invalid_last_name">कृपया वैध आडनाव जोडा</string>
+
+    <string name="invalid_mail">कृपया वैध ईमेल जोडा</string>
+    <string name="invalid_phone">कृपया वैध ईमेल जोडा</string>
+    <string name="invalid_address">कृपया वैध पत्ता जोडा</string>
+    <string name="invalid_state">कृपया वैध राज्य जोडा</string>
+    <string name="invalid_taluk">कृपया वैध तालुका जोडा</string>
+    <string name="invalid_district_alone">कृपया वैध जिल्हा जोडा</string>
+    <string name="invalid_pincode">कृपया वैध पिनकोड जोडा</string>
+    <string name="invalid_org_name">कृपया वैध संस्थेचे नाव जोडा</string>
+    <string name="error_mobile_already_registered">मोबाइल नंबर आधीपासून नोंदणीकृत आहे</string>
+    <string name="error_email_already_registered">ईमेल आधीच नोंदणीकृत आहे</string>
+    <string name="label_reset_password">पासवर्ड बदला</string>
+
+    <!-- Profile Details -->
+    <string name="organization_name_exists">संस्थेचे नाव आधीच नोंदणीकृत आहे</string>
+    <string name="organization_email_exists">संस्था ईमेल आधीच नोंदणीकृत आहे</string>
+    <string name="organization_mobile_exists">संस्था मोबाइल नंबर आधीपासून नोंदणीकृत आहे</string>
+    <string name="person_phone_exists">व्यक्तीचा  मोबाइल नंबर आधीपासून नोंदणीकृत आहे</string>
+    <string name="update_successfully">यशस्वीरित्या अद्यतनित केले</string>
+
+    <!-- Add user -->
+
+    <string name="label_add_user_fragment">वापरकर्ता</string>
+
+    <string name="err_network">काहीतरी चूक झाली. कृपया थोड्या वेळाने प्रयत्न करा.</string>
+
+    <string name="error_invalid_credentials">अवैध वापरकर्ता प्रमाणपत्रे</string>
+    <string name="error_invalid_old_pass">अवैध वापरकर्ता प्रमाणपत्रे</string>
+    <string name="error_required_field_missing">आवश्यक जागा रिकाम्या आहेत</string>
+    <string name="error_old_new_not_matching">जुना पासवर्ड आणि नवीन पासवर्डला जुळला नाही</string>
+    <string name="error_new_pass_min">नवीन परवलीचा शब्दामध्ये कमीतकमी 8 वर्ण असावेत. कमीतकमी एक अपरकेस आणि एक लोअरकेस</string>
+    <string name="error_user_not_exist">वापरकर्ता विद्यमान नाही</string>
+    <string name="error_unknown">अज्ञात त्रुटी. कृपया प्रशासनाशी संपर्क साधा</string>
+    <string name="hi">नमस्कार</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="student_full_name">विद्यार्थ्यांचे पूर्ण नाव *</string>
+    <string name="parent_guardian_name">पालकांचे /पूर्ण नाव*</string>
+    <string name="parent_guardian_contact_number">पालकांचा /संपर्क क्रमांक *</string>
+    <string name="student_s_date_of_birth">विद्यार्थ्याची जन्मतारीख *</string>
+    <string name="student_grade">विद्यार्थी श्रेणी *</string>
+    <string name="student_s_school_name">विद्यार्थ्याचे शाळेचे नाव *</string>
+    <string name="student_s_medium_of_study">वर्तमान शाळेत विद्यार्थ्यांच्या अभ्यासाचे माध्यम*</string>
+    <string name="choose_course">कोर्स निवडा</string>
+    <string name="invalid_image">अवैध फाईल. कृपया आणखी एक निवडा.</string>
+    <string name="save_changes">बदल जतन करा</string>
+    <string name="you_have_not_been_assigned_to_any_school_please_contact_your_partner">आपल्याला कोणत्याही शाळेत नियुक्त केले गेले नाही. कृपया आपल्या भागीदाराशी संपर्क साधा.</string>
+    <string name="label_profile">प्रोफाइल</string>
+    <string name="label_registration">नोंदणी</string>
+    <string name="label_digital_school">डिजिटल शाळा</string>
+    <string name="add_course">डिजिटल शाळा</string>
+    <string name="enroll_student">कोर्स जोडा</string>
+
+
+    <!-- Course Details -->
+    <string name="label_course_details">कोर्स तपशील</string>
+
+    <string name="course_provider">कोर्स तपशील</string>
+    <string name="academic_year">शैक्षणिक वर्ष</string>
+    <string name="course">कोर्स</string>
+    <string name="label_grade">श्रेणी</string>
+
+    <string name="start_date">प्रारंभ तारीख</string>
+    <string name="end_date">शेवटची तारीख</string>
+
+    <!-- Add Course -->
+
+    <string name="invalid_provider">प्रदाता निवडा</string>
+    <string name="invalid_grade">श्रेणी निवडा</string>
+    <string name="invalid_course">कोर्स निवडा</string>
+    <string name="invalid_academic">शैक्षणिक वर्ष निवडा</string>
+    <string name="invalid_start_date">प्रारंभ तारीख निवडा</string>
+    <string name="error_start_bigger_end">प्रारंभ तारीख असू शकत नाही > अंतीम तारीक</string>
+
+    <string name="invalid_end_date">समाप्ती तारीख निवडा</string>
+
+    <string name="course_added_success">कोर्स यशस्वीरित्या जोडला गेला आहे</string>
+    <string name="thank_you">धन्यवाद !</string>
+    <string name="received_application_success">आम्हाला आपला अर्ज यशस्वीरित्या प्राप्त झाला आहे</string>
+    <string name="course_created_success">कोर्स यशस्वीरित्या तयार केला %s</string>
+    <string name="student_enrolled_success">विद्यार्थ्यांची  यशस्वीरित्या नावनोंदणी केली</string>
+
+    <!-- Course Fragment -->
+    <string name="label_courses">अभ्यासक्रम</string>
+
+
+    <string name="label_assigned_digital_schools">नियुक्त केलेल्या डिजिटल शाळा</string>
+
+    <string name="label_close">बंद करा</string>
+
+    <string name="error_school_not_exist">डिजिटल शाळा अस्तित्वात नाही किंवा सक्रिय नाही</string>
+    <string name="error_user_exists">समान संपर्क तपशील असलेला दुसरा वापरकर्ता विद्यमान आहे</string>
+    <string name="error_center_does_not_exist">केंद्र अस्तित्वात नाही</string>
+
+    <string name="calendar_select_date">तारीख निवडा</string>
+
+    <string name="menu_students_enrolled">विद्यार्थ्यांच्या प्रवेशाची नोंद झाली</string>
+    <string name="menu_all_students">सर्व विद्यार्थी</string>
+    <string name="menu_courses">अभ्यासक्रम</string>
+    <string name="school_verification_pending">शाळा सत्यापन प्रलंबित.</string>
+    <string name="join_the_journey_to_transform_the_education_landscape_of_india">भारताच्या शैक्षणिक व्यासपीठाचे रूपांतर करण्यासाठीच्या प्रवासामध्ये सामील व्हा! !</string>
+    <string name="digital_school_added_successfully">डिजिटल शाळा यशस्वीरित्या जोडले</string>
+    <string name="invalid_school_details">शाळेचा अवैध तपशील</string>
+    <string name="select_picture">चित्र निवडा</string>
+    <string name="digital_school_details_updated">डिजिटल शाळेचा तपशील अद्यतनित केला.</string>
+    <string name="logo_is_mandatory">लोगो अनिवार्य आहे. कृपया लोगो जोडा आणि प्रस्तुत करा .</string>
+    <string name="offerings">ऑफरिंग</string>
+    <string name="taken_parent_guardian_consent">आई-बाबा  / पालकांची संमती घेतली</string>
+    <string name="father">बाबा</string>
+    <string name="mother">आई</string>
+    <string name="guardian">पालक</string>
+    <string name="boy">मुलगा</string>
+    <string name="girl">मुलगी</string>
+    <string name="invalid_language_type">अवैध भाषा</string>
+    <string name="invalid_offerings">अवैध ऑफरिंग</string>
+    <string name="invalid_relationship_type">अवैध नाते संबंध प्रकार</string>
+    <string name="invalid_gender_type">अवैध लिंग प्रकार</string>
+    <string name="student_enrolled">विद्यार्थ्यांच्या प्रवेशाची नोंद झाली</string>
+    <string name="student_update">विद्यार्थ्यांचे तपशील अद्यतनित केले</string>
+    <string name="select_courses">अभ्यासक्रम निवडा</string>
+    <string name="please_select_grade_first">कृपया प्रथम श्रेणी निवडा</string>
+    <string name="relationship_with_student">विद्यार्थासोबत नाते</string>
+    <string name="students_date_of_birth">विद्यार्थ्यांची जन्मतारीख</string>
+    <string name="gender">लिंग</string>
+    <string name="student_school">विद्यार्थी शाळा</string>
+    <string name="medium_of_study">अभ्यासाचे माध्यम</string>
+    <string name="enrolled_course">अभ्यासक्रम</string>
+    <string name="students_details">विद्यार्थ्यांचा तपशील</string>
+    <string name="school_name_already_exist">शाळेचे नाव आधीपासून विद्यमान आहे</string>
+    <string name="only_digital_school_patner_allowed">केवळ डिजिटल भागीदारांना या क्रियेस अनुमती आहे</string>
+    <string name="invalid_data_contact_admin">प्रस्तुत केलेली माहिती वैध नाही. कृपया प्रशासकाशी संपर्क साधा</string>
+    <string name="total_students">एकूण विद्यार्थी</string>
+    <string name="add_pic">चित्र जोडा</string>
+    <string name="add_photo">फोटो जोडा</string>
+    <string name="add_logo">लोगो जोडा</string>
+
+    <string name="label_enroll_student">विद्यार्थ्यांची नोंद करा</string>
+    <string name="label_add_course">कोर्स जोडा</string>
+
+    <string name="sign_up_successful">नवीन खाते नोंद यशस्वी !</string>
+    <string name="your_organization_is_under_review_please_login_with_the_user_name_and_password_sent_to_your_registered_email_id">आपल्या संस्थेचे पुनरावलोकन चालू आहे. कृपया आपल्या नोंदणीकृत ईमेल आयडीवर पाठविलेल्या वापरकर्त्याच्या नावाने आणि संकेतशब्दाने लॉगिन करा</string>
+    <string name="you_do_not_have_an_active_internet_connection_please_check_your_internet_connection_and_retry">तुमच्याकडे सक्रिय इंटरनेट कनेक्शन नाही, कृपया आपले इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा</string>
+    <string name="no_internet_connection">इंटरनेट कनेक्शन नाही</string>
+    <string name="retry">पुन्हा</string>
+    <string name="open_with">सोबत उघडा </string>
+
+    <string name="ok">ठीक आहे</string>
+    <string name="selectall">सर्व निवडा</string>
+
+    <string name="accept_terms_conditions">कृपया सुरू ठेवण्यासाठी शर्ती आणि अटी मान्य करा.</string>
+    <string name="label_register">रेजिस्टर करा</string>
+    <string name="terms_policy">मी सहमत आहे <b><u>शर्ती आणि अटी.</u></b></string>
+
+    <string name="country">देश </string>
+    <string name="menu_dashboard_calendar">कॅलेंडर</string>
+    <string name="menu_dashboard_settings">सेटिंग</string>
+    <string name="menu_dashboard_terms_of_usage">वापरनाराच्या अटी </string>
+    <string name="menu_dashboard_privacy_policy">गोपनीयता धोरण</string>
+    <string name="your_full_name">तुमचे पूर्ण नाव </string>
+    <string name="organization_email_id">संस्थेची ईमेल आयडी</string>
+    <string name="join_the_journey_to_transform_the_education_landscape_of_rural_india">ग्रामीण भारतातील शैक्षणिक चित्रलेखा बदलण्यासाठी प्रवासामध्ये सामील व्हा!</string>
+    <string name="hello"> हाय, %1$s!</string>
+    <string name="reset_password">पासवर्ड रीसेट करा </string>
+    <string name="invalid_old_password">जुना पासवर्ड अमान्य आहे </string>
+    <string name="status"> स्तिथी </string>
+    <string name="card_view_landing_statement">उद्देश:  </string>
+    <string name="card_view_landing_dsm">डीएसम : </string>
+    <string name="total_number_of_students">विद्यार्थ्यांची एकूण संख्या</string>
+    <string name="grades"> वर्ग  </string>
+    <string name="assigned_digital_school_manager">डिजिटल शाळा व्यवस्थापक नियुक्त केले </string>
+    <string name="registration">नोंदणी</string>
+    <string name="full_name"> पूर्ण नाव </string>
+    <string name="address_line_1">पत्ता</string>
+
+    <string name="tab_personal_info">वैयक्तिक माहिती</string>
+    <string name="tab_office_info">कार्यालयाची माहिती</string>
+    <string name="address">पत्ता</string>
+
+    <string name="dialog_assign_digital_school_title">निंदणीकृत डिजीटल शाळा</string>
+    <string name="dialog_close">बंद</string>
+    <string name="invalid_district">कृपया वैध शहर / जिल्हा, तालुका जोडा</string>
+    <string name="invalid_country">कृपया एक वैध देश जोडा</string>
+    <string name="label_profile_fragment">प्रोफाइल</string>
+    <string name="select_role">भूमिका निवडा</string>
+    <string name="select_digital_school">डिजिटल शाळा निवडा</string>
+
+    <string name="label_dsp_val">डिजिटल स्कूल भागीदार</string>
+    <string name="label_dsm_val">डिजिटल शाळा व्यवस्थापक</string>
+
+    <string name="schools"> शाळा</string>
+    <string name="something_wrong_uploading_file">फाईल अपलोड करताना काहीतरी चूकले आहे . कृपया पुन्हा प्रयत्न करा.</string>
+
+    <!-- OTP Generetation Screen -->
+    <string name="error_required_fields_missing">आवश्यक माहिती उपलब्ध नाहीं .</string>
+    <string name="error_user_not_registered">तुम्ही पंजीकृत केलेल नाहीं, कृपया पंजीकृत करा .</string>
+    <string name="error_user_profile_not_exist">तुम्ही पंजीकृत केलेल नाहीं, कृपया पंजीकृत करा .</string>
+    <string name="error_invalid_mobile">मोबाईल नंबर अमान्य आहे .</string>
+
+    <!-- OTP Validation Screen -->
+    <string name="error_data_not_valid">पंजीकृत केलेली माहित अमान्य आहे, कृपया व्यवस्थापकाशी संपर्क साधा.</string>
+    <string name="error_otp_expired">OTP ची वैधता संपली .</string>
+    <string name="error_otp_invalid">OTP अमान्य आहे .</string>
+
+    <!-- OTP verification -->
+    <string name="enter_otp">OTP टाकने </string>
+    <string name="enter_otp_sent_to">मोबाईल नंबर वर आलेला OTP टाका </string>
+    <string name="change">बदला </string>
+    <string name="resend_otp">OTP पुन्हा पाठवा </string>
+    <string name="verify">सत्यपित करा </string>
+
+
+    <string name="search_pincode">पिन कोड शोधा</string>
+    <string name="search_state">राज्य शोधा</string>
+    <string name="done">पूर्ण झाले</string>
+    <string name="school_details">शाळेचा तपशील</string>
+    <string name="state_and_pincode">राज्य आणि पिन कोड</string>
+    <string name="logo_mandatory">लोगो अनिवार्य आहे</string>
+    <string name="registration_not_activated_contact_us">आपली नोंदणी 24/48 तासांच्या आत सक्रिय न केल्यास. कृपया आमच्यापर्यंत पोहोचा</string>
+    <string name="menu_language">इंग्रजी</string>
+    <string name="add_your_digital_school_1">आपली डिजिटल शाळा जोडा!</string>
+    <string name="get_started">सुरु करूया</string>
+    <string name="delete_state">आपणास खात्री आहे की आपण आपल्या शाळेसाठी राज्य %s हटवू इच्छिता?</string>
+    <string name="delete">हटवा</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="remove">काढा</string>
+    <string name="remove_pincode">आपणास खात्री आहे की आपण हा पिन कोड काढू इच्छिता?</string>
+    <string name="select_state">राज्य निवडा</string>
+    <string name="select_pincode">पिन कोड निवडा</string>
+    <string name="edit_state_pincode">राज्य आणि पिन कोड संपादित करा</string>
+    <string name="state_pincode">राज्य आणि पिन कोड</string>
+    <string name="view_all_states_and_pincodes">सर्व राज्ये आणि पिन कोड पहा</string>
+    <string name="confirm_state">कन्फर्म राज्य</string>
+    <string name="select_another_state_and_pincode">दुसरे राज्य आणि पिनकोड निवडा</string>
+    <string name="select_state_and_pincode">राज्य आणि पिन कोड निवडा</string>
+    <string name="choose_where_you_want_to_serve_your_students_by_selecting_the_state_and_its_pincodes">राज्य आणि त्याचे पिनकोड निवडून आपण आपल्या विद्यार्थ्यांची सेवा कोठे करू इच्छिता ते निवडा.</string>
+    <string name="create_school">शाळा तयार करा</string>
+    <string name="skip">वगळा</string>
+    <string name="overview">आढावा</string>
+    <string name="next">पुढे</string>
+    <string name="students_information">विद्यार्थ्यांची माहिती</string>
+    <string name="no_content_available_for_grade">या ग्रेडसाठी सामग्री उपलब्ध नाही. कृपया दुसरा वर्ग निवडा.</string>
+    <string name="no_course_assigned_to_the_grade">वर्गाला कोणताही कोर्स नियुक्त केलेला नाही. कृपया कोर्स जोडा आणि नंतर एखादा विद्यार्थी जोडा.</string>
+    <string name="join">सामील व्हा</string>
+    <string name="assign_dsm_to_school">कृपया %s व्यवस्थापित करण्यासाठी डिजिटल स्कूल व्यवस्थापक (डीएसएम) नियुक्त करा</string>
+    <string name="add_students_to_school">कृपया %s मध्ये विद्यार्थी जोडा.</string>
+    <string name="add_course_to_school">कृपया %s मध्ये कोर्स जोडा..</string>
+    <string name="okay">ठीक आहे</string>
+    <string name="assign_dsm">डीएसएम नियुक्त करा</string>
+    <string name="grade">ग्रेड</string>
+    <string name="error">त्रुटी</string>
+    <string name="title_lessons">%s धडे</string>
+    <string name="data_submited_not_valid">सबमिट केलेला डेटा वैध नाही. कृपया प्रशासकाशी संपर्क साधा</string>
+    <string name="label_sorry">क्षमस्व!</string>
+    <string name="could_not_able_to_fetch_data">डेटा आणण्यात सक्षम नाही. कृपया प्रशासकाशी संपर्क साधा</string>
+    <string name="choose_your_school_board">आपला शाळा बोर्ड निवडा</string>
+    <string name="thank_you_for_your_interest">आपण आवड दाखवल्याबद्दल धन्यवाद !</string>
+    <string name="join_us_to_run_your_own_digital_school_your_username_and_password_are_sent_to_your_registered_email_id">आपली स्वतःची डिजिटल शाळा चालविण्यासाठी आमच्यात सामील व्हा. आपले वापरकर्तानाव आणि संकेतशब्द आपल्या नोंदणीकृत ईमेल आयडीवर पाठविला आहे.</string>
+    <string name="complete_your_registration">आपली नोंदणी पूर्ण करा</string>
+    <string name="explore_our_schools_to_know_more_about_us">आमच्याबद्दल अधिक जाणून घेण्यासाठी आमच्या शाळा एक्सप्लोर करा.</string>
+    <string name="class_title">वर्ग</string>
+    <string name="same_contact_details">समान संपर्क तपशीलांचा वापरकर्ता सिस्टममध्ये आधीपासून विद्यमान आहे. कृपया लॉगिन करा</string>
+    <string name="same_org_name">सिस्टममध्ये संस्थेचे नाव आधीच अस्तित्वात आहे. कृपया संस्था प्रमाणपत्रे वापरून लॉगिन करा</string>
+    <string name="get_otp">ओटीपी मिळवा</string>
+    <string name="email_already_registered_with_us">आमच्याबरोबर आधीच ईमेल नोंदणीकृत आहे. कृपया लॉगिन करा किंवा भिन्न ईमेल आयडी वापरा.</string>
+    <string name="mobile_number_already_registred_with_us">मोबाइल आमच्याकडे आधीपासून नोंदणीकृत आहे. कृपया लॉगिन करा किंवा एखादा भिन्न मोबाइल नंबर वापरा.</string>
+    <string name="menu_faq">सामान्य प्रश्न</string>
+    <string name="complete_registration">पूर्ण नोंदणी</string>
+    <string name="course_already_exist">तुम्ही आधीच हा कोर्स जोडला आहे. तुम्हाला हा कोर्स पुन्हा जोडायचा आहे काय ?</string>
+    <string name="menu_dashboard_p_lounge">पी-लाउंज</string>
+    <string name="edit">सुधारणे</string>
+    <string name="active">सक्रिय</string>
+    <string name="in_active">निष्क्रय</string>
+    <string name="do_you_want_status_student">तुम्हाला ही विद्यार्थी स्थिती %s वर बदलायची आहे का?</string>
+    <string name="student_status_updated_successfully">विद्यार्थी स्थिती यशस्वीरीत्या अपडेट करण्यात आली आहे?</string>
+    <string name="active_student_grade_cannot_be_changed">तुम्ही इयत्ता बदलू शकत नाही कारण या विद्यार्थ्यासाठी वेळापत्रक तयार केले गेले आहे!</string>
+</resources>

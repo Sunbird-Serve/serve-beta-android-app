@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+    <item
+        android:drawable="@drawable/ic_download"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_downloading_1"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_downloading_2"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_downloading_3"
+        android:duration="400" />
+</animation-list>

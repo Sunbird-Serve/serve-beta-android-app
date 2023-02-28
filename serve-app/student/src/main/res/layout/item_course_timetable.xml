@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_184dp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginBottom="@dimen/size_30dp"
+    android:elevation="0dp"
+    android:gravity="center_vertical"
+    app:cardCornerRadius="@dimen/size_15dp"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/course_cardview_padding"
+        android:paddingEnd="@dimen/course_cardview_padding"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_class_status"
+                style="@style/Theme.Text.PrimaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_class_missed"
+                android:gravity="center_vertical"
+                android:text="@string/missed_class"
+                android:textAppearance="@style/TextAppearance.Caption"
+                android:textColor="@color/class_missed_color" />
+
+            <TextView
+                android:id="@+id/tv_class_date"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.Body2"
+                android:textSize="@dimen/size_14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/size_15dp"
+            android:paddingBottom="@dimen/size_15dp">
+
+            <ImageView
+                android:id="@+id/iv_topic"
+                android:layout_width="@dimen/size_45dp"
+                android:layout_height="@dimen/size_45dp"
+                android:src="@drawable/ic_subject_maths" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/size_10dp">
+
+                <TextView
+                    android:id="@+id/tv_topic_name"
+                    style="@style/Theme.Text.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Body2" />
+
+                <TextView
+                    android:id="@+id/tv_subject_name"
+                    style="@style/Theme.Text.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Overline" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_2dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="-20dp"
+            android:layout_marginEnd="-20dp"
+            android:background="@color/color_black_10opc"
+            android:elevation="@dimen/size_5dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_timing"
+                android:layout_width="@dimen/size_15dp"
+                android:layout_height="@dimen/size_15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_timing" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/size_5dp">
+
+                <TextView
+                    android:id="@+id/tv_timings"
+                    style="@style/Theme.Text.SecondaryColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:textAppearance="@style/TextAppearance.Overline" />
+
+                <ImageView
+                    android:id="@+id/iv_class_taken"
+                    android:layout_width="@dimen/size_33dp"
+                    android:layout_height="@dimen/size_33dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="end"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_attend"
+                    style="@style/Theme.Student.Button.Gradient"
+                    android:layout_width="@dimen/size_90dp"
+                    android:layout_height="@dimen/size_31dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="@string/attend"
+                    android:textAppearance="@style/TextAppearance.Caption"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_join"
+                    style="@style/Theme.Student.Button.Gradient"
+                    android:layout_width="@dimen/size_90dp"
+                    android:layout_height="@dimen/size_31dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:text="@string/join"
+                    android:textAppearance="@style/TextAppearance.Caption"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

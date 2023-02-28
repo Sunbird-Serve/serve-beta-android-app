@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Student -->
+
+    <color name="otp_label_color">#1D1B15</color>
+    <color name="otp_label_color_80opc">#801D1B15</color>
+    <color name="student_greeting_color">#765707</color>
+    <color name="student_bg">#F6B50D</color>
+    <color name="student_black">#1D1B15</color>
+    <color name="student_black_60opc">#991D1B15</color>
+    <color name="golden">#9F6404</color>
+    <color name="student_orange">#FF7A2D</color>
+    <color name="orange_v1">#FF7A2D</color>
+    <color name="light_orange">#FFF1E6</color>
+    <color name="chat_text_color">#1D1B15</color>
+
+    <color name="color_black_10opc">#1A000000</color>
+
+
+    <color name="subject_maths">#00C6C9 </color>
+    <color name="subject_science">#9454F4 </color>
+    <color name="subject_english">#EF5A98 </color>
+    <color name="subject_social_studies">#00ACFF </color>
+    <color name="subject_hindi">#FF7D61 </color>
+    <color name="subject_kannada">#00DC97 </color>
+    <color name="subject_telugu">#00C4C9 </color>
+    <color name="subject_tamil">#FFA460 </color>
+    <color name="subject_malayalam">#A55DFF </color>
+    <color name="subject_computer">#50C051 </color>
+    <color name="subject_marathi">#CAC53E </color>
+    <color name="subject_bengali">#FFA581 </color>
+
+
+    <color name="radio_orange_gradient_start">#FFA554</color>
+    <color name="radio_orange_gradient_end">#FF7A2D</color>
+
+    <color name="radio_unselected_text">#669297A9</color>
+    <color name="radio_unselected_bg">#A1A9BA</color>
+    <color name="radio_unselected_bg_10opc">#1AA1A9BA</color>
+    <color name="radio_unselected_text_color">#B9BDCD</color>
+    <color name="radio_selected_bg">#FF7A2D</color>
+    <color name="radio_selected_text_color">@color/white</color>
+
+    <color name="timetable_bg">#FAFAFA</color>
+
+    <color name="day_slot_color_1">#286A88</color>
+    <color name="day_slot_color_2">#928E5F</color>
+    <color name="day_slot_color_3">#876356</color>
+    <color name="day_slot_color_4">#64537B</color>
+    <color name="menu_tint_color">#DAEFF2F7</color>
+    <color name="menu_text_color">#0C0F1D</color>
+    <color name="live_color">#FFFFFF</color>
+    <color name="live_background">#FB5353</color>
+
+    <color name="transparent_black_85opc">#D9000000</color>
+    <color name="transparent_dialog_bg">#99000000</color> <!-- 99 is for alpha and others pairs zero's are for R G B -->
+    <!--Course Timetable -->
+    <color name="class_taken_color">#00D792</color>
+    <color name="class_missed_color">#FB5353</color>
+    <color name="class_scheduled_color">#0097FF</color>
+
+    <!-- Doubt View  -->
+    <color name="doubt_primary">@color/white</color>
+    <color name="doubt_secondary">#CCE2EAEC</color>
+
+
+
+    <color name="color_doubt_responded">#808895</color>
+
+
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false" android:state_checked="true" >
+        <layer-list>
+            <item android:drawable="@drawable/layer_locale_radio_button_checked" />
+            <item android:gravity="bottom|right" android:bottom="@dimen/padding_20dp" android:right="@dimen/padding_20dp"
+                android:drawable="@drawable/ic_marathi_locale"/>
+
+        </layer-list>
+
+    </item>
+    <item android:state_pressed="false" android:state_checked="false" >
+        <layer-list>
+            <item android:drawable="@drawable/layer_locale_radio_button_unchecked" />
+            <item android:gravity="bottom|right" android:bottom="@dimen/padding_20dp" android:right="@dimen/padding_20dp"
+                android:drawable="@drawable/ic_marathi_locale_uncheck"/>
+
+        </layer-list>
+
+    </item>
+</selector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.evidyaloka.common">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application>
+    <activity
+        android:name="org.evidyaloka.common.util.FileReaderActivity"
+        android:theme="@style/Theme.NoActionBar"
+        android:screenOrientation="portrait"></activity>
+
+    <activity
+        android:name="org.evidyaloka.common.util.PdfReaderActivity"
+        android:theme="@style/Theme.NoActionBar"
+        android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

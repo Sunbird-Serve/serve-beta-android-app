@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_right_round_corner_sedondary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/size_20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/organizationn_details_full_name"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/etv_name"
+                style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/organization_name"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_org_name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/etv_org_name"
+                style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/organization_email"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_org_email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/etv_org_email"
+                style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/organization_phone"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_org_phone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/etv_org_phone"
+                style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/organization_address"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_org_address_1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/etv_org_address_1"
+                style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:ems="10"
+                android:inputType="textMultiLine|textPostalAddress"
+                android:padding="10dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/Theme.Button.OnSurface.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16dp"
+            android:layout_marginBottom="@dimen/margin_16dp"
+            android:text="@string/next" />
+
+        <TextView
+            android:id="@+id/tv_have_account"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/have_an_account_login" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

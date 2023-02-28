@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_30dp"
+        android:paddingEnd="@dimen/padding_30dp"
+        android:paddingBottom="@dimen/size_58dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/Theme.Text.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_40dp"
+            android:gravity="bottom"
+            android:text="@string/label_join_thank_you"
+            android:textAppearance="@style/TextAppearance.Headline6" />
+
+        <TextView
+            style="@style/Theme.Text.SecondaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_join_like_to_know_more"
+            android:textAppearance="@style/TextAppearance.Subtitle2"
+            android:textColor="#9DA0C0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.68"
+        android:background="@drawable/bg_white_round_top_right"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout3">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingStart="@dimen/padding_30dp"
+            android:paddingTop="@dimen/padding_30dp"
+            android:paddingEnd="@dimen/padding_30dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/size_80dp">
+
+                <TextView
+                    style="@style/Theme.Text.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".01"
+                    android:text="@string/label_join_relation_with_child"
+                    android:textAppearance="@style/TextAppearance.Subtitle1" />
+
+                <org.evidyaloka.common.view.RecursiveRadioGroup
+                    android:id="@+id/rg_persona"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="@dimen/size_30dp">
+
+                        <RadioButton
+                            android:id="@+id/rb_parent"
+                            android:layout_width="@dimen/size_140dp"
+                            android:layout_height="@dimen/size_120dp"
+                            android:layout_marginRight="@dimen/margin_10dp"
+                            android:layout_marginBottom="@dimen/size_15dp"
+                            android:background="@drawable/selector_persona_radio_button_1"
+                            android:button="@null"
+                            android:checked="true"
+                            android:drawableTop="@drawable/ic_parent__1_"
+                            android:drawablePadding="@dimen/size_10dp"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_20dp"
+                            android:text="@string/parent"
+                            android:textAppearance="@style/TextAppearance.Subtitle1"
+                            android:textColor="@color/persona_radio" />
+
+                        <RadioButton
+                            android:id="@+id/rb_guardian"
+                            android:layout_width="@dimen/size_140dp"
+                            android:layout_height="@dimen/size_120dp"
+                            android:layout_marginLeft="@dimen/margin_10dp"
+                            android:layout_marginBottom="@dimen/size_15dp"
+                            android:background="@drawable/selector_persona_radio_button_1"
+                            android:button="@null"
+                            android:checked="false"
+                            android:drawableTop="@drawable/ic_guardian"
+                            android:drawablePadding="@dimen/size_10dp"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_20dp"
+                            android:text="@string/label_guardian"
+                            android:textAppearance="@style/TextAppearance.Subtitle1"
+                            android:textColor="@color/persona_radio" />
+
+
+                    </LinearLayout>
+                </org.evidyaloka.common.view.RecursiveRadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/size_70dp">
+
+                    <TextView
+                        style="@style/Theme.Text.SecondaryColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_location"
+                        android:textAppearance="@style/TextAppearance.Caption"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_location"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.09"
+                        app:endIconDrawable="@drawable/ic_current_location"
+                        app:endIconMode="custom"
+                        app:hintEnabled="false">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/etv_location"
+                            style="@style/Theme.EditText.SecondaryColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:digits="0123456789"
+                            android:ems="10"
+                            android:hint="@string/label_enter_pincode"
+                            android:imeOptions="actionDone"
+                            android:inputType="phone"
+                            android:paddingStart="@dimen/size_20dp"
+                            android:textColorHint="@color/colorOnSecondary_30opc" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/bt_next"
+                        style="@style/Theme.Student.Button.Gradient"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_48dp"
+                        android:layout_marginTop="@dimen/size_70dp"
+                        android:layout_marginBottom="@dimen/margin_20dp"
+                        android:enabled="false"
+                        android:text="@string/label_next" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="@dimen/margin_32dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/buttoncolor"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:padding="@dimen/padding_medium"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

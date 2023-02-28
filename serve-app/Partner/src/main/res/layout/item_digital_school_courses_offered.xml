@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/size_120dp"
+    android:layout_height="@dimen/size_74dp"
+    android:layout_marginRight="@dimen/size_74dp"
+    android:background="@drawable/rounded_gray_background"
+    android:clickable="true"
+    android:padding="@dimen/size_10dp">
+
+    <TextView
+        android:id="@+id/tv_courses_details"
+        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:textSize="@dimen/size_18sp"
+        tools:text="@tools:sample/us_zipcodes" />
+
+    <TextView
+        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_courses_details"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/card_view_landing_courses_offered"
+        android:textSize="@dimen/size_11sp" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "84091779715",
+    "project_id": "evidyaloka-mobile",
+    "storage_bucket": "evidyaloka-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84091779715:android:1cef6d75c486f2036c79b6",
+        "android_client_info": {
+          "package_name": "org.evidyaloka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84091779715-r6mo48smome6c26qo43jvmef8i1irhfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Aem36KUd7lZKw9hrKs6veW_0oBhzZFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84091779715-r6mo48smome6c26qo43jvmef8i1irhfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

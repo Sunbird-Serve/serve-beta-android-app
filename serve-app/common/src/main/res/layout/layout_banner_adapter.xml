@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_13dp"
+    android:layout_marginEnd="@dimen/margin_13dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_student_title_1"
+            style="@style/Theme.LabelText.OnSurface.PrimaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:gravity="center|center_horizontal"
+            android:maxLines="1"
+            android:paddingTop="@dimen/size_5dp"
+            android:textAppearance="@style/TextAppearance.Subtitle2"
+            android:textColor="@color/banner_yellow"
+            tools:text="@tools:sample/full_names" />
+
+        <TextView
+            android:id="@+id/tv_student_title_2"
+            style="@style/Theme.LabelText.OnSurface.PrimaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_student_title_1"
+            android:layout_marginBottom="0dp"
+            android:gravity="center|center_horizontal"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.Caption"
+            android:textColor="@color/banner_blue"
+            tools:text="@tools:sample/full_names" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_partner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_partner_title"
+            style="@style/Theme.LabelText.OnSurface.PrimaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:ellipsize="end"
+            android:gravity="center|center_horizontal"
+            android:maxLines="2"
+            android:paddingTop="@dimen/size_5dp"
+            android:textAppearance="@style/TextAppearance.Subtitle2"
+            android:textColor="@color/banner_blue"
+            tools:text="@tools:sample/full_names" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:scaleType="fitXY" />
+
+
+</LinearLayout>

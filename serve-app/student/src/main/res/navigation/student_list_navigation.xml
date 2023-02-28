@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_list_navigation"
+    app:startDestination="@id/nav_student_list_home">
+
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="org.evidyaloka.student.ui.login.LoginFragment"
+        android:label=""
+        tools:layout="@layout/fragment_student_login">
+
+        <argument
+            android:name="userType"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="userAction"
+            app:argType="string"
+            app:nullable="true" />
+
+        <action
+            android:id="@+id/action_fragment_login_to_register_fragment"
+            app:destination="@id/fragmentRegister" />
+
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_student_list_fragment"
+            app:destination="@id/nav_student_list_home"
+            app:popUpTo="@id/fragmentLogin"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="org.evidyaloka.student.ui.explore.join.RegisterFragment"
+        android:label=""
+        tools:layout="@layout/fragment_parent_register">
+
+        <argument
+            android:name="userType"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="userAction"
+            app:argType="string"
+            app:nullable="true" />
+
+        <action
+            android:id="@+id/action_fragment_register_to_login_fragment"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragment_register_to_location_access"
+            app:destination="@id/fragmentLocationAccess"
+            app:popUpTo="@id/fragmentRegister"
+            app:popUpToInclusive="true" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_student_list_home"
+        android:name="org.evidyaloka.student.ui.student.StudentsListFragment"
+        android:label=""
+        tools:layout="@layout/fragment_students_list">
+
+        <argument
+            android:name="userType"
+            app:argType="string"
+            app:nullable="true"/>
+
+        <argument
+            android:name="userAction"
+            app:argType="string"
+            app:nullable="true"/>
+
+
+        <!-- open student onboarding if number of students is 0 -->
+        <action
+            android:id="@+id/action_student_list_to_fragment_location_access"
+            app:destination="@id/fragmentLocationAccess" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentLocationAccess"
+        android:name="org.evidyaloka.student.ui.explore.FragmentLocationAccess"
+        android:label=""
+        tools:layout="@layout/fragment_location_access">
+        <action
+            android:id="@+id/action_fragmentLocationAccess_to_fragmentSchoolBoard"
+            app:destination="@id/fragmentSchoolBoard" />
+        <argument android:name="showToolBar"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentGradeSelection"
+        android:name="org.evidyaloka.student.ui.explore.grade.FragmentGradeSelection"
+        android:label="@string/student_preference">
+
+        <argument
+            android:name="exploreData"
+            app:argType="org.evidyaloka.core.student.model.ExploreData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_fragmentGradeSelection_to_studentExploreDigitalSchoolView"
+            app:destination="@id/studentExploreDigitalSchoolView" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentSchoolBoard"
+        android:name="org.evidyaloka.student.ui.explore.schoolboard.FragmentSchoolBoard"
+        android:label="@string/school_board">
+
+        <argument
+            android:name="exploreData"
+            app:argType="org.evidyaloka.core.student.model.ExploreData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_fragmentSchoolBoard_to_fragmentGradeSelection"
+            app:destination="@id/fragmentGradeSelection" />
+
+        <!-- action
+            android:id="@+id/action_fragment_school_board_to_fragment_school_details"
+            app:destination="@id/fragmentSchoolBoard" / -->
+
+    </fragment>
+
+    <include app:graph="@navigation/common_navigation" />
+    <action
+        android:id="@+id/common_navigation"
+        app:destination="@id/common_navigation">
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument android:name="title" />
+    </action>
+
+
+    <fragment
+        android:id="@+id/localeFragment"
+        android:name="org.evidyaloka.student.ui.locale.LocaleFragment"
+        android:label="@string/menu_language"
+        tools:layout="@layout/fragment_locale" />
+    <action
+        android:id="@+id/action_global_localeFragment"
+        app:destination="@id/localeFragment" />
+
+    <fragment
+        android:id="@+id/studentExploreDigitalSchoolView"
+        android:name="org.evidyaloka.student.ui.explore.digitalschool.StudentExploreDigitalSchoolView"
+        android:label=" "
+        tools:layout="@layout/digital_school_fragment">
+        <argument
+            android:name="exploreData"
+            android:defaultValue="@null"
+            app:argType="org.evidyaloka.core.student.model.ExploreData"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_studentExploreDigitalSchoolView_to_studenExploreSubTopicView"
+            app:destination="@id/studenExploreSubTopicView" />
+        <action
+            android:id="@+id/action_studentExploreDigitalSchoolView_to_studentRegistrationFragment"
+            app:destination="@id/studentRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studenExploreSubTopicView"
+        android:name="org.evidyaloka.student.ui.explore.subtopic.StudenExploreSubTopicView"
+        android:label="" >
+        <argument
+            android:name="subject"
+            app:argType="org.evidyaloka.core.model.Subject" />
+        <argument
+            android:name="exploreData"
+            app:argType="org.evidyaloka.core.student.model.ExploreData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_studenExploreSubTopicView_to_studentExploreRTCView"
+            app:destination="@id/studentExploreRTCView" />
+        <action
+            android:id="@+id/action_studenExploreSubTopicView_to_studentRegistrationFragment"
+            app:destination="@id/studentRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentExploreRTCView"
+        android:name="org.evidyaloka.student.ui.explore.rtc.StudentExploreRTCView"
+        android:label="" >
+        <argument
+            android:name="session"
+            app:argType="org.evidyaloka.core.model.Session"
+            app:nullable="true" />
+        <argument
+            android:name="timetableId"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="subTopic"
+            app:argType="org.evidyaloka.core.model.SubTopic"
+            app:nullable="true" />
+        <argument
+            android:name="exploreData"
+            app:argType="org.evidyaloka.core.student.model.ExploreData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_studentExploreRTCView_to_studentRegistrationFragment"
+            app:destination="@id/studentRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentRegistrationFragment"
+        android:name="org.evidyaloka.student.ui.student.StudentRegistrationFragment"
+        android:label="@string/student_form_title"
+        tools:layout="@layout/fragment_student_registration">
+        <argument
+            android:name="exploreData"
+            android:defaultValue="@null"
+            app:argType="org.evidyaloka.core.student.model.ExploreData"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_studentRegistrationFragment_to_fragmentThankYou"
+            app:destination="@id/fragmentThankYou" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentThankYou"
+        android:name="org.evidyaloka.student.ui.explore.join.FragmentThankYou"
+        android:label=""
+        tools:layout="@layout/layout_student_enrolled_success">
+
+        <action
+            android:id="@+id/action_fragment_thank_you_to_student_list_fragment"
+            app:destination="@id/nav_student_list_home"
+            app:popUpTo="@id/fragmentLocationAccess"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_fragment_thank_you_to_fragment_location_access"
+            app:destination="@id/fragmentLocationAccess"
+            app:popUpTo="@id/fragmentLocationAccess"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="org.evidyaloka.student.ui.downloads.DownloadFragment"
+        android:label="@string/menu_downloads"
+        tools:layout="@layout/download_fragment" />
+</navigation>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_187dp"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/iv_line_type2"
+        android:layout_width="@dimen/size_8dp"
+        android:layout_height="@dimen/size_20dp"
+        android:layout_alignEnd="@+id/iv_line_type"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:background="@drawable/vertical_line_gray"
+        android:elevation="@dimen/size_1_5_dp" />
+
+    <ImageView
+        android:id="@+id/iv_class_status"
+        android:layout_width="@dimen/size_20dp"
+        android:layout_height="@dimen/size_20dp"
+        android:layout_below="@id/iv_line_type2"
+        android:layout_alignParentBottom="false"
+        android:elevation="@dimen/size_2dp"
+        android:src="@drawable/ic_unattended" />
+
+    <View
+        android:id="@+id/iv_line_type"
+        android:layout_width="@dimen/size_2dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_class_status"
+        android:layout_alignEnd="@+id/iv_class_status"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:background="@drawable/vertical_line_gray"
+        android:elevation="@dimen/size_1_5_dp" />
+
+    <org.evidyaloka.student.utils.CourseCardview
+        android:id="@+id/timeTableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:layout_marginEnd="@dimen/size_30dp"
+        android:layout_marginBottom="@dimen/size_20dp"
+        android:layout_toEndOf="@id/iv_class_status"
+        android:elevation="@dimen/elevation_round_background"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="8dp"
+        app:sessionType="TIMETABLE">
+
+
+        <!--            android:id="@+id/timeTableView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+
+        <!--            android:elevation="20dp"-->
+        <!--            android:visibility="visible"-->
+        <!--            app:cardElevation="20dp"-->
+        <!--            >-->
+
+    </org.evidyaloka.student.utils.CourseCardview>
+
+    <!-- views at the right of the blue line -->
+
+
+</RelativeLayout>

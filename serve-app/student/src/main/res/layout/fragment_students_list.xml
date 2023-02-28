@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_25dp"
+        android:layout_marginLeft="@dimen/size_30dp"
+        android:layout_marginTop="@dimen/minus_size_16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_bottom_sheet_curved"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/padding_20dp"
+            android:paddingTop="@dimen/padding_30dp"
+            android:paddingEnd="@dimen/padding_20dp"
+            android:weightSum="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.67"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_students"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/bt_lets_start"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="@dimen/size_50dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_lets_start"
+                style="@style/Theme.Student.Button.Gradient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="@dimen/size_10dp"
+                android:layout_marginBottom="@dimen/margin_30dp"
+                android:elevation="8dp"
+                android:enabled="true"
+                android:text="@string/label_lets_start"
+                android:textAllCaps="false" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/size_30dp"
+            android:paddingEnd="@dimen/padding_30dp"
+            android:paddingBottom="@dimen/size_15dp"
+            android:weightSum="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.33"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_weight="0.5"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/label_greeting_1"
+                    style="@style/Theme.Text.SecondaryColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/student_greeting_3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_20sp" />
+
+                <TextView
+                    android:id="@+id/greeting2"
+                    style="@style/Theme.Text.PrimaryColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:gravity="center_vertical|start"
+                    android:text="@string/student_greeting_4"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_12sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_mascot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="0.5"
+                android:elevation="0dp"
+                android:src="@drawable/ic_mascot_student_selection"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bt_add_student"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_64dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/student_orange"
+            android:elevation="8dp"
+            android:src="@drawable/ic_add_student"
+            app:elevation="8dp"
+            app:fabCustomSize="@dimen/size_64dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+            app:tint="@android:color/white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="@dimen/margin_32dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/buttoncolor"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:padding="@dimen/padding_medium"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

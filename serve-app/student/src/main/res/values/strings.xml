@@ -1,0 +1,341 @@
+<resources>
+    <!-- OTP Generetation Screen -->
+    <string name="error_required_fields_missing">Required fields are missing.</string>
+    <string name="error_user_profile_not_exist">User does not exist. Please contact us at 080-47091716 or at digitalschool@evidyaloka.org to activate the Student account.</string>
+    <string name="error_invalid_mobile">Invalid mobile number.</string>
+    <string name="error_otp_used">OTP has been used already.</string>
+    <string name="student_error_user_not_exist">User does not exist. Please ask your parent / guardian to register.</string>
+
+    <!-- OTP Validation Screen -->
+    <string name="error_data_not_valid">Data submitted is not valid. Please contact the admin.</string>
+    <string name="error_otp_expired">OTP Expired.</string>
+    <string name="error_otp_invalid">OTP is Invalid.</string>
+
+    <string name="title_activity_student_home" translatable="false">StudentHomeActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- Home page child -->
+    <string name="label_grade_with_colon">Grade:</string>
+    <string name="label_lets_start">Let\'s start</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_sorry">Sorry!</string>
+    <string name="label_your_account_inactive">your account is not active yet.</string>
+    <string name="label_ok">Ok</string>
+
+
+    <!-- Landing Enroll Student to Class -->
+    <string name="learn">Learn</string>
+    <string name="label_courses">Courses</string>
+    <string name="label_welcome_to">Welcome to</string>
+
+
+    <!-- OTP verification -->
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_otp_sent_to">Enter OTP sent to your number</string>
+    <string name="change">Change</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">Verify</string>
+
+    <!-- Login -->
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_mobile">Enter Mobile Number</string>
+    <string name="student_greeting_1">Hi Welcome!</string>
+    <string name="student_greeting_3">Hi There!</string>
+    <string name="student_greeting_2">Dear Student, \nLogin to start Learning</string>
+    <string name="parent_greeting_2">Dear Parent, \nPlease login to your account</string>
+    <string name="label_heading_student_selection">Please select student</string>
+
+    <string name="take_your_first_step_by_choosing_your_subjects_to_start_learning_now">Take your first step by choosing your subjects to start learning now.</string>
+    <string name="data_submited_not_valid">Data submitted is not valid. Please contact the admin.</string>
+    <string name="error">Error</string>
+    <string name="user_should_be_guardian">User should be guardian</string>
+    <string name="digital_school_doesnot_exist">Digital school Does not exist</string>
+    <string name="center_doesnot_exist">Center Does not exist</string>
+    <string name="could_not_able_to_fetch_data">Could not able to fetch data. Please contact admin</string>
+
+    <string name="label_timetable">Timetable</string>
+    <string name="label_subjects">Subjects</string>
+    <string name="label_course_timetable">Course Timetable</string>
+
+    <string name="label_toolbar_title_classes">Classes</string>
+    <string name="label_faculty">Faculty : </string>
+
+    <string name="please_select_course">Please select course</string>
+    <string name="hi">"Hi "</string>
+    <string name="today">"Today, "</string>
+    <string name="congratulations_you_may_begin_your_classes_now">Congratulations!<br /> You may begin your classes now</string>
+    <string name="err_network">Something went wrong. Please try after sometime</string>
+    <string name="attend">Attend</string>
+
+    <!-- Landing Schedule Course-->
+    <string name="label_pick_your_day">Pick your day and time to begin learning</string>
+    <string name="label_i_would_like">I would like to study on</string>
+    <string name="label_begin_class">Begin Class</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_save">Save</string>
+
+    <string name="guardian_not_active">Guardian is not active.</string>
+    <string name="select_more_time">Select more time to cover subjects.</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="early_morning">Early Morning</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evening">Evening</string>
+
+    <string name="early_morning_timing">6am - 9pm</string>
+    <string name="morning_timing">9am - 12pm</string>
+    <string name="afternoon_timing">12pm - 4pm</string>
+    <string name="evening_timing">4pm - 7pm</string>
+
+    <string name="min_1_study_time">Please select minimum 1 study time.</string>
+    <string name="min_3_study_day">Please select minimum 3 day.</string>
+    <string name="min_1_time_3_days">Please select minimum 1 study time &amp; 3 days.</string>
+    <string name="menu_my_school">My School</string>
+    <string name="menu_your_doubts">Your Doubts</string>
+    <string name="menu_terms_of_use">Terms of Use</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="menu_support">Support</string>
+    <string name="student">Student</string>
+    <string name="parent">Parent</string>
+    <string name="grade">Grade</string>
+    <string name="join_class">Join class</string>
+    <string name="live_class">Live class</string>
+    <string name="live_session_link_missing">Live session link missing</string>
+    <string name="open_with">Open with</string>
+    <string name="you_have_no_classes">You have %d classes today</string>
+    <string name="you_have_no_class">You have %d class today</string>
+    <string name="you_will_have_no_classes_next">You will have %d classes next</string>
+    <string name="you_will_have_no_class_next">You will have %d class next</string>
+    <string name="you_have_no_subtopics">You have %d subtopics</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Course Timetable -->
+    <string name="label_heading_course_timetable">Course Timetable</string>
+    <string name="labeL_all_class">All</string>
+    <string name="labeL_missed_class">Missed class</string>
+    <string name="label_scheduled">Scheduled</string>
+    <string name="label_class_taken">Class taken</string>
+    <string name="label_bt_apply">Apply</string>
+    <string name="label_bt_reset">Reset</string>
+    <string name="join">Join</string>
+
+    <string name="label_filter">Filter</string>
+    <string name="plural_classes">%d classes</string>
+    <string name="singular_classes">%d class</string>
+
+    <!--worksheet/activity-->
+    <string name="label_bt_view">View</string>
+    <string name="label_bt_read">Read</string>
+    <string name="label_bt_done">Done</string>
+
+    <!-- RTC View -->
+    <string name="label_doubt">Doubt?</string>
+    <string name="label_asked_doubt">Asked doubt</string>
+    <string name="label_bookmark">Bookmark</string>
+
+    <!--TABS -->
+    <string name="label_video_lessons">Video lessons</string>
+    <string name="label_worksheet">Worksheet</string>
+    <string name="label_activity">Activity</string>
+    <string name="label_textbook">Textbook</string>
+    <string name="video_not_found">Video not found</string>
+    <string name="video_is_not_playable">Video is not playable</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="invalid_video_url">Invalid video url</string>
+    <string name="device_memory_full">Device menory full</string>
+    <string name="choose">Choose</string>
+    <string name="rationale_storage_doubt">Please grant storage access to enable the app to upload the doubt picture</string>
+    <string name="rationale_camera_storage_doubt">Please grant camera and storage access to enable the app to take picture of your doubt</string>
+    <string name="video_not_allow_to_play_embed">Video not allow to play in embed</string>
+    <string name="submit">Submit</string>
+    <string name="ask_doubt">Ask Doubt</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="field_missing">Some fields are missing</string>
+    <string name="invalid_request">Invalid request</string>
+    <string name="student_is_not_related_to_guardian">Student is not related to guardian</string>
+    <string name="invalid_session">Invalid session</string>
+    <string name="file_does_not_exist">File does not exist</string>
+    <string name="your_doubt_submitted_successfully">Your doubt has been submitted successfully</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="no_content">There is no content for this topic</string>
+
+    <!--Doubts -->
+    <string name="label_no_doubts">You have not yet asked doubts.</string>
+    <string name="label_heading_your_doubts">My Doubts</string>
+    <string name="no_of_doubt_singular">%d Doubt</string>
+    <string name="no_of_doubt_plural">%d Doubts</string>
+    <string name="label_today">Today</string>
+
+    <!--Doubts -->
+    <string name="label_heading_asked_doubts">Asked Doubts</string>
+    <string name="label_bt_make_correction">Make Correction</string>
+    <string name="subject_count">%d of %d Lessons</string>
+    <string name="title_lessons">%s lessons</string>
+
+    <string name="no_document_available">No document available</string>
+
+    <!-- PDF Error -->
+    <string name="device_not_supported">Device not supported, Please contact admin.</string>
+    <string name="pdf_on_fail">An Error occured while downloading PDF. Please contact the admin.</string>
+
+    <!-- Attendance -->
+    <string name="attendance_submit_error">Not able to submit session attendance.</string>
+    <string name="please_attend_previous_class">Please attend previous class to view this class</string>
+    <string name="steps_to_ask_you_doubt">Steps to ask your doubts,</string>
+    <string name="_1_write_down_your_doubt_in_your_notebook_paper">1. Write down your doubts in your notebook / paper</string>
+    <string name="_2_click_a_picture">2. Click a picture</string>
+    <string name="_3_upload_here">3. Upload here</string>
+    <string name="one_of_the_teachers_will_clarify_your_doubts_as_a_reply_here_shortly">One of the Teachers will clarify your doubts as a reply here, shortly.</string>
+
+    <string name="student_greeting_4">Start your learning journey!</string>
+    <!-- MySchools -->
+    <string name="label_my_courses">My Courses</string>
+    <string name="label_tv_study_timings">Study Timings</string>
+
+    <string name="label_tv_study_timing">Study Timing</string>
+    <string name="label_tv_change_timing">Change Timing</string>
+    <string name="label_tv_change_timings">Change Timings</string>
+
+    <string name="label_school_count_plural">Joined %d Schools</string>
+    <string name="label_school_count_singular">Joined %d School</string>
+
+    <string name="label_my_study_days">My Study Day\'s</string>
+    <string name="label_my_study_time">My Study Time</string>
+
+    <string name="you_do_not_have_an_active_internet_connection_please_check_your_internet_connection_and_retry">You do not have an active internet connection, please check your internet connection and retry</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="retry">Retry</string>
+    <string name="rating_submit_error">Not able to submit session rating.</string>
+
+    <string name="label_all_subjects">All - </string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_classes">Classes</string>
+    <string name="menu_feedback">Feedback</string>
+
+    <string name="error_invalid_offerings">Invalid Offerings</string>
+    <string name="error_invalid_student">Invalid Student</string>
+    <string name="error_slots_not_enough">Slots are not enough.</string>
+    <string name="error_system_settings_defined_wrong">System settings is defined wrong.</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिन्दी</string>
+    <string name="tamil" translatable="false">"தமிழ் "</string>
+    <string name="kanada" translatable="false">ಕನ್ನಡ</string>
+    <string name="telugu" translatable="false">తెలుగు</string>
+    <string name="marathi" translatable="false">"मराठी "</string>
+    <string name="menu_language">Language</string>
+    <!-- Doubts Type -->
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="chat">Chat</string>
+    <string name="link">Link</string>
+
+    <string name="login">Login</string>
+    <string name="you_were_absent_for_some_classes_click_here_to_attend">You were absent for some classes. Click here to attend.</string>
+    <string name="click_on_the_link_below_to_join_class">Click on the link below to join class</string>
+    <string name="like">Like</string>
+
+    <string name="get_started">Get Started</string>
+
+    <string name="dear_parent">Dear Parent</string>
+    <string name="label_login_to_your_account">Please login to your account</string>
+
+    <string name="no_account_create_parent">I do not have an account. <b><u>Create Account</u></b></string>
+
+    <string name="label_join_thank_you">Thank you for joining us!</string>
+    <string name="label_join_like_to_know_more">We would like to know more about you.</string>
+    <string name="label_join_relation_with_child">Relationship with child</string>
+    <string name="label_location">Location</string>
+    <string name="label_guardian">Guardian</string>
+    <string name="rationale_location">Please grant Location access so we can provide you better results.</string>
+    <string name="geocoder_error">Could not find your location, please enter Pincode manually.</string>
+    <string name="label_enter_pincode">Please enter your pincode</string>
+    <string name="label_child_class">My child is in class</string>
+    <string name="label_next">Next</string>
+    <string name="student_preference">Student Preference</string>
+    <string name="error_guardian_exists">Guardian / Parent is already registered with us. Please login.</string>
+    <string name="school_board">Choose Your School Board</string>
+    <string name="student_enrolled_success_msg">We have received your application successfully.</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="enroll_another_student">Enroll Another Student</string>
+    <string name="start_learning">Start Learning</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="gender">Gender</string>
+    <string name="father">father</string>
+    <string name="mother">mother</string>
+    <string name="guardian">guardian</string>
+    <string name="student_full_name">Student full name*</string>
+    <string name="student_s_date_of_birth">Student\'s Date of birth*</string>
+    <string name="student_grade">Student grade*</string>
+    <string name="student_s_school_name">Student\'s School name*</string>
+    <string name="student_s_medium_of_study">Student\'s medium of study*</string>
+    <string name="please_select_grade_first">Please select grade first</string>
+    <string name="taken_parent_guardian_consent">Taken parent/ guardian consent</string>
+    <string name="invalid_name">Please add a valid name</string>
+    <string name="invalid_grade">Select Grade</string>
+    <string name="invalid_school_details">Invalid School details</string>
+    <string name="invalid_medium">Please select valid medium</string>
+    <string name="invalid_school_board">Please select valid school board</string>
+    <string name="rationale_read_storage">Please grant storage access to enable the app to upload the picture</string>
+    <string name="invalid_image">Invalid File. Please select another one.</string>
+    <string name="student_form_title">Student Form</string>
+    <string name="join_to">Join to %s</string>
+    <string name="access_the_entire_course_and_start_learning">Access the entire course and start learning!</string>
+    <string name="join_us">Join Us!</string>
+    <string name="join_school">Join School</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="missed_class">Missed Class</string>
+    <string name="logout">Logout</string>
+    <string name="live">Live</string>
+    <string name="your_timetable_will_be_available_shortly">Your timetable will be available shortly.</string>
+    <string name="i_consent_to_my_child_using_the_evidyaloka_learning_app_for_learning_purpose">I consent to my child using the eVidyaloka learning app for learning purpose.</string>
+    <string name="no_class_today">No Class Today</string>
+    <string name="there_is_no_class_scheduled_for_today">There is no class scheduled for today</string>
+    <string name="only_1_class_per_subject">Please note: Only 1 class per subject will be scheduled in a day</string>
+
+    <string name="invalid_language_type">Invalid language type</string>
+    <string name="enrollment_failed_contact_admin">Student enrollment failed.Please contact admin</string>
+    <string name="invalid_gender_type">Invalid gender type</string>
+    <string name="menu_learn_through_television">Learn through Television</string>
+    <string name="learn_throuht_tv">Learn through Television</string>
+    <string name="join_this_digital_school_for_free">Join this Digital School for Free!</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="medium">Medium</string>
+    <string name="download_notification_channel_id">download_notification_channel_id</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="delete_offline_content_alert">Are you sure you want to delete downloaded %s file?</string>
+    <string name="delete">Delete</string>
+    <string name="content_can_be_viewed_offline">%s content can be viewed offline</string>
+    <string name="menu_downloads">Downloads</string>
+    <string name="not_enough_space">This device doesn\'t have enough space to download %s file.</string>
+    <string name="unable_to_download_file">Unable to download %s file</string>
+    <string name="do_not_have_access">App do not have access to file location</string>
+    <string name="both">Both</string>
+    <string name="select_student">Select student</string>
+    <string name="select_content_type">Select content type</string>
+    <string name="you_are_offline_please_click_on_downloads_under_menu_to_view_the_downloaded_videos_worksheets">You are offline. Please click on Downloads to view the downloaded videos / documents.</string>
+    <string name="Please_connect_to_internet_to_like_the_video">Please connect to internet to like the video</string>
+    <string name="Please_connect_to_internet_to_ask_doubt">Please connect to internet to ask a doubt</string>
+    <string name="Please_connect_to_internet_to_view_asked_doubts">Please connect to internet to view asked doubts</string>
+    <string name="your_course_started_on">Your course started on %s. Please view / attend missed classes if any.</string>
+    <string name="menu_missed_class">Missed class</string>
+    <string name="menu_bookmark_class">Bookmark class</string>
+    <string name="bookmarks">Bookmarks</string>
+</resources>

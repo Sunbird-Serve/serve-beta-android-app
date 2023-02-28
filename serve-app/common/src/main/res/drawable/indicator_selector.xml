@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:state_enabled="true">
+        <layer-list>
+
+           <!-- <item>
+                <shape
+                    android:shape="oval"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <size
+                        android:height="@dimen/size_22dp"
+                        android:width="@dimen/size_22dp"/>
+                    <gradient
+                        android:startColor="#4DC6C9CC"
+                        android:endColor="#4DC6C9CC"
+                        android:angle="270" />
+
+                </shape>
+            </item>-->
+            <item android:bottom="@dimen/_2dp" >
+                <shape
+                    android:shape="oval"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <size
+                        android:height="@dimen/size_22dp"
+                        android:width="@dimen/size_22dp"/>
+                    <solid
+                        android:color="#FFFFFF" />
+                </shape>
+            </item>
+
+            <item
+                android:height="@dimen/size_8dp"
+                android:width="@dimen/size_8dp"
+                android:top="@dimen/margin_7dp"
+                android:left="@dimen/margin_7dp" >
+                <shape
+                    android:shape="oval"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <size
+                        android:height="@dimen/size_8dp"
+                        android:width="@dimen/size_8dp"/>
+                    <solid
+                        android:color="#FF7F2D" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+    <item android:state_selected="true" android:drawable="@drawable/ic_done_circle"
+        android:width="22dp"
+        android:height="22dp">
+        <shape
+            android:shape="oval"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <size
+                android:height="@dimen/size_22dp"
+                android:width="@dimen/size_22dp"/>
+            <solid
+                android:color="#FF7F2D" />
+        </shape>
+    </item>
+    <item android:state_enabled="false"
+        android:bottom="@dimen/margin_7dp">
+        <layer-list>
+
+        <item>
+            <shape
+                android:shape="oval"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <size
+                    android:height="@dimen/size_22dp"
+                    android:width="@dimen/size_22dp"/>
+
+            </shape>
+        </item>
+        <item android:bottom="@dimen/_2dp" >
+        <shape
+            android:shape="oval"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <size
+                android:height="@dimen/size_22dp"
+                android:width="@dimen/size_22dp"/>
+
+            <stroke
+                android:color="#80CCD0D5"
+                android:dashWidth="5dp"
+                android:dashGap="2dp"
+                android:width="1dp"/>
+        </shape>
+        </item>
+        </layer-list>
+    </item>
+
+</selector>

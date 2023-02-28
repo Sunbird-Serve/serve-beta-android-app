@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MaterialAlertDialogTheme"
+    android:layout_width="@dimen/size_300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center"
+    android:layout_marginLeft="@dimen/size_20dp"
+    android:layout_marginTop="@dimen/size_114dp"
+    android:layout_marginRight="@dimen/size_20dp"
+    android:elevation="@dimen/size_5dp"
+    android:paddingBottom="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.Material.ProgressBar.Large"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/orange_v1"
+            android:indeterminateTintMode="src_in"
+            android:progressTintMode="src_over" />
+
+        <TextView
+            android:id="@+id/dlg_title"
+            style="@style/Theme.Text.SecondaryColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/please_wait"
+            android:textSize="@dimen/size_18sp" />
+
+        <TextView
+            android:id="@+id/dlg_message"
+            style="@style/Theme.Text.SecondaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/size_30dp"
+            android:layout_marginTop="@dimen/size_3dp"
+            android:layout_marginRight="@dimen/size_30dp"
+            android:layout_marginBottom="@dimen/size_36dp"
+            android:gravity="center"
+            android:text="@string/your_timetable_will_be_available_shortly"
+            android:textColor="@color/student_black_60opc"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

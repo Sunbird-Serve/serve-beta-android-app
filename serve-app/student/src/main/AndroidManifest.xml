@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.evidyaloka.student">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+
+    <application>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths"/>
+        </provider>
+
+        <activity
+            android:name=".ui.ParentExploreActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/Theme.Student.NoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+
+        <activity
+            android:name=".ui.StudentHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Student.NoActionBar"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <nav-graph android:value="@navigation/mobile_navigation" />
+        </activity>
+        <activity
+            android:name=".ui.rtc.PDFreaderImp"
+            android:theme="@style/Theme.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <receiver android:name=".download.DownloadCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

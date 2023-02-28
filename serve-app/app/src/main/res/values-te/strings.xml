@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">eVidyaloka</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="parent">తల్లిదండ్రులు</string>
+    <string name="student">విద్యార్థి</string>
+    <string name="teacher">గురువు</string>
+    <string name="partner">భాగస్వామి</string>
+    <string name="welcome">స్వాగతం!</string>
+    <string name="i_am">నేను,</string>
+    <string name="next">తరువాత</string>
+
+
+    <string name="continue_text">కొనసాగించండి</string>
+    <string name="choose_your_account_type">మీ ఖాతా రకాన్ని ఎంచుకోండి</string>
+
+    <string name="invalid_persona_selection">చెల్లని వ్యక్తిత్వం ఎంచుకోబడింది</string>
+    <string name="choose_your_language">మీ భాషను ఎంచుకోండి</string>
+    <string name="notification_1">ప్రియమైన %s, దయచేసి ఈ రోజు మీ %s కి హాజరు కావడానికి eVidyaloka లెర్నింగ్ అనువర్తనంలోకి లాగిన్ అవ్వండి.</string>
+    <string name="notification_and">%s మరియు %s తరగతులు</string>
+    <string name="notification_class">%s తరగతి</string>
+    <string name="notification_classes">%s తరగతులు</string>
+    <string name="share">భాగస్వామ్యం చేయండి</string>
+    <string name="share_via">ద్వారా భాగస్వామ్యం చేయండి</string>
+    <string name="volunteer_explore"><u> వాలంటీర్ అన్వేషించండి </u></string>
+    <string name="explore_volunteering_opportunities_with_eVidayaloka">EVidyaloka తో స్వయంసేవకంగా అవకాశాలను అన్వేషించండి</string>
+    <string name="you_will_be_re_directed_to_explore_volunteering_opportunities_with_evidyaloka">eVidyaloka తో వాలంటీర్ అవకాశాలను అన్వేషించడానికి మీరు తిరిగి దర్శకత్వం వహించబడతారు.</string>
+    <string name="join_now">ఇప్పుడు చేరండి</string>
+    <string name="notification_schoolApproved">ప్రియమైన %s, అభినందనలు!! %s ఆమోదించబడింది. దయచేసి eVidyaloka లెర్నింగ్ యాప్‌కి లాగిన్ చేయండి, కోర్సు / కోర్సులను జోడించి విద్యార్థులను నమోదు చేసుకోండి.</string>
+    <string name="notification_doubtResponded">"ప్రియమైన %s, %s - %s పై మీ సందేహానికి సమాధానం లభించింది. దయచేసి eVidyaloka లెర్నింగ్ యాప్‌కి లాగిన్ చేయండి. 'మీ సందేహాలు' కింద ప్రతిస్పందనను వీక్షించడానికి "</string>
+
+</resources>

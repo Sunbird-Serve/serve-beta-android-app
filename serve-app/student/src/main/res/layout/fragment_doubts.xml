@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.doubt.askDoubt.DoubtsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/TextAppearance.Toolbar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:text="@string/ask_doubt"
+            android:textAppearance="@style/TextAppearance.Toolbar.Title"
+            android:textColor="@color/colorOnPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:src="@drawable/ic_close_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_doubt_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.40"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintWidth_percent="0.83" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_bottom_sheet_curved"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/padding_30dp"
+            android:paddingTop="@dimen/padding_30dp"
+            android:paddingEnd="@dimen/padding_30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.45"
+                android:src="@drawable/ic_subject_hindi" />
+
+            <TextView
+                android:id="@+id/subject"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.32"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.Title.Large"
+                android:textColor="#11296B" />
+
+            <TextView
+                android:id="@+id/topic"
+                style="@style/Theme.Text.PrimaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.20"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.Subtitle2"
+                android:textColor="@color/golden" />
+
+            <TextView
+                android:id="@+id/subtopic"
+                style="@style/Theme.Text.PrimaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.24"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.Subtitle2"
+                android:textColor="@color/calendar_text_color" />
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/Theme.Student.Button.Gradient"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/margin_26dp"
+                android:layout_marginBottom="@dimen/margin_20dp"
+                android:layout_weight="0.30"
+                android:text="@string/submit" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

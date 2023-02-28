@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">eVidyaloka</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="parent">ಪೋಷಕರು</string>
+    <string name="student">ವಿದ್ಯಾರ್ಥಿ</string>
+    <string name="teacher">ಶಿಕ್ಷಕ</string>
+    <string name="partner">ಪಾಲುದಾರ</string>
+    <string name="welcome">ಸ್ವಾಗತ!</string>
+    <string name="i_am">ನಾನು,</string>
+    <string name="next">ಮುಂದೆ</string>
+
+
+    <string name="continue_text">ಮುಂದುವರಿಸಿ</string>
+    <string name="choose_your_account_type">ನಿಮ್ಮ ಖಾತೆ ಪ್ರಕಾರವನ್ನು ಆರಿಸಿ</string>
+    <string name="invalid_persona_selection">ಅಮಾನ್ಯ ವ್ಯಕ್ತಿತ್ವವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="choose_your_language">ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="notification_1">ಆತ್ಮೀಯ %s, ಇಂದು ನಿಮ್ಮ %s ಗೆ ಹಾಜರಾಗಲು ದಯವಿಟ್ಟು ಇವಿಧ್ಯಾಲೋಕ ಕಲಿಕೆ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ.</string>
+    <string name="notification_and">%s ಮತ್ತು %s ತರಗತಿಗಳು</string>
+    <string name="notification_class">%s ತರಗತಿ</string>
+    <string name="notification_classes">%s ತರಗತಿಗಳು</string>
+    <string name="share">ಹಂಚು</string>
+    <string name="share_via">ಮೂಲಕ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="volunteer_explore"><u>ಸ್ವಯಂಸೇವಕ ಅನ್ವೇಷಣೆ</u></string>
+    <string name="explore_volunteering_opportunities_with_eVidayaloka">eVidyaloka ದೊಂದಿಗೆ ಸ್ವಯಂಸೇವಕ ಅವಕಾಶಗಳನ್ನು ಅನ್ವೇಷಿಸಿ</string>
+    <string name="you_will_be_re_directed_to_explore_volunteering_opportunities_with_evidyaloka">ಇವಿಧ್ಯಾಲೋಕದೊಂದಿಗೆ ಸ್ವಯಂಸೇವಕ ಅವಕಾಶಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ನಿಮ್ಮನ್ನು ಮರು ನಿರ್ದೇಶಿಸಲಾಗುವುದು.</string>
+    <string name="join_now">ಈಗಲೇ ಸೇರಿಕೊಳ್ಳಿ</string>
+    <string name="notification_schoolApproved">ಆತ್ಮೀಯ %s, ಅಭಿನಂದನೆಗಳು!! %s ಅನುಮೋದಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು eVidyaloka ಲರ್ನಿಂಗ್ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ, ಕೋರ್ಸ್ / ಕೋರ್ಸ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ದಾಖಲಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="notification_doubtResponded">ಆತ್ಮೀಯ %s, %s - %s ನಲ್ಲಿ ನಿಮ್ಮ ಸಂದೇಹಕ್ಕೆ ಉತ್ತರಿಸಲಾಗಿದೆ. \'ನಿಮ್ಮ ಅನುಮಾನಗಳು\' ಅಡಿಯಲ್ಲಿ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ವೀಕ್ಷಿಸಲು ದಯವಿಟ್ಟು eVidyaloka Learning ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.explore.digitalschool.StudentExploreDigitalSchoolView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <org.evidyaloka.common.ui.boardgradefilter.BoardGradeView
+                android:id="@+id/board_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </org.evidyaloka.common.ui.boardgradefilter.BoardGradeView>
+
+            <org.evidyaloka.common.ui.digitalschool.DigitalSchoolView
+                android:id="@+id/digital_school"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

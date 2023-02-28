@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ib_logo_selector"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_32dp"
+                android:layout_marginBottom="@dimen/margin_23dp"
+                android:background="@drawable/ic_dotted_image_round"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/iv_close_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_close_44dp" />
+
+                <TextView
+                    android:id="@+id/tv_logo_placeholder_text"
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="21dp"
+                    android:drawableTop="@drawable/ic_plus_white_20dp"
+                    android:drawablePadding="@dimen/padding_5dp"
+                    android:gravity="center"
+                    android:text="@string/add_photo"
+                    android:textColor="@color/colorOnSecondary_40"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fname"
+                android:layout_weight=".01"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_first_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".09"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/etv_first_name"
+                    style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textCapWords|textPersonName"
+                    android:padding="10dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lname"
+                android:layout_weight=".01"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_last_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".09"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/etv_last_name"
+                    style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textCapWords|textPersonName"
+                    android:padding="10dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/person_s_email"
+                android:layout_weight=".01"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_person_mail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".09"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/etv_person_mail"
+                    style="@style/Theme.EditText.OnSurface.SecondaryColor.Disabled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_contact_no"
+                android:layout_weight=".01"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_person_phone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".09"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/etv_person_phone"
+                    style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:padding="10dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/bt_save"
+                style="@style/Theme.Button.OnSurface.PrimaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_30dp"
+                android:text="@string/personal_details_save_button" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

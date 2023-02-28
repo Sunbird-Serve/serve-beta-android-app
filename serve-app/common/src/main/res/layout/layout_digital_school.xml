@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_right_round_corner_sedondary"
+    android:orientation="vertical"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/schoolName"
+        style="@style/Theme.LabelText.OnSurface.PrimaryColor.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/digital_school_name"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grade" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_right_round_corner_sedondary"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schoolName">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="194dp">
+
+            <ImageView
+                android:id="@+id/schoolBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/digital_school_banner" />
+
+            <ImageView
+                android:id="@+id/schoolLogo"
+                android:layout_width="@dimen/size_70dp"
+                android:layout_height="@dimen/size_70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:src="@drawable/ic_school_logo_placeholder" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_course_offered"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:text="@string/courses_offered" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/courses"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_160dp"
+            android:paddingStart="@dimen/padding_20dp"
+            android:paddingEnd="@dimen/padding_20dp"
+            tools:itemCount="3"
+            tools:spanCount="5">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_about_digital_school"
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="2"
+                    android:text="@string/about_digital_school" />
+
+                <CheckBox
+                    android:id="@+id/cb_english_toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorOnSecondary"
+                    android:drawableLeft="@drawable/ic_menu_locale_dsp"
+                    android:drawablePadding="10dp"
+                    android:text="English"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aboutUs"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="1"
+                android:text="@string/the_digital_school_about_us" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_medium_instruction"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/medium_of_instruction" />
+
+            <TextView
+                android:id="@+id/medium"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_30dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_network_partner"
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="2"
+                    android:text="@string/network_partner" />
+
+                <TextView
+                    android:id="@+id/partnerName"
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_marginEnd="@dimen/margin_30dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_digital_school_manager"
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:text="@string/digital_school_n_manager" />
+
+                <TextView
+                    android:id="@+id/dsmName"
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/students_enrolled" />
+
+            <TextView
+                android:id="@+id/studentEnrolled"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_30dp"
+                android:text="@string/we_have_around_d_students_enrolled_and_avail_the_better_learning_experience" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

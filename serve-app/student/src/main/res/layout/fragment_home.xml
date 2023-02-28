@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.schedulecourse.ScheduleCourseFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:elevation="@dimen/size_15dp"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_30dp"
+        android:paddingEnd="@dimen/padding_30dp"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/profile"
+            layout="@layout/item_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+        <LinearLayout
+            android:id="@+id/inapp_mgs_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:layout_weight="0.60"
+                android:gravity="bottom|start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/label_greeting_1"
+                    style="@style/Theme.Text.SecondaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:background="@drawable/ic_chat_bg"
+                    android:gravity="start|center_vertical"
+                    android:paddingStart="@dimen/padding_20dp"
+                    android:paddingEnd="@dimen/padding_25dp"
+                    android:text="@string/congratulations_you_may_begin_your_classes_now"
+                    android:textAlignment="gravity"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/chat_text_color" />
+
+                <ImageView
+                    android:id="@+id/iv_close_inapp_mgs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/label_greeting_1"
+                    android:layout_alignTop="@+id/label_greeting_1"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginStart="-10dp"
+                    android:src="@drawable/ic_cross_aqua" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_mascot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.40"
+                android:src="@drawable/ic_bunny_wriiting" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_bottom_sheet_curved"
+        android:elevation="@dimen/elevation_round_background"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_30dp"
+        android:paddingTop="@dimen/padding_30dp"
+        android:paddingEnd="@dimen/padding_30dp"
+        android:paddingBottom="@dimen/bottom_nav_height"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout1">
+
+        <ImageView
+            android:id="@+id/iv_school_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_school_logo_placeholder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_school_name"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:gravity="center|start"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.Subtitle1"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_school_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_school_logo"
+            app:layout_constraintTop_toTopOf="@+id/iv_school_logo" />
+
+        <TextView
+            android:id="@+id/tv_sessionCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_weight="0.58"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.Subtitle2"
+            android:textColor="#9F6404"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_timetable"
+            app:layout_constraintEnd_toStartOf="@+id/bt_timetable"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bt_timetable" />
+
+        <TextView
+            android:id="@+id/bt_timetable"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.37"
+            android:background="@drawable/button_capsule_border_orange"
+            android:drawableLeft="@drawable/ic_timetable_clock"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/padding_10dp"
+            android:paddingTop="@dimen/size_5dp"
+            android:paddingRight="@dimen/padding_10dp"
+            android:paddingBottom="@dimen/size_5dp"
+            android:text="@string/label_timetable"
+            android:textColor="@color/buttoncolor"
+            android:textSize="@dimen/size_12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_school_logo" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_courseList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sessionCount">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

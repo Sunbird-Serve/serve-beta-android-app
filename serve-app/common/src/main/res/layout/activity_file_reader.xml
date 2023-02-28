@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:theme="@style/Theme.Student.AppBarOverlay"
+        android:visibility="visible">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            style="@style/Theme.Student.PopupOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:gravity="center"
+            app:navigationIcon="@drawable/ic_back_arrow"
+            app:popupTheme="@style/Theme.Student.PopupOverlay"
+            app:titleTextAppearance="@style/TitleToolBarText_apperancence" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:background="@drawable/bg_bottom_sheet_curved"
+        android:paddingTop="@dimen/size_30dp"
+        android:paddingBottom="@dimen/size_10dp">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/button_done" />
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:elevation="@dimen/margin_32dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/buttoncolor"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            android:padding="@dimen/padding_medium"
+            android:visibility="gone" />
+
+
+        <Button
+            android:id="@+id/button_done"
+            style="@style/Theme.Student.Button.Gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/size_12dp"
+            android:layout_marginBottom="@dimen/size_12dp"
+            android:text="@string/label_bt_done"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

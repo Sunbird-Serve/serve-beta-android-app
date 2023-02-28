@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.evidyaloka.student.ui.home.HomeFragment"
+        android:label="">
+        <action
+            android:id="@+id/action_nav_home_to_schoolListFragment"
+            app:destination="@id/schoolListFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_classListFragment"
+            app:destination="@id/classListFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_liveSessionFragment"
+            app:destination="@id/liveSessionFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_subTopicListFragment"
+            app:destination="@id/subTopicListFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_doubtListFragment"
+            app:destination="@id/doubtListFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_courseTimetableFragment"
+            app:destination="@id/courseTimetableFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_rtcnavigation"
+            app:destination="@id/rtcnavigation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheduleCourseFragment"
+        android:name="org.evidyaloka.student.ui.schedulecourse.ScheduleCourseFragment"
+        android:label=""
+        tools:layout="@layout/schedule_course_fragment">
+        <action
+            android:id="@+id/action_scheduleCourseFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/classListFragment"
+        android:name="org.evidyaloka.student.ui.timetable.timetableview.ClassListFragment"
+        android:label="@string/label_toolbar_title_classes"
+        tools:layout="@layout/fragment_class_list">
+        <action
+            android:id="@+id/action_classListFragment_to_liveSessionFragment"
+            app:destination="@id/liveSessionFragment" />
+        <action
+            android:id="@+id/action_classListFragment_to_subjectTimetableFragment"
+            app:destination="@id/subjectTimetableFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_schoolListFragment"
+            app:destination="@id/schoolListFragment" />
+
+        <action
+            android:id="@+id/action_nav_home_to_doubtListFragment"
+            app:destination="@id/doubtListFragment" />
+        <action
+            android:id="@+id/action_classListFragment_to_courseTimetableFragment"
+            app:destination="@id/courseTimetableFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/liveSessionFragment"
+        android:name="org.evidyaloka.student.ui.session.LiveSessionFragment"
+        android:label="@string/live_class"
+        tools:layout="@layout/live_session_fragment">
+        <argument
+            android:name="session"
+            app:argType="org.evidyaloka.core.model.Session" />
+    </fragment>
+    <include app:graph="@navigation/common_navigation" />
+    <action
+        android:id="@+id/common_navigation"
+        app:destination="@id/common_navigation">
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument android:name="title" />
+    </action>
+
+    <fragment
+        android:id="@+id/subTopicListFragment"
+        android:name="org.evidyaloka.student.ui.session.subTopicView.SubTopicListFragment"
+        android:label="@string/subtopics"
+        tools:layout="@layout/fragment_sub_topic_list">
+        <argument
+            android:name="session"
+            app:argType="org.evidyaloka.core.model.Session" />
+        <argument
+            android:name="timetableId"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_subTopicListFragment_to_rtcViewFragment"
+            app:destination="@id/rtcnavigation" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/courseTimetableFragment"
+        android:name="org.evidyaloka.student.ui.timetable.courseview.CourseTimetableFragment"
+        android:label="@string/label_heading_course_timetable"
+        tools:layout="@layout/fragment_course_timetable" >
+        <argument
+            android:name="startDate"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <argument
+            android:name="endDate"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <argument
+            android:name="isMissedClassView"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_global_nav_home"
+        app:destination="@id/nav_home"
+        app:launchSingleTop="true"
+        app:popUpTo="@id/mobile_navigation"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_global_scheduleCourseFragment"
+        app:destination="@id/scheduleCourseFragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@id/mobile_navigation"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/subjectTimetableFragment"
+        android:name="org.evidyaloka.student.ui.timetable.subject.SubjectOverviewFragment"
+        tools:layout="@layout/fragment_subject_overview">
+        <argument
+            android:name="subject"
+            app:argType="org.evidyaloka.core.model.Subject" />
+        <argument
+            android:name="title"
+            android:defaultValue="Cs"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_subjectTimetableFragment_to_rtcViewFragment"
+            app:destination="@id/rtcnavigation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/doubtListFragment"
+        android:name="org.evidyaloka.student.ui.doubt.DoubtListFragment"
+        android:label="@string/label_heading_your_doubts"
+        tools:layout="@layout/fragment_your_doubts">
+        <action
+            android:id="@+id/action_doubtListFragment_to_doubtDetailFragment"
+            app:destination="@id/doubtDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/doubtDetailFragment"
+        android:name="org.evidyaloka.student.ui.doubt.DoubtDetailFragment"
+        android:label=""
+        tools:layout="@layout/fragment_doubt_detail">
+        <argument
+            android:name="doubt"
+            app:argType="org.evidyaloka.core.student.model.Doubt" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/schoolListFragment"
+        android:name="org.evidyaloka.student.ui.myschools.SchoolListFragment"
+        android:label="@string/menu_my_school"
+        tools:layout="@layout/fragment_my_schools">
+
+        <action
+            android:id="@+id/action_schoolListFragment_to_schoolDetailsFragment"
+            app:destination="@id/schoolDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/schoolDetailsFragment"
+        android:name="org.evidyaloka.student.ui.myschools.SchoolDetailsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_school_details">
+
+        <argument
+            android:name="school"
+            app:argType="org.evidyaloka.core.student.model.School" />
+
+        <action
+            android:id="@+id/action_schoolDetailsFragment_to_studyTimingFragment"
+            app:destination="@id/studyTimingFragment" />
+
+        <action
+            android:id="@+id/action_schoolDetailsFragment_to_fragmentHome"
+            app:destination="@id/nav_home" />
+
+        <action
+            android:id="@+id/action_schoolDetailsFragment_to_changeTimingFragment"
+            app:destination="@id/changeTimingFragment">
+
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/studyTimingFragment"
+        android:name="org.evidyaloka.student.ui.myschools.StudyTimingFragment"
+        android:label="@string/label_tv_study_timing"
+        tools:layout="@layout/fragment_study_timing">
+
+        <action
+            android:id="@+id/action_studyTimingsFragment_to_changeTimingFragment"
+            app:destination="@id/changeTimingFragment" />
+
+        <argument
+            android:name="allSubjects"
+            app:argType="string"
+            app:nullable="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/changeTimingFragment"
+        android:name="org.evidyaloka.student.ui.myschools.ChangeTimingFragment"
+        android:label="@string/label_tv_change_timing"
+        tools:layout="@layout/fragment_change_timing">
+
+        <argument
+            android:name="updateRequired"
+            app:argType="boolean" />
+        <argument
+            android:name="offerings"
+            app:argType="integer[]"
+            app:nullable="true" />
+
+        <argument
+            android:name="school"
+            app:argType="org.evidyaloka.core.student.model.School"
+            app:nullable="true" />
+
+        <argument
+            android:name="allSubjects"
+            app:argType="string"
+            app:nullable="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/localeFragment"
+        android:name="org.evidyaloka.student.ui.locale.LocaleFragment"
+        android:label="@string/menu_language"
+        tools:layout="@layout/fragment_locale" />
+    <action
+        android:id="@+id/action_global_localeFragment"
+        app:destination="@id/localeFragment" />
+    <fragment
+        android:id="@+id/downloadFragment2"
+        android:name="org.evidyaloka.student.ui.downloads.DownloadFragment"
+        android:label="@string/menu_downloads"
+        tools:layout="@layout/download_fragment">
+        <argument
+            android:name="isStudentView"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_downloadFragment2_to_rtcnavigation"
+            app:destination="@id/rtcnavigation" />
+    </fragment><action android:id="@+id/action_global_downloadFragment2" app:destination="@id/downloadFragment2"/>
+    <navigation android:id="@+id/rtcnavigation"
+        app:startDestination="@id/rtcViewFragment">
+        <fragment
+            android:id="@+id/rtcViewFragment"
+            android:name="org.evidyaloka.student.ui.rtc.RtcViewFragment"
+            android:label=""
+            tools:layout="@layout/fragment_rtc_view">
+            <argument
+                android:name="session"
+                app:argType="org.evidyaloka.core.model.Session" />
+            <argument
+                android:name="timetableId"
+                android:defaultValue="0"
+                app:argType="integer" />
+            <argument
+                android:name="subTopic"
+                app:argType="org.evidyaloka.core.model.SubTopic" />
+            <action
+                android:id="@+id/action_rtcViewFragment_to_doubtsFragment"
+                app:destination="@id/doubtsFragment" />
+            <action
+                android:id="@+id/action_rtcViewFragment_to_askedDoubtsFragment"
+                app:destination="@id/askedDoubtsFragment" />
+            <argument
+                android:name="offlineContent"
+                app:argType="org.evidyaloka.core.student.database.entity.CourseContentEntity"
+                app:nullable="true"
+                android:defaultValue="@null" />
+            <argument
+                android:name="isDeepLink"
+                app:argType="boolean"
+                android:defaultValue="false" />
+        </fragment>
+        <fragment
+            android:id="@+id/askedDoubtsFragment"
+            android:name="org.evidyaloka.student.ui.doubt.AskedDoubtsFragment"
+            android:label=""
+            tools:layout="@layout/fragment_asked_doubts">
+
+            <argument
+                android:name="session"
+                app:argType="org.evidyaloka.core.model.Session" />
+            <argument
+                android:name="timetableId"
+                android:defaultValue="0"
+                app:argType="integer" />
+            <argument
+                android:name="subTopic"
+                app:argType="org.evidyaloka.core.model.SubTopic" />
+            <action
+                android:id="@+id/action_askedDoubtsFragment_to_doubtsFragment"
+                app:destination="@id/doubtsFragment" />
+
+        </fragment>
+        <fragment
+            android:id="@+id/doubtsFragment"
+            android:name="org.evidyaloka.student.ui.doubt.askDoubt.DoubtsFragment"
+            tools:layout="@layout/fragment_doubts">
+            <argument
+                android:name="uri"
+                app:argType="android.net.Uri" />
+            <argument
+                android:name="session"
+                app:argType="org.evidyaloka.core.model.Session" />
+            <argument
+                android:name="timetableId"
+                app:argType="integer" />
+            <argument
+                android:name="subTopic"
+                app:argType="org.evidyaloka.core.model.SubTopic" />
+            <argument
+                android:name="isEditFlow"
+                android:defaultValue="false"
+                app:argType="boolean" />
+            <argument
+                android:name="doubtId"
+                android:defaultValue="0"
+                app:argType="integer" />
+        </fragment>
+        <argument
+            android:name="session"
+            app:argType="org.evidyaloka.core.model.Session" />
+        <argument
+            android:name="timetableId"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="subTopic"
+            app:argType="org.evidyaloka.core.model.SubTopic" />
+    </navigation>
+
+    <activity
+        android:id="@+id/pdfReaderActivity"
+        android:name="org.evidyaloka.student.ui.rtc.PDFreaderImp" />
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="org.evidyaloka.student.ui.bookmark.BookmarkFragment"
+        android:label="@string/bookmarks" />
+
+</navigation>

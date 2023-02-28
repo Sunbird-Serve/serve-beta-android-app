@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectall">सर्व निवडा</string>
+    <string name="label_video_lessons">"विडिओ धडा "</string>
+    <string name="label_worksheet">कार्यपत्रक</string>
+    <string name="label_activity">"क्रियाकलाप "</string>
+    <string name="label_textbook">पाठयपुस्तक</string>
+    <string name="label_bt_view">"पाहणे "</string>
+    <string name="label_bt_read">"वाचा "</string>
+    <string name="label_bt_done">"करून झालंय "</string>
+    <string name="no_document_available">कागदजत्र उपलब्ध नाही</string>
+    <string name="video_not_found">विडिओ नाही मिळाला</string>
+    <string name="video_is_not_playable">"विडिओ खेळण्यायोग्य नाहीं "</string>
+    <string name="invalid_video_url">अमान्य वीडियो url</string>
+    <string name="video_not_allow_to_play_embed">एम्बेडमध्ये व्हिडिओ प्ले करण्याची परवानगी नाही</string>
+    <string name="unknown_error">अज्ञात त्रुटी</string>
+    <string name="device_memory_full">"डिव्हाइस मेमरी भरली आहे "</string>
+    <string name="ok">ठीक आहे</string>
+    <string name="not_found">सापडले नाही!!</string>
+    <string name="we_have_around_d_students_enrolled_and_avail_the_better_learning_experience">आमच्याकडे जवळपास %s विद्यार्थी नोंदणीकृत आहेत आणि चांगल्या शिक्षणाचा अनुभव घेतात.</string>
+    <string name="enter_full_name">पूर्ण नाव प्रविष्ट करा</string>
+    <string name="enter_mobile_number">मोबाइल नंबर प्रविष्ट करा</string>
+    <string name="tnc_1">सुरु ठेवून, आपण आमच्याशी सहमत आहात</string>
+    <string name="tnc_2"><b><u> वापराच्या अटी</u></b></string>
+    <string name="tnc_3">\u0020आणि\u0020</string>
+    <string name="tnc_4"><b><u>गोपनीयता धोरण</u></b></string>
+    <!-- Banners -->
+
+    <!--Student -->
+
+    <string name="banner_1_grasp_concepts">सहजपणे संकल्पना समजून घ्या.</string>
+
+    <string name="banner_2_ask_doubts">आपल्या शंका विचारा</string>
+    <string name="banner_2_we_will_clarify">आणि आम्ही त्यांच्यासाठी स्पष्टीकरण देऊ!</string>
+
+    <string name="banner_3_learn_from">गुंतण्यापासून शिका</string>
+
+    <!-- Parent -->
+
+    <string name="banner_parent_1">एक व्यापक शैक्षणिक अॅप\n वर्ग 5 - 8 च्या विद्यार्थ्यांसाठी </string>
+    <string name="banner_parent_2">विद्यार्थी आकर्षक आणि क्युरेट केलेल्या धड्यातून शिकतात - शहाणे व्हिडिओ!</string>
+    <string name="banner_parent_3">आपल्या मुलाची नोंदणी करा. \n शिक्षण सुरू करा!</string>
+
+    <!-- Partner -->
+    <string name="banner_1_partner">आपली स्वतःची डिजिटल शाळा कोठूनही कधीही सुरू करा आणि व्यवस्थापित करा!</string>
+    <string name="banner_2_partner">संपूर्ण भारतभरातील विविध राज्य मंडळांकडील आकर्षक सामग्रीवर प्रवेश मिळवा!</string>
+    <string name="banner_3_partner">एक बोर्ड निवडा, कोर्स निवडा, विद्यार्थी जोडा! सुरु करूया!</string>
+    <string name="students_enrolled">विद्यार्थ्यांनी नावनोंदणी केली</string>
+    <string name="organization_information">संघटना माहिती</string>
+    <string name="contact_person_details">संपर्क व्यक्तीचा तपशील</string>
+    <string name="school_board">शाळा मंडळ</string>
+    <string name="grade">ग्रेड</string>
+    <string name="ngo_n_partner">स्वयंसेवी संस्था \ n भागीदार</string>
+    <string name="digital_school_n_manager">डिजिटल शाळा \ n व्यवस्थापक</string>
+    <string name="about_us">आमच्याबद्दल</string>
+    <string name="courses_offered">पाठ्यक्रम</string>
+    <string name="digital_school_name">डिजिटल शाळेचे नाव</string>
+    <string name="item_name">आयटम नाव</string>
+    <string name="join_school">शाळेला जुळने </string>
+    <string name="access_the_entire_course_and_start_learning">संपूर्ण कोर्समध्ये प्रवेश करा आणि शिकण्यास प्रारंभ करा!</string>
+    <string name="join">सामील व्हा</string>
+    <string name="be_a_part_of_us_and_run_your_own_digital_school_here">आमचा एक भाग व्हा आणि येथे स्वतःची डिजिटल शाळा चालवा</string>
+
+    <string name="search_your_board">आपला बोर्ड शोधा</string>
+    <string name="label_continue">सुरू</string>
+    <string name="remember_to_solve_the_worksheet">प्रथम वर्कशीटचे निराकरण करा. नंतर उत्तरे तपासा</string>
+    <string name="the_digital_school_about_us">सरकारी शाळांमध्ये आणि भारताच्या ग्रामीण भागात शिक्षण घेणाऱ्या विद्यार्त्यांना  दर्जेदार ऑनलाइन शिक्षणाचा अनुभव देण्याच्या उद्देशाने डिजिटल स्कूलची स्थापना केली गेली आहे.\n\nआकर्षक आणि क्युरेट केलेले ऑनलाइन व्हिडिओ धडे, सरावासाठी कार्यपत्रके, क्रियाकलाप, थेट सत्रे आणि पाठ्यपुस्तकांच्या संयोजनाद्वारे आम्ही आशा करतो की आपल्या दारात दर्जेदार शिक्षण मिळेल.\n\nआमच्या डिजिटल स्कूलमध्ये सामील व्हा, एक बोर्ड आणि विषय निवडा आणि प्रारंभ करा!</string>
+    <string name="medium_of_instruction">शिकवण्याचे माध्यम</string>
+    <string name="about_digital_school">डिजिटल स्कूल बद्दल</string>
+    <string name="network_partner">नेटवर्क \n भागीदार</string>
+    <string name="banner_1_practice_your_learning">अध्यायानुसार क्युरेट केलेले व्हिडिओ पहा, कार्यपत्रक आणि क्रियाकलापांसह आपल्या शिक्षणाचा सराव करा</string>
+    <string name="banner_3_and_curated">आणि क्युरेट केलेल्या अध्यायानुसार सामग्री</string>
+    <string name="banner_parent_4">विद्यार्थी त्यांच्या शंका विचारू शकतात. आमचे शिक्षक त्यांना स्पष्टीकरण देतील!</string>
+    <string name="subtopics">"उप - विषय "</string>
+    <string name="lesson">"धडा "</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="permission_required">परवानगी आवश्यक आहे</string>
+    <string name="permission_ask_setting">"विनंती केलेल्या परवानगीशिवाय हे अॅप योग्यरित्या कार्य करू शकत नाही. अॅप  ची परवानगी घेण्यासाठी अॅप सेटिंग्ज स्क्रीन उघडा "</string>
+    <string name="medium">मध्यम</string>
+    <string name="yes">होय</string>
+    <string name="no">नाही</string>
+    <string name="warning">चेतावणी!</string>
+    <string name="click_to_open">उघडण्यासाठी क्लिक करा</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">eVidyaloka</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="parent">பெற்றோர்</string>
+    <string name="student">மாணவர்</string>
+    <string name="teacher">ஆசிரியர்</string>
+    <string name="partner">நடத்துனர்</string>
+    <string name="welcome">வணக்கம்!</string>
+    <string name="i_am">நான் ,</string>
+    <string name="next">அடுத்து </string>
+
+
+    <string name="continue_text">தொடரவும்</string>
+    <string name="choose_your_account_type">உங்கள் கணக்கைத் தேர்ந்தெடுக்கவும் </string>
+
+    <string name="invalid_persona_selection">தவறான நபர் தேர்வு</string>
+    <string name="choose_your_language">உங்கள் மொழியை தேர்ந்தெடுக்கவும்</string>
+    <string name="notification_1">அன்புள்ள %s, இன்று உங்கள் %s இல் கலந்து கொள்ள இ வித்யாலோகா  செயலியில்  உள்நுழைக.</string>
+    <string name="notification_and">%s மற்றும் %s வகுப்புகள்</string>
+    <string name="notification_class">%s வகுப்பு</string>
+    <string name="notification_classes">%s வகுப்புகள்</string>
+    <string name="share">பகிர்</string>
+    <string name="share_via">வழியாக பகிரவும்</string>
+    <string name="volunteer_explore"><u>வழியாக பகிரவும்</u></string>
+    <string name="explore_volunteering_opportunities_with_eVidayaloka">eVidyaloka வுடன் தன்னார்வ வாய்ப்புகளை ஆராயுங்கள்</string>
+    <string name="you_will_be_re_directed_to_explore_volunteering_opportunities_with_evidyaloka">"ஈவித்யாலோகா மூலம் தன்னார்வ வாய்ப்புகளை ஆராய நீங்கள் வேறு இடத்திற்கு வழி காட்ட படுகிறீர்கள் "</string>
+    <string name="join_now">இப்போது சேருங்கள்</string>
+    <string name="notification_schoolApproved">அன்புள்ள %s, வாழ்த்துக்கள்!! %s அங்கீகரிக்கப்பட்டது. தயவுசெய்து eVidyaloka Learning செயலியில் உள்நுழைந்து, ஒரு பாடநெறி / பாடப்பிரிவுகளைச் சேர்த்து, மாணவர்களைப் பதிவுசெய்யவும்.</string>
+    <string name="notification_doubtResponded">அன்புள்ள %s, %s - %s மீதான உங்கள் சந்தேகத்திற்கு விடை கிடைத்துவிட்டது. ‘உங்கள் சந்தேகங்கள்’ என்பதன் கீழ் பதிலைப் பார்க்க, eVidyaloka Learning செயலியில் உள்நுழையவும்.</string>
+</resources>

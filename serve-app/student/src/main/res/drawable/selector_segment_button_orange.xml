@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false" android:state_checked="true" android:color="@color/colorOnPrimary"
+        android:drawable="@drawable/custom_button_gradient">
+
+    </item>
+    <item android:state_pressed="false" android:state_checked="false" android:color="@color/radio_unselected_text"
+        android:drawable="@drawable/layer_segment_uncheck">
+
+    </item>
+</selector>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">Serve</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="parent">Parent</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="partner">Partner</string>
+    <string name="welcome">Welcome!</string>
+    <string name="i_am">I am,</string>
+    <string name="next">Next</string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिन्दी</string>
+    <string name="tamil" translatable="false">"தமிழ் "</string>
+    <string name="kanada" translatable="false">ಕನ್ನಡ</string>
+    <string name="telugu" translatable="false">తెలుగు</string>
+    <string name="marathi" translatable="false">"मराठी "</string>
+    <string name="malayalam" translatable="false">Malayalam</string>
+    <string name="continue_text">Continue</string>
+    <string name="choose_your_account_type">Choose your account type</string>
+
+    <string name="invalid_persona_selection">Invalid persona selected</string>
+    <string name="choose_your_language">Choose your language</string>
+    <string name="app_notification_channel_id" translatable="false">default_notification_channel</string>
+    <string name="notification_title" translatable="false">eVidyaloka</string>
+    <string name="notification_1">Dear %s, please log into the eVidyaloka Learning app to attend your %s today.</string>
+    <string name="notification_and">%s and %s classes</string>
+    <string name="notification_class">%s class</string>
+    <string name="notification_classes">%s classes</string>
+    <string name="share">Share</string>
+    <string name="share_via">Share via</string>
+    <string name="volunteer_explore"><u>Volunteer Explore</u></string>
+    <string name="explore_volunteering_opportunities_with_eVidayaloka">Explore Volunteering opportunities with eVidayaloka</string>
+    <string name="you_will_be_re_directed_to_explore_volunteering_opportunities_with_evidyaloka">You will be re-directed to explore Volunteering opportunities with eVidyaloka</string>
+    <string name="join_now">Join Now</string>
+    <string name="notification_schoolApproved">Dear %s, Congratulations!! %s is approved. Please log into the eVidyaloka Learning app, add a Course / Courses and enrol Students.</string>
+    <string name="notification_doubtResponded">Dear %s, Your doubt on %s - %s has been answered. Please log into the eVidyaloka Learning app to view the response under ‘Your Doubts’.</string>
+    <string name="notification_partnerApproved">Dear %s Congratulations! Your organization %s is approved. Please log into the eVidyaloka Learning app and get started by creating your very own Digital School!</string>
+</resources>

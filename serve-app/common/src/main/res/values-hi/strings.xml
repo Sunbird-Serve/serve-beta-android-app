@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectall">सभी का चयन करें</string>
+    <string name="label_video_lessons">वीडियो सबक</string>
+    <string name="label_worksheet">कार्यपत्रक</string>
+    <string name="label_activity">गतिविधि</string>
+    <string name="label_textbook">पाठयपुस्तक</string>
+    <string name="label_bt_view">देखना</string>
+    <string name="label_bt_read">पढ़ें</string>
+    <string name="label_bt_done">किया हुआ</string>
+    <string name="no_document_available">कोई दस्तावेज उपलब्ध नहीं है</string>
+    <string name="video_not_found">वीडियो नहीं मिला</string>
+    <string name="video_is_not_playable">वीडियो चलने   योग्य नहीं है</string>
+    <string name="invalid_video_url">अमान्य वीडियो url</string>
+    <string name="video_not_allow_to_play_embed">वीडियो एम्बेड में प्ले करने की अनुमति नहीं है</string>
+    <string name="unknown_error">अज्ञात त्रुटि</string>
+    <string name="device_memory_full">डिवाइस पूर्णता भरा हुआ है</string>
+    <string name="ok">"ठीक है "</string>
+    <string name="not_found">पता नहीं चला! </string>
+    <string name="we_have_around_d_students_enrolled_and_avail_the_better_learning_experience">हमारे पास लगभग %s छात्र नामांकित हैं और बेहतर सीखने के अनुभव का लाभ उठाते हैं.</string>
+    <string name="enter_full_name">पूरा नाम दर्ज करें</string>
+    <string name="enter_mobile_number">मोबाइल नंबर दर्ज करें</string>
+    <string name="tnc_1">जारी रखकर, आप हमारी से सहमत हैं</string>
+    <string name="tnc_2"><b><u>उपयोग की शर्तें</u></b></string>
+    <string name="tnc_3">\u0020और\u0020</string>
+    <string name="tnc_4"><b><u>गोपनीयता नीति</u></b></string>
+    <!-- Banners -->
+
+    <!--Student -->
+
+    <string name="banner_1_grasp_concepts">अवधारणाओं को आसानी से समझें.</string>
+
+    <string name="banner_2_ask_doubts">अपने संदेह पूछें</string>
+    <string name="banner_2_we_will_clarify">और हम उन्हें आपके लिए स्पष्ट करेंगे!</string>
+
+    <string name="banner_3_learn_from">उलझने से सीखें</string>
+
+    <!-- Parent -->
+
+    <string name="banner_parent_1">कक्षा 5 - 8 के छात्रों के लिए एक व्यापक शिक्षण ऐप\n.</string>
+    <string name="banner_parent_2">छात्र आकर्षक और क्यूरेटेड चैप्टर-वाइज वीडियो से सीखते हैं!</string>
+    <string name="banner_parent_3">अपने बच्चे का पंजीकरण करें।\nसीखना शुरू करें!!</string>
+
+    <!-- Partner -->
+    <string name="banner_1_partner">कहीं से भी, कभी भी अपना खुद का डिजिटल स्कूल शुरू करें और प्रबंधित करें!</string>
+    <string name="banner_2_partner">भारत भर के विभिन्न राज्य बोर्डों से आकर्षक सामग्री तक पहुँच प्राप्त करें!!</string>
+    <string name="banner_3_partner">एक बोर्ड चुनें, एक कोर्स चुनें, छात्रों को जोड़ें! शुरू हो जाओ !</string>
+    <string name="students_enrolled">छात्र नामांकित</string>
+    <string name="organization_information">संगठन की जानकारी</string>
+    <string name="contact_person_details">संपर्क व्यक्ति विवरण</string>
+    <string name="school_board">स्कूल बोर्ड</string>
+    <string name="grade">ग्रेड</string>
+    <string name="ngo_n_partner">एनजीओ \nपार्टनर</string>
+    <string name="digital_school_n_manager">डिजिटल स्कूल \nप्रबंधक</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="courses_offered">पाठ्यक्रम की पेशकश</string>
+    <string name="digital_school_name">डिजिटल स्कूल का नाम</string>
+    <string name="item_name">वस्तु का नाम</string>
+    <string name="join_school">स्कूल में शामिल हों</string>
+    <string name="access_the_entire_course_and_start_learning">पूरे पाठ्यक्रम तक पहुंचें और सीखना शुरू करें!</string>
+    <string name="join">जुड़ना</string>
+    <string name="be_a_part_of_us_and_run_your_own_digital_school_here">हमारा हिस्सा बनें और यहां अपना खुद का डिजिटल स्कूल चलाएं</string>
+
+    <string name="search_your_board">अपना बोर्ड खोजें</string>
+    <string name="label_continue">जारी रखें</string>
+    <string name="remember_to_solve_the_worksheet">पहले वर्कशीट को हल करें. फिर अपने उत्तर जांचें.</string>
+    <string name="the_digital_school_about_us">डिजिटल स्कूल की स्थापना सरकारी स्कूलों और भारत के ग्रामीण हिस्सों में पढ़ने वाले बच्चों के लिए एक गुणवत्ता ऑनलाइन सीखने का अनुभव प्रदान करने के इरादे से की गई है। \n\nआकर्षक और क्यूरेट किए गए ऑनलाइन वीडियो पाठों, अभ्यास के लिए वर्कशीट, गतिविधियों, लाइव सत्रों और पाठ्यपुस्तकों के संयोजन के माध्यम से, हम आपके दरवाजे पर गुणवत्तापूर्ण शिक्षा लाने की उम्मीद करते हैं। \n\nहमारे डिजिटल स्कूल में शामिल हों, बोर्ड और विषय चुनें और आरंभ करें!</string>
+    <string name="medium_of_instruction">निर्देश का माध्यम</string>
+    <string name="about_digital_school">डिजिटल स्कूल के बारे में</string>
+    <string name="network_partner">नेटवर्क \n पार्टनर</string>
+    <string name="banner_1_practice_your_learning">अध्याय-वार क्यूरेट किए गए वीडियो देखें, वर्कशीट और गतिविधियों के साथ अपने सीखने का अभ्यास करें</string>
+    <string name="banner_3_and_curated">और अध्याय वार सामग्री</string>
+    <string name="banner_parent_4">छात्र अपनी शंका पूछ सकते हैं। हमारे शिक्षक उन्हें स्पष्ट करेंगे!</string>
+    <string name="subtopics">उप-विषयों</string>
+    <string name="lesson">पाठ</string>
+    <string name="cancel">कैन्सल</string>
+    <string name="permission_required">अनुमति की आवश्यकता</string>
+    <string name="permission_ask_setting">अनुरोधित अनुमतियों के बिना यह ऐप ठीक से काम नहीं कर सकता है। ऐप अनुमतियों को संशोधित करने के लिए ऐप सेटिंग स्क्रीन खोलें।</string>
+    <string name="medium">माध्यम</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    <string name="warning">चेतावनी</string>
+    <string name="click_to_open">खोलने के लिए क्लिक करें</string>
+</resources>

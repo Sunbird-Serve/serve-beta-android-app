@@ -1,0 +1,239 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Student" parent="Theme.ActionBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/Theme.Button.PrimaryColor</item>
+        <item name="android:editTextStyle">@style/Theme.EditText.PrimaryColor</item>
+        <item name="android:listDivider">@color/viewSeparatorColor</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+
+    </style>
+
+    <style name="Theme.Student.NoActionBar" parent="Theme.NoActionBar">
+        <item name="android:buttonStyle">@style/Theme.Button.PrimaryColor</item>
+        <item name="android:editTextStyle">@style/Theme.EditText.PrimaryColor</item>
+        <item name="android:listDivider">@color/viewSeparatorColor</item>
+        <item name="spinnerStyle">@style/Theme.Spinner</item>
+        <item name="android:spinnerStyle">@style/Theme.Spinner</item>
+    </style>
+
+    <style name="Theme.Student.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="elevation">0dp</item>
+        <item name="navigationIcon">@drawable/ic_menu</item>
+    </style>
+
+    <style name="Theme.Student.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="elevation">0dp</item>
+        <item name="navigationIcon">@drawable/ic_menu</item>
+        <item name="android:navigationIcon">@drawable/ic_menu</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TitleToolBarText_apperancence" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Theme.EditText.SecondaryColor" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/otp_label_color</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:background">@drawable/edit_text_rounded_on_secondary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingTop">@dimen/padding_14dp</item>
+        <item name="android:paddingBottom">@dimen/padding_13dp</item>
+        <item name="android:paddingStart">@dimen/padding_17dp</item>
+        <item name="android:imeOptions">flagForceAscii</item>
+
+    </style>
+
+    <style name="Theme.EditText.PrimaryColor" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:background">@drawable/edittext_rounded_onprimary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingTop">@dimen/padding_14dp</item>
+        <item name="android:paddingBottom">@dimen/padding_13dp</item>
+        <item name="android:paddingStart">@dimen/padding_17dp</item>
+        <item name="android:imeOptions">flagForceAscii</item>
+
+    </style>
+
+    <style name="Theme.Button.PrimaryColor" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_capsule_default</item>
+        <item name="backgroundTint">@color/buttoncolor</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="cornerRadius">@dimen/size_39dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">@color/light_orange</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <color name="colorControlHighlight">@color/light_orange</color>
+
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/size_5dp</item>
+    </style>
+
+    <style name="Theme.Text.PrimaryColor" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Theme.Text.SecondaryColor" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Theme.Text.SecondaryColor.Medium" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Theme.Student.Button.Gradient" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/custom_button_gradient</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="cornerRadius">@dimen/size_39dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Theme.Student.Button.White" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/custom_button_white</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textColor">@color/student_orange</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Theme.Student.Dialog.Button.Bottom.Corner.Gradient" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/curved_bottom_corner_button</item>
+        <!--         <item name="android:background">@drawable/button_white</item-->
+        <item name="backgroundTint">@null</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="cornerRadius">@dimen/size_39dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Theme.Student.TextView.Orange.White" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_white</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:paddingTop">@dimen/size_5dp</item>
+        <item name="android:paddingBottom">@dimen/size_5dp</item>
+        <item name="android:paddingLeft">@dimen/size_10dp</item>
+        <item name="android:paddingRight">@dimen/size_10dp</item>
+        <item name="android:drawablePadding">@dimen/size_5dp</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:textColor">@color/orange_v1</item>
+        <item name="android:textAppearance">@style/Widget.AppCompat.TextView</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ToggleRadioButton" parent="RoleToggleRadioButton">
+        <item name="android:textColor">@color/radio_text_color</item>
+    </style>
+
+
+    <style name="Theme.Spinner" parent="@style/Widget.AppCompat.Spinner">
+        <item name="overlapAnchor">true</item>
+        <item name="android:background">@drawable/spinner_background</item>
+    </style>
+
+    <style name="Theme.Text.Gray" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/radio_button_unselected_color</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/size_9dp</item>
+    </style>
+
+    <style name="Theme.Student.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextApperance</item>
+        <item name="tabSelectedTextColor">#FF7A2D</item>
+        <item name="tabIndicatorColor">#FF7A2D</item>
+        <item name="tabTextColor">#B9BDCD</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicator">@drawable/tab_indicator</item>
+    </style>
+
+    <style name="TabTextApperance" parent="Widget.MaterialComponents.TabLayout">
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_10sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.Student.Spinner" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="endIconDrawable">@drawable/ic_drop_down</item>
+        <item name="endIconTint">#CCD0D5</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@color/spinner_background_color</item>
+        <item name="boxBackgroundColor">@color/spinner_background_color</item>
+        <item name="boxStrokeWidth">@dimen/size_1dp</item>
+        <item name="android:minHeight">@dimen/size_44dp</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/size_10dp</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.Student.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="CalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>
+

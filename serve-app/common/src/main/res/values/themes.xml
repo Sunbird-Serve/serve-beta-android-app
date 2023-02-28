@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnSurface">@color/buttoncolor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+
+    </style>
+
+    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSurface">@color/buttoncolor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <!-- Material Alert Dialog -->
+    <style name="MaterialAlertDialogTheme" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.Theme.Dialog.Rounded
+        </item>
+<!--        <item name="buttonBarPositiveButtonStyle">@style/MaterialAlertDialog.Button.Style</item>-->
+<!--        <item name="buttonBarNegativeButtonStyle">@style/MaterialAlertDialog.Button.Style</item>-->
+<!--        <item name="android:paddingBottom">@dimen/padding_5dp</item>-->
+    </style>
+    <style name="MaterialAlertDialogThemeCustomButton" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.Theme.Dialog.Rounded
+        </item>
+        <item name="buttonBarPositiveButtonStyle">@style/MaterialAlertDialog.Button.Style</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MaterialAlertDialog.Button.Style</item>
+    </style>
+
+    <style name="MaterialAlertDialog.MaterialComponents.Body.Text" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textAppearance">@style/TextAppearance.Subtitle2</item>
+        <item name="textColor">@color/colorOnSecondary</item>
+    </style>
+    <style name="MaterialAlertDialog.Button.Style" parent="@style/Theme.Button.OnSurface.PrimaryColor">
+        <item name="android:layout_marginStart">@dimen/margin_30dp</item>
+        <item name="android:layout_marginEnd">@dimen/margin_30dp</item>
+    </style>
+
+    <style name="DialogTheme" parent="">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Theme.Dialog.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/size_20dp</item>
+    </style>
+
+    <style name="CalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="RoleToggleRadioButton" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingRight">22dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="Theme.Button.OnSurface.PrimaryColor" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_capsule_default</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Theme.Button.Dialog.Round" parent="Theme.Button.OnSurface.PrimaryColor">
+        <item name="android:layout_marginStart">@dimen/margin_20dp</item>
+        <item name="android:layout_marginEnd">@dimen/margin_20dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_20dp</item>
+    </style>
+
+    <style name="Theme.Button.Dialog.Flat" parent="Theme.Button.OnSurface.PrimaryColor">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/buttoncolor</item>
+    </style>
+
+    <style name="Theme.TextView.OnSurface.White" parent="Widget.AppCompat.TextView">
+        <item name="background">@drawable/button_capsule_border_orange</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <!--item name="android:drawableEnd">@drawable/ic_arrow_right</item-->
+        <item name="android:textSize">@dimen/size_10sp</item>
+        <item name="android:drawablePadding">@dimen/size_8dp</item>
+        <item name="android:textColor">@color/buttoncolor</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Theme.EditText.OnSurface.PrimaryColor" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:background">@drawable/edittext_rounded_onprimary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingTop">@dimen/padding_14dp</item>
+        <item name="android:paddingBottom">@dimen/padding_13dp</item>
+        <item name="android:paddingStart">@dimen/padding_17dp</item>
+        <item name="android:imeOptions">flagForceAscii</item>
+    </style>
+
+    <style name="Theme.EditText.OnSurface.SecondaryColor" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:background">@drawable/edittext_rounded_onsecondary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingTop">@dimen/padding_14dp</item>
+        <item name="android:paddingBottom">@dimen/padding_13dp</item>
+        <item name="android:paddingStart">@dimen/padding_17dp</item>
+        <item name="android:imeOptions">flagForceAscii</item>
+    </style>
+
+
+    <style name="Theme.EditText.OnSurface.SecondaryColor.Search" parent="Theme.EditText.OnSurface.SecondaryColor">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white_45opc</item>
+        <item name="android:background">@drawable/edittext_rounded_users</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:paddingTop">18dip</item>
+        <item name="android:paddingBottom">18dip</item>
+    </style>
+
+    <style name="Theme.AppCompatAutoCompleteTextView.OnSurface.SecondaryColor" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/colorOnSecondary_60opc</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="hintTextColor">@color/colorOnSecondary</item>
+        <item name="android:background">@drawable/edittext_rounded_onsecondary</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:paddingTop">18dip</item>
+        <item name="android:paddingBottom">18dip</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.PrimaryColor" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:layout_marginBottom">4dip</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.PrimaryColor.Large" parent="Theme.LabelText.OnSurface.PrimaryColor">
+        <item name="android:textSize">@dimen/size_15sp</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.PrimaryColor.Bold" parent="Theme.LabelText.OnSurface.PrimaryColor">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.PrimaryColor.Medium" parent="Theme.LabelText.OnSurface.PrimaryColor">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.SecondaryColor" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorOnSecondary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:layout_marginBottom">4dip</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.SecondaryColor.Bold" parent="Theme.LabelText.OnSurface.SecondaryColor">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Theme.LabelText.OnSurface.SecondaryColor.Medium" parent="Theme.LabelText.OnSurface.SecondaryColor">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+
+    <style name="Theme.LabelText.OnSurface.SecondaryColor.Large" parent="Theme.LabelText.OnSurface.SecondaryColor">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="Common.Theme.EVidyalokaPartner.NoActionBar.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/Common.TabTextApperance</item>
+        <item name="tabSelectedTextColor">@color/buttoncolor</item>
+        <item name="tabIndicatorColor">@color/buttoncolor</item>
+        <item name="tabTextColor">@color/colorOnSecondary_30opc</item>
+        <item name="tabIndicatorHeight">4dp</item>
+    </style>
+
+
+    <style name="Common.FabTheme" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_marginEnd">@dimen/size_20dp</item>
+        <item name="android:layout_marginBottom">@dimen/size_26dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tint">@color/white</item>
+        <item name="android:backgroundTint">@color/buttoncolor</item>
+        <item name="backgroundTint">@color/buttoncolor</item>
+        <item name="elevation">@dimen/size_5dp</item>
+    </style>
+
+    <style name="CustomRadioTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorOnSurface">@color/colorOnSecondary_60opc</item>
+        <item name="colorSecondary">#1D256E</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/colorOnSecondary_60opc</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="SpinnerThemeSecondary" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="endIconDrawable">@drawable/ic_arrow_down_24</item>
+        <item name="endIconTint">#CCD0D5</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@color/spinner_stroke_color</item>
+        <item name="boxBackgroundColor">@color/spinner_background_color</item>
+        <item name="boxStrokeWidth">@dimen/size_1dp</item>
+        <item name="android:minHeight">@dimen/size_44dp</item>
+        <item name="android:textSize">@dimen/size_12sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="shapeAppearanceOverlay">@style/CustomShapeOVerlay</item>
+    </style>
+
+    <style name="CustomShapeOVerlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/size_10dp</item>
+    </style>
+
+    <style name="Common.Theme.Student.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/Common.TabTextApperance</item>
+        <item name="tabSelectedTextColor">#FF7A2D</item>
+        <item name="tabIndicatorColor">#FF7A2D</item>
+        <item name="tabTextColor">#B9BDCD</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicator">@drawable/tab_indicator</item>
+    </style>
+
+    <style name="Common.TabTextApperance" parent="Widget.MaterialComponents.TabLayout">
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/size_10sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.Headline1" parent="">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline1</item>
+    </style>
+
+    <style name="TextAppearance.Headline2" parent="">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline2</item>
+    </style>
+
+    <style name="TextAppearance.Headline3" parent="">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline3</item>
+    </style>
+
+    <style name="TextAppearance.Headline4" parent="">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline4</item>
+    </style>
+
+    <style name="TextAppearance.Headline5" parent="">.
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline5</item>
+    </style>
+
+    <style name="TextAppearance.Headline6" parent="">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/text_size_headline6</item>
+    </style>
+
+    <style name="TextAppearance.Title.Large" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_title_large</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle1" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle1</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle2" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_subtitle2</item>
+    </style>
+
+    <style name="TextAppearance.Body1" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_body_1</item>
+    </style>
+
+    <style name="TextAppearance.Body2" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_body_2</item>
+    </style>
+
+    <style name="TextAppearance.Caption" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+
+    <style name="TextAppearance.Overline" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/text_size_overline</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Title" parent="">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">@dimen/toolbar_title_size</item>
+    </style>
+
+</resources>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.course.AddCourseFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_right_round_corner_sedondary"
+        android:paddingTop="@dimen/size_30dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutProvider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp">
+
+                    <TextView
+                        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".01"
+                        android:gravity="left"
+                        android:text="@string/course_provider"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_course_provider"
+                        style="@style/SpinnerThemeSecondary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/etv_course_provider"
+                            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="none"
+                            android:padding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp">
+
+                    <TextView
+                        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".01"
+                        android:gravity="left"
+                        android:text="@string/medium_of_instruction"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_medium_of_instruction"
+                        style="@style/SpinnerThemeSecondary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/etv_medium_of_instruction"
+                            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="none"
+                            android:padding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutGrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayoutProvider">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".01"
+                                android:gravity="left"
+                                android:text="@string/label_grade"
+                                android:textColor="@color/colorOnSecondary_60opc" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/til_grade"
+                                style="@style/SpinnerThemeSecondary"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:errorEnabled="true">
+
+                                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                                    android:id="@+id/etv_grade"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/edittext_rounded_onsecondary"
+                                    android:ems="10"
+                                    android:inputType="none"
+                                    android:padding="10dp" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </LinearLayout>
+
+                        <androidx.legacy.widget.Space
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/size_16dp"
+                            android:layout_weight="0.06" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.59"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".01"
+                                android:gravity="left"
+                                android:text="@string/course"
+                                android:textColor="@color/colorOnSecondary_60opc" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/til_course"
+                                style="@style/SpinnerThemeSecondary"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:errorEnabled="true">
+
+                                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                                    android:id="@+id/etv_course"
+                                    style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:inputType="none"
+                                    android:padding="10dp" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutAcademic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayoutGrade">
+
+                    <TextView
+                        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".01"
+                        android:gravity="left"
+                        android:text="@string/academic_year"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_academic_year"
+                        style="@style/SpinnerThemeSecondary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/TextInputLayoutStyle"
+                        app:errorEnabled="true">
+
+                        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                            android:id="@+id/etv_academic_year"
+                            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="none"
+                            android:padding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutStartDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayoutAcademic">
+
+                    <TextView
+                        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".01"
+                        android:gravity="left"
+                        android:text="@string/start_date"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_start_date"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true">
+
+                        <EditText
+                            android:id="@+id/etv_start_date"
+                            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:focusable="false"
+                            android:inputType="none"
+                            android:padding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutEndDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp">
+
+                    <TextView
+                        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".01"
+                        android:gravity="left"
+                        android:text="@string/end_date"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_end_date"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="true">
+
+                        <EditText
+                            android:id="@+id/etv_end_date"
+                            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:focusable="false"
+                            android:inputType="none"
+                            android:padding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_30dp"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/padding_30dp"
+                    android:paddingEnd="@dimen/padding_30dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/bt_submit_another"
+                        style="@style/Theme.Button.OnSurface.PrimaryColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="@string/bt_submit_another" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/bt_submit"
+                        style="@style/Theme.Button.OnSurface.PrimaryColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:layout_marginBottom="@dimen/margin_16dp"
+                        android:enabled="false"
+                        android:text="@string/bt_submit" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

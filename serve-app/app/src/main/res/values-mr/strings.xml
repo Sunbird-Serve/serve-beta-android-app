@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">इविद्यालोका</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="parent">पालक </string>
+    <string name="student">विद्यार्थी </string>
+    <string name="teacher">शिक्षण </string>
+    <string name="partner">सहभागी </string>
+    <string name="welcome">स्वागत आहे !</string>
+    <string name="i_am">मी आहे,</string>
+    <string name="next">दुसरा </string>
+
+
+    <string name="continue_text">सुरु आहे </string>
+    <string name="choose_your_account_type">आपल्या खात्याच प्रकार निवडा </string>
+
+    <string name="invalid_persona_selection">अमान्य व्यक्तीची निवड </string>
+    <string name="choose_your_language">आपली भाषा निवडा </string>
+    <string name="notification_1">प्रिय %s, कृपया आपली उपस्तिती दर्शविण्यासाठी एविद्यालोक लर्निंग अॅपमध्ये लॉग इन करा %s आज .</string>
+    <string name="notification_and">%s आणि %s वर्ग</string>
+    <string name="notification_class">%s वर्ग</string>
+    <string name="notification_classes">%s वर्ग</string>
+    <string name="share">सामायिक करा</string>
+    <string name="share_via">मार्गे सामायिक करा</string>
+    <string name="volunteer_explore"><u> स्वयंसेवक एक्सप्लोर </u></string>
+    <string name="explore_volunteering_opportunities_with_eVidayaloka">स्वयंसेवकांची संधी eVidyaloka सोबत एक्सप्लोर करा</string>
+    <string name="you_will_be_re_directed_to_explore_volunteering_opportunities_with_evidyaloka">तुम्हला एविद्यालोका सोबत स्वयंसेवी संधींचा शोध घेण्यासाठी पुन्हा निर्देशित केले जाईल</string>
+    <string name="join_now">आता सामील व्हा</string>
+    <string name="notification_schoolApproved">प्रिय %s, अभिनंदन!! %s मंजूर आहे. कृपया eVidyaloka Learning अॅपमध्ये लॉग इन करा, एक कोर्स/कोर्स जोडा आणि विद्यार्थ्यांची नोंदणी करा.</string>
+    <string name="notification_doubtResponded">प्रिय %s, %s - %s वरील तुमच्या शंकेचे उत्तर मिळाले आहे. कृपया ‘तुमच्या शंका’ अंतर्गत प्रतिसाद पाहण्यासाठी eVidyaloka Learning अॅपमध्ये लॉग इन करा.</string>
+</resources>

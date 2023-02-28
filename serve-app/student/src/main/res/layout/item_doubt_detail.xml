@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/size_20dp"
+    android:backgroundTint="@color/transparent"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_day"
+            style="@style/Theme.Text.PrimaryColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/size_20dp"
+            android:background="@drawable/bt_round"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.Caption"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_sender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.68">
+
+                <RelativeLayout
+                    android:id="@+id/rl_sender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size_8dp"
+                    android:background="@drawable/ic_outgoing_message"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_sender_text"
+                        style="@style/Theme.Text.PrimaryColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_20dp"
+                        android:layout_marginTop="@dimen/size_20dp"
+                        android:layout_marginRight="@dimen/size_26dp"
+                        android:layout_marginBottom="@dimen/size_11dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_sender_doubt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_sender_text"
+                        android:layout_marginLeft="@dimen/size_20dp"
+                        android:layout_marginTop="@dimen/size_20dp"
+                        android:layout_marginRight="@dimen/size_26dp"
+                        android:layout_marginBottom="@dimen/size_11dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/size_150dp"
+                        android:maxHeight="@dimen/size_150dp"
+                        android:minWidth="@dimen/size_150dp"
+                        android:minHeight="@dimen/size_150dp"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_sender_doubt"
+                        android:layout_marginLeft="@dimen/size_20dp"
+                        android:layout_marginTop="@dimen/size_11dp"
+                        android:layout_marginRight="@dimen/size_26dp"
+                        android:layout_marginBottom="@dimen/size_13dp"
+                        android:background="@color/transparent"
+                        android:orientation="horizontal"
+                        android:textAppearance="@style/TextAppearance.Body2">
+
+                        <TextView
+                            android:id="@+id/tv_sender_name"
+                            style="@style/Theme.Text.PrimaryColor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:ellipsize="end"
+                            android:gravity="start"
+                            android:maxLines="1" />
+
+                        <TextView
+                            android:id="@+id/tv_sender_time"
+                            style="@style/Theme.Text.PrimaryColor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:ellipsize="end"
+                            android:gravity="end"
+                            android:maxLines="1" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+
+
+            <ImageView
+                android:id="@+id/iv_sender_user"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.1194"
+                android:maxWidth="@dimen/size_43dp"
+                android:layout_marginTop="@dimen/size_100dp"
+                android:maxHeight="@dimen/size_43dp"
+                android:src="@drawable/ic_student_placeholder" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_receiver_user"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/size_100dp"
+                android:layout_weight="0.1194"
+                android:maxWidth="@dimen/size_43dp"
+                android:maxHeight="@dimen/size_43dp"
+                android:src="@drawable/ic_student_placeholder" />
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/sv_receiver"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.68">
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_receiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_8dp"
+                    android:background="@drawable/ic_incoming_message"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_receiver_text"
+                        style="@style/Theme.Text.SecondaryColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_26dp"
+                        android:layout_marginTop="@dimen/size_20dp"
+                        android:layout_marginBottom="@dimen/size_11dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_receiver_doubt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_receiver_text"
+                        android:layout_marginLeft="@dimen/size_26dp"
+                        android:layout_marginTop="@dimen/size_20dp"
+                        android:layout_marginRight="@dimen/size_20dp"
+                        android:layout_marginBottom="@dimen/size_11dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/size_150dp"
+                        android:maxHeight="@dimen/size_150dp"
+                        android:minWidth="@dimen/size_150dp"
+                        android:minHeight="@dimen/size_150dp"
+                        android:visibility="visible"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_receiver_doubt"
+                        android:layout_marginLeft="@dimen/size_26dp"
+                        android:layout_marginTop="@dimen/size_11dp"
+                        android:layout_marginRight="@dimen/size_20dp"
+                        android:layout_marginBottom="@dimen/size_13dp"
+                        android:layout_weight="0.05"
+                        android:background="@color/transparent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_receiver_name"
+                            style="@style/Theme.Text.SecondaryColor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:ellipsize="end"
+                            android:gravity="start"
+                            android:maxLines="1" />
+
+                        <TextView
+                            android:id="@+id/tv_receiver_time"
+                            style="@style/Theme.Text.SecondaryColor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:ellipsize="end"
+                            android:gravity="end"
+                            android:maxLines="1" />
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

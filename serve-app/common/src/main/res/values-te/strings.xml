@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="selectall">అన్ని ఎంచుకోండి</string>
+    <string name="label_video_lessons">వీడియో పాఠాలు</string>
+    <string name="label_worksheet">వర్క్‌షీట్</string>
+    <string name="label_activity">కార్యాచరణ</string>
+    <string name="label_textbook">పాఠ్య పుస్తకం</string>
+    <string name="label_bt_view">చూడండి</string>
+    <string name="label_bt_read">చదవండి</string>
+    <string name="label_bt_done">పూర్తయింది</string>
+    <string name="no_document_available">"ఎటువంటి డాక్యుమెంట్ అందుబాటులో లేదు "</string>
+    <string name="video_not_found">వీడియో కనబడ లేదు</string>
+    <string name="video_is_not_playable">వీడియో ప్లే చేయబడదు</string>
+    <string name="invalid_video_url">చెల్లని వీడియో url</string>
+    <string name="video_not_allow_to_play_embed">ఎంబెడ్ వీడియో ప్లే అవ్వటానికి అనుమతి లేదు</string>
+    <string name="unknown_error">గుర్తించలేని పొరపాటు</string>
+    <string name="device_memory_full">పరికర మెమరీ నిండింది</string>
+    <string name="ok">అలాగే</string>
+    <string name="not_found">దొరకలేదు!</string>
+    <string name="we_have_around_d_students_enrolled_and_avail_the_better_learning_experience">మాకు సుమారు %s విద్యార్థులు చేరారు మరియు మంచి అభ్యాస అనుభవాన్ని పొందుతారు.</string>
+    <string name="enter_full_name">పూర్తి పేరు నమోదు చేయండి</string>
+    <string name="enter_mobile_number">మొబైల్ నంబర్‌ను నమోదు చేయండి</string>
+    <string name="tnc_1">కొనసాగించడం ద్వారా, మీరు మా కు అంగీకరిస్తున్నారు</string>
+    <string name="tnc_2"><b><u> ఉపయోగ నిబంధనలు</u></b></string>
+    <string name="tnc_3">\u0020మరియు\u0020</string>
+    <string name="tnc_4"><b><u> గోప్యతా విధానం</u></b></string>
+    <!-- Banners -->
+
+    <!--Student -->
+
+    <string name="banner_1_grasp_concepts">భావనలను సులభంగా గ్రహించండి.</string>
+
+    <string name="banner_2_ask_doubts">మీ సందేహాలను అడగండి</string>
+    <string name="banner_2_we_will_clarify">మరియు మేము మీ కోసం వాటిని స్పష్టం చేస్తాము!</string>
+
+    <string name="banner_3_learn_from">నిమగ్నమవ్వడం నుండి నేర్చుకోండి</string>
+
+    <!-- Parent -->
+
+    <string name="banner_parent_1">5 - 8 తరగతి విద్యార్థుల కోసం సమగ్ర అభ్యాస అనువర్తనం</string>
+    <string name="banner_parent_2">విద్యార్థులు ఆకర్షణీయమైన మరియు క్యూరేటెడ్ అధ్యాయం నుండి నేర్చుకుంటారు - తెలివైన వీడియోలు!</string>
+    <string name="banner_parent_3">మీ బిడ్డను నమోదు చేసుకోండి.\n నేర్చుకోవడం ప్రారంభించండి!</string>
+
+    <!-- Partner -->
+    <string name="banner_1_partner">మీ స్వంత డిజిటల్ పాఠశాలను ఎక్కడి నుండైనా, ఎప్పుడైనా ప్రారంభించండి మరియు నిర్వహించండి!</string>
+    <string name="banner_2_partner">భారతదేశం అంతటా వివిధ స్టేట్ బోర్డుల నుండి ఆకర్షణీయమైన కంటెంట్‌కు ప్రాప్యత పొందండి!</string>
+    <string name="banner_3_partner">బోర్డుని ఎంచుకోండి, కోర్సును ఎంచుకోండి, విద్యార్థులను జోడించండి! ప్రారంభించడానికి!</string>
+    <string name="students_enrolled">విద్యార్థులు చేరారు</string>
+    <string name="organization_information">సంస్థ సమాచారం</string>
+    <string name="contact_person_details">వ్యక్తి వివరాలను సంప్రదించండి</string>
+    <string name="school_board">స్కూల్ బోర్డ్</string>
+    <string name="grade">గ్రేడ్</string>
+    <string name="ngo_n_partner">ఎన్జిఓ \n పార్ట్నర్</string>
+    <string name="digital_school_n_manager">డిజిటల్ స్కూల్ \nమేనేజర్</string>
+    <string name="about_us">మా గురించి</string>
+    <string name="courses_offered">కోర్సులు అందించబడ్డాయి</string>
+    <string name="digital_school_name">డిజిటల్ పాఠశాల పేరు</string>
+    <string name="item_name">వస్తువు పేరు</string>
+    <string name="join_school">పాఠశాలలో చేరండి</string>
+    <string name="access_the_entire_course_and_start_learning">మొత్తం కోర్సును యాక్సెస్ చేసి నేర్చుకోవడం ప్రారంభించండి!</string>
+    <string name="join">చేరండి</string>
+    <string name="be_a_part_of_us_and_run_your_own_digital_school_here">మాకు ఒక భాగంగా ఉండండి మరియు మీ స్వంత డిజిటల్ పాఠశాలను ఇక్కడ నడపండి</string>
+
+    <string name="search_your_board">మీ బోర్డులో శోధించండి</string>
+    <string name="label_continue">కొనసాగించండి</string>
+    <string name="remember_to_solve_the_worksheet">మొదట వర్క్‌షీట్‌ను పరిష్కరించండి. అప్పుడు సమాధానాలను తనిఖీ చేయండి.</string>
+    <string name="the_digital_school_about_us">పప్రభుత్వ పాఠశాలల్లో మరియు భారతదేశంలోని గ్రామీణ ప్రాంతాల్లో చదువుతున్న పిల్లలకు నాణ్యమైన ఆన్లైన్ అభ్యాస అనుభవాన్ని అందించే ఉద్దేశ్యంతో డిజిటల్ పాఠశాల ఏర్పాటు చేయబడింది.\n\nఆకర్షణీయమైన మరియు క్యూరేటెడ్ ఆన్లైన్ వీడియో పాఠాలు, ప్రాక్టీస్ కోసం వర్క్షీట్లు, కార్యాచరణలు, లైవ్ సెషన్లు మరియు పాఠ్యపుస్తకాల కలయిక ద్వారా, నాణ్యమైన విద్యను మీ ఇంటి వద్దకు తీసుకురావాలని మేము ఆశిస్తున్నాము.\n\nమా డిజిటల్ పాఠశాలలో చేరండి, బోర్డు మరియు విషయాన్ని ఎంచుకోండి మరియు ప్రారంభించండి!</string>
+    <string name="medium_of_instruction">బోధనా మాద్యమం</string>
+    <string name="about_digital_school">డిజిటల్ స్కూల్ గురించి</string>
+    <string name="network_partner">నెట్‌వర్క్ \nపార్ట్‌నర్</string>
+    <string name="banner_1_practice_your_learning">అధ్యాయం వారీగా క్యూరేటెడ్ వీడియోలను చూడండి, వర్క్‌షీట్‌లు మరియు కార్యకలాపాలతో మీ అభ్యాసాన్ని సాధన చేయండి</string>
+    <string name="banner_3_and_curated">మరియు క్యూరేటెడ్ అధ్యాయం వారీగా కంటెంట్</string>
+    <string name="banner_parent_4">విద్యార్థులు వారి సందేహాలను అడగవచ్చు. మా ఉపాధ్యాయులు వాటిని స్పష్టం చేస్తారు!</string>
+    <string name="subtopics">సబ్ టాపిక్స్</string>
+    <string name="lesson">"పాఠం "</string>
+    <string name="cancel">రద్దు చేయండి</string>
+    <string name="permission_required">అనుమతులు అవసరం</string>
+    <string name="permission_ask_setting">అభ్యర్థించిన అనుమతులు లేకుండా ఈ యాప్ సరిగ్గా పనిచేయకపోవచ్చు. యాప్ అనుమతులను సవరించడానికి యాప్ సెట్టింగ్‌ల స్క్రీన్‌ను తెరవండి.</string>
+    <string name="medium">మధ్యస్థం</string>
+    <string name="yes">అవును</string>
+    <string name="no">లేదు</string>
+    <string name="warning">హెచ్చరిక!</string>
+    <string name="click_to_open">తెరవడానికి క్లిక్ చేయండి</string>
+</resources>

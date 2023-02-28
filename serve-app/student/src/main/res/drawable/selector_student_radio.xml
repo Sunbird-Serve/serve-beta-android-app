@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/org.evidyaloka.student">
+
+    <item android:drawable="@drawable/layer_student_radio_button_unchecked" android:state_checked="false" />
+    <item android:drawable="@drawable/layer_student_radio_button_checked" android:state_checked="true" />
+
+</selector>

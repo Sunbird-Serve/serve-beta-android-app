@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_myschool"
+            android:title="@string/menu_my_school"
+            android:visible="false"
+             />
+
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/ic_menu_myschool"
+            android:title="@string/menu_my_school"
+            />
+
+        <item
+            android:id="@+id/nav_doubts"
+            android:icon="@drawable/ic_menu_doubts"
+            android:title="@string/menu_your_doubts" />
+
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_download_offline_1"
+            android:title="@string/menu_downloads"
+            app:actionViewClass="android.widget.TextView"/>
+
+
+        <item
+            android:id="@+id/nav_missed_classes"
+            android:icon="@drawable/ic_menu_doubts"
+            android:title="@string/menu_missed_class" />
+
+        <item
+            android:id="@+id/nav_bookmark_classes"
+            android:icon="@drawable/ic_menu_bookmark"
+            android:title="@string/menu_bookmark_class" />
+
+        <item
+            android:id="@+id/nav_learn_tv"
+            android:icon="@drawable/ic_menu_tv"
+            android:title="@string/menu_learn_through_television" />
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_menu_faq"
+            android:title="@string/menu_faq" />
+
+        <item
+            android:id="@+id/nav_locale"
+            android:icon="@drawable/ic_menu_language"
+            android:title="@string/menu_language"
+            app:actionViewClass="android.widget.TextView"/>
+
+        <item
+            android:id="@+id/nav_terms_of_use"
+            android:icon="@drawable/ic_menu_terms"
+            android:title="@string/menu_terms_of_use" />
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_menu_privacy"
+            android:title="@string/menu_privacy_policy" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_menu_support"
+            android:title="@string/menu_support" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/label_logout" />
+
+</menu>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:clickable="true"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="16dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_bottom_sheet_curved"
+        android:elevation="@dimen/size_15dp"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_30dp"
+        android:paddingTop="@dimen/padding_30dp"
+        android:paddingEnd="@dimen/padding_30dp"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.75"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/enter_otp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/size_60dp"
+            android:layout_height="@dimen/size_60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size_15dp"
+            android:layout_marginBottom="@dimen/size_15dp"
+            app:srcCompat="@drawable/ic_otp_default" />
+
+        <TextView
+            android:id="@+id/label"
+            style="@style/Theme.Text.SecondaryColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/enter_otp_sent_to"
+            android:textColor="@color/colorOnSecondary_60opc"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorOnSecondary_60opc"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_change_number"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="@string/change"
+                android:textColor="@color/buttoncolor"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_otp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".09"
+            android:paddingTop="@dimen/size_30dp"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/etv_otp"
+                style="@style/Theme.EditText.OnSurface.SecondaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:letterSpacing="1.3"
+                android:maxLength="6"
+                android:padding="10dp"
+                android:textSize="@dimen/size_20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/size_20dp"
+            android:paddingBottom="@dimen/size_15dp">
+
+            <TextView
+                android:id="@+id/tv_otp_timeout"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="start"
+                android:text="00m 00s"
+                android:textColor="@color/colorOnSecondary_60opc"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_resend_otp"
+                style="@style/Theme.Text.SecondaryColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:enabled="false"
+                android:gravity="end"
+                android:text="@string/resend_otp"
+                android:textColor="@color/tv_text_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bt_verify_otp"
+            style="@style/Theme.Button.OnSurface.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/verify"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

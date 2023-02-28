@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">ईविद्यालोका</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="parent">माता-पिता</string>
+    <string name="student">विद्यार्थी </string>
+    <string name="teacher">शिक्षक</string>
+    <string name="partner">सहभागी</string>
+    <string name="welcome">स्वागत है !</string>
+    <string name="i_am">मैं हूँ ,</string>
+    <string name="next">दूसरा</string>
+
+
+    <string name="continue_text">जारी रखें</string>
+    <string name="choose_your_account_type">अपना खाता प्रकार चुनें</string>
+
+    <string name="invalid_persona_selection">अमान्य व्यक्तित्व का चयन</string>
+    <string name="choose_your_language">अपनी भाषा चुनिए</string>
+    <string name="notification_1">प्रिय  %s, आज ही अपने %s में भाग लेने के लिए ई विद्यालोक लर्निंग ऐप में लॉग इन करें.</string>
+    <string name="notification_and">%s और %s कक्षाओं</string>
+    <string name="notification_class">%s कक्षा</string>
+    <string name="notification_classes">%s कक्षाओं</string>
+    <string name="share">साझा करना</string>
+    <string name="share_via">के माध्यम से बाँटे</string>
+    <string name="volunteer_explore"><u>स्वयंसेवक एक्सप्लोर करें</u></string>
+    <string name="explore_volunteering_opportunities_with_eVidayaloka">ईविद्यालोक के साथ स्वयंसेवा के अवसरों का अन्वेषण करें</string>
+    <string name="you_will_be_re_directed_to_explore_volunteering_opportunities_with_evidyaloka">आपको eVidyaloka के साथ स्वयंसेवी अवसरों का पता लगाने के लिए फिर से निर्देशित किया जाएगा।</string>
+    <string name="join_now">अब शामिल हों</string>
+    <string name="notification_schoolApproved">प्रिय %s, बधाई !! %s स्वीकृत है। कृपया ईविद्यालोक लर्निंग ऐप में लॉग इन करें, एक कोर्स / कोर्स जोड़ें और छात्रों का नामांकन करें।</string>
+    <string name="notification_doubtResponded">प्रिय %s, %s - %s पर आपके संदेह का उत्तर दिया गया है। \'योर डाउट्स\' के तहत प्रतिक्रिया देखने के लिए कृपया ई-विद्यालोक लर्निंग ऐप में लॉग इन करें।</string>
+</resources>

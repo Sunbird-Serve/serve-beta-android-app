@@ -1,0 +1,429 @@
+<resources>
+    <string name="app_name">eVidyaloka</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="organization_email">Organization Email</string>
+    <string name="organization_phone">Organization Phone</string>
+    <string name="organization_address">Organization Address</string>
+    <string name="city_district_taluk">City/ District, Taluk</string>
+    <string name="taluk">Taluk</string>
+    <string name="district">District</string>
+
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="pincode">Pincode</string>
+
+    <string name="description_default_partner_admin">Update default Partner Admin details below</string>
+    <string name="person_s_email">Person\'s email</string>
+    <string name="person_s_contact_number">Person\'s contact number</string>
+    <string name="have_an_account_login">Have an account <b><u>LogIn</u></b></string>
+
+    <string name="menu_dashboard_users">Users</string>
+    <string name="menu_dashboard_calendar">Calendar</string>
+    <string name="menu_dashboard_settings">Settings</string>
+    <string name="menu_dashboard_about_us">About Us</string>
+    <string name="menu_dashboard_contact_us">Contact Us</string>
+    <string name="menu_dashboard_terms_of_usage">Terms of Usage</string>
+    <string name="menu_dashboard_privacy_policy">Privacy Policy</string>
+    <string name="menu_dashboard_log_issues">Log an issue</string>
+    <string name="menu_dashboard_logout">Logout</string>
+
+
+    <string name="your_full_name">Your Full Name</string>
+    <string name="personal_email_id">Person\'s Email</string>
+    <string name="personal_contact_no">Person\'s Contact Number</string>
+    <string name="personal_details_save_button">Save</string>
+
+    <string name="organizationn_details_full_name">Name</string>
+    <string name="organization_email_id">Organization Email ID</string>
+    <string name="organization_contact_number">Organization Contact Number</string>
+
+
+    <!-- Profile TAB -->
+    <string name="tab_personal_details">Personal Details</string>
+    <string name="tab_organization_details">Organization Details</string>
+
+
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="no_account_register_as_partner">I do not have an account. <b><u>Register as a Partner.</u></b></string>
+    <string name="join_the_journey_to_transform_the_education_landscape_of_rural_india">Join the journey to Transform the education landscape of rural India!</string>
+    <string name="invalid_credentials">Invalid username / password</string>
+    <string name="partner_not_approved">Partner not Approved yet.</string>
+
+    <string name="dsp_under_verification">Your account is under verification process by eVidyaloka.</string>
+    <string name="dsp_begin_journey">To begin your journey,\n start by adding your school and users</string>
+    <string name="add_your_digital_school">Add your Digital School</string>
+    <string name="add_users">Add Users</string>
+
+    <string name="hello">Hi, %1$s!</string>
+
+    <string name="digital_school_name">Digital School Name</string>
+    <string name="statement_of_purpose">Statement of purpose</string>
+    <string name="statement_of_purpose_optional">Statement of purpose  (optional)</string>
+    <string name="add_digital_school">Add Digital School</string>
+    <string name="rationale_read_storage">Please grant storage access to enable the app to upload the picture</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="update">Update</string>
+
+    <string name="send">Send</string>
+    <string name="invalid_old_password">Invalid old password</string>
+    <string name="successful">Successful!</string>
+    <string name="passwor_reset_success">Your password has been reset successfully</string>
+    <string name="old_pass_new_cant_not_same">Old password and new password can not be same</string>
+    <string name="enter_valid_old_pass">Please enter a valid old password</string>
+
+    <string name="invalid_password">Password must contain a minimum of 1 lower case letter[a-z], 1 upperr case letter[A-Z], 1 numeric character [0-9],1 special character: [@ # $ % ^ &amp; + =], (8-32 chars long)</string>
+    <string name="invalid_password_new_re_no_match">The new password and confirmation password do not match.</string>
+
+    <string name="status">Status</string>
+    <string name="description">Description</string>
+    <string name="card_view_landing_statement">Purpose: </string>
+    <string name="card_view_landing_dsm">DSM: </string>
+    <string name="card_view_landing_students_enrolled">Students Enrolled</string>
+    <string name="card_view_landing_courses_offered">Courses Offered</string>
+
+    <string name="home_my_digital_school">My Digital Schools</string>
+    <string name="home_add_digital_school">Add Digital School</string>
+    <string name="total_number_of_students">Total number of students</string>
+    <string name="grades">Grades</string>
+    <string name="assigned_digital_school_manager">Assigned Digital School manager</string>
+    <string name="not_assigned">DSM not assigned</string>
+    <string name="school_enrolled_on">School enrolled on</string>
+    <string name="drawer_open" translatable="false">drawer_open</string>
+    <string name="drawer_close" translatable="false">drawer_close</string>
+    <string name="registration">Registration</string>
+    <string name="enter_the_details_to_add_new_school_to_evidyaloka">Add a new School</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="partner">Partner</string>
+    <string name="dsm">DSM</string>
+    <string name="app_version">App Version </string>
+
+    <!-- AddUserFragment -->
+    <string name="bt_submit">Submit</string>
+    <string name="bt_submit_another">Submit &amp; Add another</string>
+    <string name="bt_save">Save</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address_line_1">Address</string>
+    <string name="role">Role</string>
+    <string name="assign_to">Assign To</string>
+
+    <string name="user_added_success">User has been added successfully</string>
+
+    <string name="err_name_already_registered">name already registered</string>
+    <string name="err_mobile_number_already_registered">mobile number already registered</string>
+    <string name="err_email_already_registered">email already registered</string>
+
+    <!-- DSM user -->
+
+    <string name="hint_search">Search</string>
+    <string name="all_users">All Users</string>
+    <string name="one_school_assigned">1 School</string>
+    <string name="no_of_school_assigned">%d Schools</string>
+    <string name="label_schools_assigned">Schools assigned: </string>
+    <string name="total_users">" "(%d)</string>
+
+    <string name="tab_personal_info">Personal Information</string>
+    <string name="tab_office_info">Office Information</string>
+    <string name="address">Address</string>
+
+    <string name="label_fragment_users">Users</string>
+    <string name="label_user_details">User Details</string>
+    <string name="dialog_assign_digital_school_title">Assigned Digital School</string>
+    <string name="school_assigned_success">School has been assigned successfully</string>
+
+    <string name="same_dsm_assigned_to_ds">DSM already assigned to Digital School</string>
+
+    <string name="dialog_close">Close</string>
+    <string name="dsm_profile_update_success">DSM Profile updated successfully!</string>
+
+    <string name="invalid_role">Please select valid Role</string>
+    <string name="invalid_school">Please select valid School</string>
+    <string name="invalid_name">Please add a valid name</string>
+    <string name="invalid_description">Please add a valid description</string>
+    <string name="invalid_statement_purpose">Please add a valid statement of purpose</string>
+    <string name="invalid_first_name">Please add a valid first name</string>
+    <string name="invalid_last_name">Please add a valid last name</string>
+
+    <string name="invalid_mail">Please add a valid email</string>
+    <string name="invalid_phone">Please add a valid phone number</string>
+    <string name="invalid_address">Please add a valid address</string>
+    <string name="invalid_district">Please add a valid City / District, Taluk</string>
+    <string name="invalid_state">Please add a valid State</string>
+    <string name="invalid_taluk">Please add a valid Taluk</string>
+    <string name="invalid_district_alone">Please add a valid District</string>
+
+    <string name="invalid_pincode">Please add a valid Pincode</string>
+    <string name="invalid_country">Please add a valid Country</string>
+
+    <string name="invalid_org_name">Please add a valid organization name</string>
+
+
+    <string name="error_mobile_already_registered">mobile number already registered</string>
+    <string name="error_email_already_registered">email already registered</string>
+    <string name="label_reset_password">Reset Password</string>
+
+    <!-- Profile Details -->
+    <string name="label_profile_fragment">Profile</string>
+    <string name="organization_name_exists">organization name already registered</string>
+    <string name="organization_email_exists">organization email already registered</string>
+    <string name="organization_mobile_exists">organization mobile number already registered</string>
+    <string name="person_phone_exists">person mobile number already registered</string>
+
+    <string name="update_successfully">Updated successfully</string>
+
+    <!-- Add user -->
+
+    <string name="label_add_user_fragment">User</string>
+    <string name="select_role">Select Role</string>
+    <string name="select_digital_school">Select Digital School</string>
+
+    <string name="err_network">Something went wrong. Please try after sometime.</string>
+
+    <string name="error_invalid_credentials">Invalid user credentials</string>
+    <string name="error_invalid_old_pass">Invalid old password</string>
+    <string name="error_required_field_missing">Required fields are missing</string>
+    <string name="error_old_new_not_matching">Old password and New password did not match</string>
+    <string name="error_new_pass_min">New password should have minimum 8 characters, at least one
+        uppercase and lowercase</string>
+    <string name="error_user_not_exist">User does not exist</string>
+    <string name="error_unknown">Unknown error please contact Admin</string>
+    <string name="hi">Hi</string>
+
+    <string name="student_full_name">Student full name*</string>
+    <string name="parent_guardian_name">Parent/ Guardian name*</string>
+    <string name="parent_guardian_contact_number">Parent/ Guardian contact number*</string>
+    <string name="student_s_date_of_birth">Student\'s Date of birth*</string>
+    <string name="student_grade">Student grade*</string>
+    <string name="student_s_school_name">Student\'s School name*</string>
+    <string name="students_medium_of_study">Student\'s medium of study</string>
+    <string name="choose_course">Choose course</string>
+    <string name="invalid_image">Invalid File. Please select another one.</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="you_have_not_been_assigned_to_any_school_please_contact_your_partner">You have not been assigned to any school. Please contact your partner.</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_registration">Registration</string>
+    <string name="label_digital_school">Digital School</string>
+    <string name="add_course">Add Course</string>
+    <string name="enroll_student">Enroll Student</string>
+
+
+    <!-- Course Details -->
+    <string name="label_course_details">Course Details</string>
+
+    <string name="course_title" translatable="false">Mathematics</string>
+    <string name="course_grade" translatable="false">VI th Grade</string>
+    <string name="course_provider">Course Provider</string>
+    <string name="academic_year">Academic Year</string>
+    <string name="course">Course</string>
+    <string name="label_grade">Grade</string>
+
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+
+    <!-- Add Course -->
+
+    <string name="invalid_provider">Select a provider</string>
+    <string name="invalid_grade">Select Grade</string>
+    <string name="invalid_course">Select a course</string>
+    <string name="invalid_academic">Select academic year</string>
+    <string name="invalid_start_date">Select Start date</string>
+    <string name="error_start_bigger_end">Start date can not be > End date</string>
+
+    <string name="invalid_end_date">Select End date</string>
+
+    <string name="course_added_success">Course has been added successfully</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="received_application_success">We have received your application successfully</string>
+    <string name="course_created_success">Course created successfully in %s</string>
+    <string name="student_enrolled_success">Student enrolled successfully</string>
+
+    <!-- Course Fragment -->
+    <string name="label_courses">Courses</string>
+
+    <string name="label_dsp_val">Digital School Partner</string>
+    <string name="label_dsm_val">Digital School Manager</string>
+
+    <string name="label_assigned_digital_schools">Assigned Digital Schools</string>
+
+    <string name="label_close">Close</string>
+
+    <string name="schools"> Schools</string>
+
+    <string name="error_school_not_exist">Digital School Does not exist or not activated</string>
+    <string name="error_user_exists">Another user with same contact details exists</string>
+    <string name="error_center_does_not_exist">Center Does not exist</string>
+
+    <string name="calendar_select_date">SELECT A DATE</string>
+
+    <string name="menu_students_enrolled">Students Enrolled</string>
+    <string name="menu_all_students">All Students</string>
+    <string name="menu_courses">Courses</string>
+    <string name="school_verification_pending">School verification pending.</string>
+    <string name="join_the_journey_to_transform_the_education_landscape_of_india">Join the journey to transform the education landscape of India !</string>
+    <string name="digital_school_added_successfully">Digital School added successfully</string>
+    <string name="invalid_school_details">Invalid School details</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="digital_school_details_updated">Digital School details updated.</string>
+    <string name="something_wrong_uploading_file">Something wrong when uploading file. Please try again.</string>
+    <string name="logo_is_mandatory">Logo is mandatory. Please add logo and submit.</string>
+    <string name="offerings">Offerings</string>
+    <string name="taken_parent_guardian_consent">Taken parent/ guardian consent</string>
+    <string name="father">father</string>
+    <string name="mother">mother</string>
+    <string name="guardian">guardian</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="invalid_language_type">Invalid language type</string>
+    <string name="invalid_offerings">Invalid offerings</string>
+    <string name="invalid_relationship_type">Invalid relationship type</string>
+    <string name="invalid_gender_type">Invalid gender type</string>
+    <string name="student_enrolled">Student enrolled</string>
+    <string name="student_update">Student details updated</string>
+    <string name="ok">Ok</string>
+    <string name="selectall">Select All</string>
+    <string name="select_courses">Select courses</string>
+    <string name="please_select_grade_first">Please select grade first</string>
+    <string name="relationship_with_student">Relationship with student</string>
+    <string name="students_date_of_birth">Students date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="student_school">Student school</string>
+    <string name="medium_of_study">Medium of study</string>
+    <string name="enrolled_course">Enrolled course</string>
+    <string name="students_details">Students Details</string>
+    <string name="school_name_already_exist">School name already exist</string>
+    <string name="only_digital_school_patner_allowed">Only digital partners allowed this action</string>
+    <string name="invalid_data_contact_admin">Data submitted is not valid. Please contact the admin</string>
+    <string name="total_students">Total students</string>
+    <string name="add_pic">Add Pic</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_logo">Add Logo</string>
+
+    <string name="label_enroll_student">Enroll Student</string>
+    <string name="label_add_course">Add Course</string>
+
+    <string name="sign_up_successful">Sign up successful!</string>
+    <string name="your_organization_is_under_review_please_login_with_the_user_name_and_password_sent_to_your_registered_email_id">Your organization is under review. Please login with the user name and password sent to your registered Email ID</string>
+    <string name="acra_mail_subject" translatable="false">Crash report evidyaloka</string>
+    <string name="acra_toast_text" translatable="false">Crash report</string>
+    <string name="you_do_not_have_an_active_internet_connection_please_check_your_internet_connection_and_retry">You do not have an active internet connection, please check your internet connection and retry</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="retry">Retry</string>
+    <string name="open_with">Open with</string>
+
+    <string name="accept_terms_conditions">Please accept Terms and Conditions to continue.</string>
+    <string name="label_register">Register</string>
+    <string name="terms_policy">I agree to the <b><u>Terms and Conditions</u></b></string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिन्दी</string>
+    <string name="tamil" translatable="false">"தமிழ் "</string>
+    <string name="kanada" translatable="false">ಕನ್ನಡ</string>
+    <string name="telugu" translatable="false">తెలుగు</string>
+    <string name="marathi" translatable="false">"मराठी "</string>
+    <string name="evidylaloka_contact_number" translatable="false">080-47091716</string>
+    <string name="evidylaloka_contact_email" translatable="false">digitalschool@evidyaloka.org</string>
+    <string name="search_pincode">Search Pincode</string>
+    <string name="search_state">Search State</string>
+    <string name="done">Done</string>
+    <string name="school_details">School details</string>
+    <string name="state_and_pincode">State and pincode</string>
+    <string name="logo_mandatory">Logo is Mandatory</string>
+    <string name="registration_not_activated_contact_us">If your registration is not activated within 24/48 hours. Please reach out to us on</string>
+    <string name="menu_language">Language</string>
+    <string name="add_your_digital_school_1">Add your Digital School!</string>
+    <string name="get_started">Get Started</string>
+    <string name="delete_state">Are you sure you want to delete the state %s for your school?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="remove_pincode">Are you sure you want to remove this pincode?</string>
+    <string name="select_state">Select State</string>
+    <string name="select_pincode">Select Pincode</string>
+    <string name="edit_state_pincode">Edit State and Pincode</string>
+    <string name="state_pincode">State and pincode</string>
+    <string name="view_all_states_and_pincodes">View all states and pincodes</string>
+    <string name="confirm_state">Confirm State</string>
+    <string name="select_another_state_and_pincode">Select another state and pincode</string>
+    <string name="select_state_and_pincode">Select state and pincode</string>
+    <string name="choose_where_you_want_to_serve_your_students_by_selecting_the_state_and_its_pincodes">Choose where you want to serve your students by selecting the State and its Pincodes.</string>
+    <string name="create_school">Create School</string>
+    <string name="skip">Skip</string>
+    <string name="overview">Overview</string>
+    <string name="next">Next</string>
+    <string name="students_information">Students Information</string>
+    <string name="no_content_available_for_grade">Content not available for this Grade. Please choose another Grade.</string>
+    <string name="no_course_assigned_to_the_grade">No Course assigned to the Grade. Please add a Course and then add a Student.</string>
+
+    <!-- OTP Generetation Screen -->
+    <string name="error_required_fields_missing">Required fields are missing.</string>
+    <string name="error_user_not_registered">You have not registered, please register first.</string>
+    <string name="error_user_profile_not_exist">You have not registered, please register first.</string>
+    <string name="error_invalid_mobile">Invalid mobile number.</string>
+
+    <!-- OTP Validation Screen -->
+    <string name="error_data_not_valid">Data submitted is not valid. Please contact the admin.</string>
+    <string name="error_otp_expired">OTP Expired.</string>
+    <string name="error_otp_invalid">OTP is Invalid.</string>
+
+    <!-- OTP verification -->
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_otp_sent_to">Enter OTP sent to your number</string>
+    <string name="change">Change</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">Verify</string>
+
+    <string name="join">Join</string>
+    <string name="assign_dsm_to_school">Please assign a Digital School Manager (DSM) to manage the %s</string>
+    <string name="add_students_to_school">Please add Students to the %s.</string>
+    <string name="add_course_to_school">Please add Course to the %s.</string>
+    <string name="okay">Okay</string>
+    <string name="assign_dsm">Assign DSM</string>
+    <string name="grade">Grade</string>
+    <string name="error">Error</string>
+    <string name="title_lessons">%s lessons</string>
+    <string name="data_submited_not_valid">Data submitted is not valid. Please contact the admin</string>
+    <string name="label_sorry">Sorry!</string>
+    <string name="could_not_able_to_fetch_data">Could not able to fetch data. Please contact admin</string>
+    <string name="choose_your_school_board">Choose Your School Board</string>
+    <string name="thank_you_for_your_interest">Thank you for your interest!</string>
+    <string name="join_us_to_run_your_own_digital_school_your_username_and_password_are_sent_to_your_registered_email_id">Join us to run your own Digital School. Your Username and Password are sent to your registered Email ID.</string>
+    <string name="complete_your_registration">Complete your registration</string>
+    <string name="explore_our_schools_to_know_more_about_us">Explore our schools to know more about us.</string>
+    <string name="class_title">Class</string>
+    <string name="same_contact_details">User with the same contact details already exists in the system. Please login</string>
+    <string name="same_org_name">Organization name already exists in the system. Please login using Organization credentials.</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="email_already_registered_with_us">Email already registered with us. Please login or use different email id.</string>
+    <string name="mobile_number_already_registred_with_us">Mobile already registered with us. Please login or use a different mobile number.</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="course_already_exist">You have already added this Course. Do you want to add this course again?</string>
+    <string name="menu_dashboard_p_lounge">P-Lounge</string>
+    <string name="edit">Edit</string>
+    <string name="active">Active</string>
+    <string name="in_active">Inactive</string>
+    <string name="do_you_want_status_student">Do you want to change this student status to %s?</string>
+    <string name="student_status_updated_successfully">Student status updated successfully.</string>
+    <string name="active_student_grade_cannot_be_changed">You cannot change the grade as Time table has been generated for this student!</string>
+    <string name="promote_students">Promote Students</string>
+    <string name="students_promotion">Students Promotion</string>
+    <string name="promotion_type">Promotion Type</string>
+    <string-array name="promotion_types_array">
+        <item>@string/next_grade</item>
+        <item>@string/alumni</item>
+    </string-array>
+    <string name="next_grade">Promote to next grade</string>
+    <string name="alumni">Alumni</string>
+    <string name="students_promoted">Students Promoted successfully.</string>
+    <string name="students_not_promoted">Sorry could not able to Promote selected students.</string>
+
+</resources>

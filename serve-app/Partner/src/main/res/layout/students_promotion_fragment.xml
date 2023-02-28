@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.promotion.StudentsPromotionFragment">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main">
+
+    <TextView
+        android:id="@+id/textView27"
+        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".01"
+        android:gravity="left"
+        android:text="@string/label_grade"
+        android:textColor="@color/colorOnPrimary_60opc"
+        app:layout_constraintStart_toStartOf="@+id/til_grade"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_grade"
+        style="@style/SpinnerThemeSecondary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        app:errorEnabled="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintWidth_percent="0.35">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/etv_grade"
+            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:padding="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toBottomOf="@+id/til_grade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/til_grade"
+        app:layout_constraintTop_toTopOf="@+id/til_grade"
+        app:layout_constraintWidth_percent="0.35">
+
+        <EditText
+            android:id="@+id/etv_filter"
+            style="@style/Theme.EditText.OnSurface.SecondaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_search_school"
+            android:ems="10"
+            android:padding="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayoutCourses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/top_right_round_corner_sedondary"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_grade">
+
+        <TextView
+            android:id="@+id/tv_students_count"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="@dimen/size_30dp"
+            android:paddingTop="@dimen/margin_8dp"
+            android:text="@string/total_students"
+            app:layout_constraintEnd_toStartOf="@+id/textView34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_students"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.86"
+            android:paddingStart="@dimen/size_30dp"
+            android:paddingEnd="@dimen/size_30dp"
+            app:layout_constraintBottom_toTopOf="@+id/bt_next"
+            app:layout_constraintTop_toBottomOf="@+id/tv_students_count" />
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/MaterialAlertDialog.Button.Style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="parent" />
+
+        <CheckBox
+            android:id="@+id/bt_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_students_count"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_students_count" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectall"
+            app:layout_constraintBottom_toBottomOf="@id/bt_select_all"
+            app:layout_constraintEnd_toStartOf="@id/bt_select_all"
+            app:layout_constraintTop_toTopOf="@id/bt_select_all" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

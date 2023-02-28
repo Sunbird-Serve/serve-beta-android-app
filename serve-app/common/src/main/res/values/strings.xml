@@ -1,0 +1,86 @@
+<resources>
+    <string name="selectall">Select All</string>
+    <string name="ok">Ok</string>
+    <string name="label_video_lessons">Video lessons</string>
+    <string name="label_worksheet">Worksheet</string>
+    <string name="label_activity">Activity</string>
+    <string name="label_textbook">Textbook</string>
+    <string name="label_bt_view">View</string>
+    <string name="label_bt_read">Read</string>
+    <string name="label_bt_done">Done</string>
+    <string name="no_document_available">No document available</string>
+    <string name="video_not_found">Video not found</string>
+    <string name="video_is_not_playable">Video is not playable</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="invalid_video_url">Invalid video url</string>
+    <string name="device_memory_full">Device menory full</string>
+    <string name="video_not_allow_to_play_embed">Video not allow to play in embed</string>
+    <string name="not_found">Not Found!</string>
+    <string name="we_have_around_d_students_enrolled_and_avail_the_better_learning_experience">We have around %s students enrolled and avail the better learning experience.</string>
+
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="tnc_1">By continuing, you agree to our\n </string>
+    <string name="tnc_2"><b><u>Terms of usage</u></b></string>
+    <string name="tnc_3">\u0020and\u0020</string>
+    <string name="tnc_4"><b><u>Privacy Policy</u></b></string>
+    <!-- Banners -->
+
+    <!--Student -->
+
+    <string name="banner_1_grasp_concepts">Grasp concepts easily.</string>
+    <string name="banner_1_practice_your_learning">Watch chapter-wise curated videos, practice your learning with worksheets and activities</string>
+
+    <string name="banner_2_ask_doubts">Ask your doubts</string>
+    <string name="banner_2_we_will_clarify">and we will clarify them for you!</string>
+
+    <string name="banner_3_learn_from">Learn from engaging</string>
+    <string name="banner_3_and_curated">and curated chapter wise content</string>
+
+    <!-- Parent -->
+
+    <string name="banner_parent_1">A comprehensive learning app\n for class 5 - 8 students.</string>
+    <string name="banner_parent_2">Students learn from engaging and curated chapter – wise videos!</string>
+    <string name="banner_parent_3">Register your child.\nStart learning!</string>
+    <string name="banner_parent_4">Students can ask their doubts. Our Teachers will clarify them!</string>
+
+    <!-- Partner -->
+    <string name="banner_1_partner">Start and manage your own Digital School from anywhere, anytime!</string>
+    <string name="banner_2_partner">Gain access to engaging content from various State Boards across India!</string>
+    <string name="banner_3_partner">Choose a Board, pick a Course, add Students! Get Started!</string>
+    <string name="students_enrolled">Students Enrolled</string>
+    <string name="organization_information">Organization Information</string>
+    <string name="contact_person_details">Contact person details</string>
+    <string name="school_board">School Board</string>
+    <string name="grade">Grade</string>
+    <string name="ngo_n_partner">NGO \nPartner</string>
+    <string name="digital_school_n_manager">Digital School \nManager</string>
+    <string name="about_us">About Us</string>
+    <string name="courses_offered">Courses Offered</string>
+    <string name="digital_school_name">Digital school Name</string>
+    <string name="item_name">Item Name</string>
+    <string name="join_school">Join School</string>
+    <string name="access_the_entire_course_and_start_learning">Access the entire course and start learning!</string>
+    <string name="join">Join</string>
+    <string name="be_a_part_of_us_and_run_your_own_digital_school_here">Be a part of us and run your own digital school here</string>
+
+    <string name="search_your_board">Search Your Board</string>
+    <string name="label_continue">Continue</string>
+    <string name="remember_to_solve_the_worksheet">Remember to solve the Worksheet first and then check your Answers</string>
+    <string name="the_digital_school_about_us">The Digital school is set up with the intent to provide a quality online learning experience for children studying in Government schools and in the rural parts of India. \n\nThrough a combination of engaging and curated online Video lessons, Worksheets for practice, Activities, Live sessions and Textbooks, we hope to bring quality education to your doorstep. \n\nJoin our Digital School, choose a Board and Subject and get started!</string>
+    <string name="medium_of_instruction">Medium of Instruction</string>
+    <string name="about_digital_school">About Digital School</string>
+    <string name="network_partner">Network \nPartner</string>
+    <string name="subtopics">SubTopics</string>
+    <string name="lesson">Lesson </string>
+    <string name="cancel">Cancel</string>
+    <string name="permission_required">Permissions Required</string>
+    <string name="permission_ask_setting">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="medium">Medium</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="warning">Warning!</string>
+    <string name="app_notification_channel_id">default_notification_channel</string>
+    <string name="click_to_open">Click to open</string>
+    <string name="unable_to_open_pdf_file">Unable to open the pdf file. Please check after sometime.</string>
+</resources>

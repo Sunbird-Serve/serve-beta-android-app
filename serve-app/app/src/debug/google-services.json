@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "622445256123",
+    "project_id": "evidyaloka-mobile-sandbox",
+    "storage_bucket": "evidyaloka-mobile-sandbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622445256123:android:e83d939b47bc6d05f3b89e",
+        "android_client_info": {
+          "package_name": "org.evidyaloka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622445256123-58780m3uph4kc3lccqclp824ls7iitm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.evidyaloka",
+            "certificate_hash": "a5ef4752fbd60291f4c79c38c3fcd966662bd7af"
+          }
+        },
+        {
+          "client_id": "622445256123-95ob5pkoj0jbt954gcmu3rvbnoti971t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2uSlBzQcbrZVOGDoRAn5B78o9txWDlew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622445256123-95ob5pkoj0jbt954gcmu3rvbnoti971t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

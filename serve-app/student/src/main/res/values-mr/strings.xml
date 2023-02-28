@@ -1,0 +1,330 @@
+<resources>
+    <!-- OTP Generetation Screen -->
+    <string name="error_required_fields_missing">आवश्यक माहिती उपलब्ध नाहीं .</string>
+    <string name="error_user_profile_not_exist">वापरकर्ता अस्तित्वात नाही. कृपया विद्यार्थी खाते सक्रिय करण्यासाठी आमच्याशी 080-47091716 किंवा digitalschool@evidyaloka.org वर संपर्क साधा. \'</string>
+    <string name="error_invalid_mobile">मोबाईल नंबर अमान्य आहे .</string>
+
+    <!-- OTP Validation Screen -->
+    <string name="error_data_not_valid">पंजीकृत केलेली माहित अमान्य आहे, कृपया व्यवस्थापकाशी संपर्क साधा.</string>
+    <string name="error_otp_expired">OTP ची वैधता संपली .</string>
+    <string name="error_otp_invalid">OTP अमान्य आहे .</string>
+
+    <string name="title_activity_student_home" translatable="false">StudentHomeActivity</string>
+    <string name="navigation_drawer_open" translatable="false">नेव्हीगेशन चा ड्रॉवर उघडने </string>
+    <string name="navigation_drawer_close" translatable="false">नेव्हीगेशन चा ड्रॉवर बंद करणे </string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- Home page child -->
+    <string name="label_grade_with_colon">वर्ग :</string>
+    <string name="label_lets_start">चला सुरुवात करूयात </string>
+    <string name="label_logout">लॉग आऊट </string>
+    <string name="label_sorry">छमा करा !</string>
+    <string name="label_your_account_inactive">आपला खाता सक्रिय नाहीं .</string>
+    <string name="label_ok">ठीक आहे </string>
+
+
+    <!-- Landing Enroll Student to Class -->
+    <string name="learn">शिकणे </string>
+    <string name="label_courses">पाठ्यक्रम </string>
+    <string name="label_welcome_to">स्वागत आहे </string>
+
+
+    <!-- OTP verification -->
+    <string name="enter_otp">OTP टाकने </string>
+    <string name="enter_otp_sent_to">मोबाईल नंबर वर आलेला OTP टाका </string>
+    <string name="change">बदला </string>
+    <string name="resend_otp">OTP पुन्हा पाठवा </string>
+    <string name="verify">सत्यपित करा </string>
+
+    <!-- Login -->
+    <string name="send_otp">OTP पाठवा </string>
+    <string name="enter_mobile">मोबाईल नंबर टाका </string>
+    <string name="student_greeting_1">स्वागत आहे !</string>
+    <string name="student_greeting_3">नमस्कार !</string>
+    <string name="student_greeting_2">प्रिय विद्यार्थ्यांनो, \nशिकण्यासाठी लॉग इन करा </string>
+    <string name="parent_greeting_2">प्रिय पालक, \nआपल्या खात्याला उघडा</string>
+    <string name="label_heading_student_selection">कृपया विदयार्थ्यांना निवडा </string>
+
+    <string name="take_your_first_step_by_choosing_your_subjects_to_start_learning_now">विषयच साहाय्य घेऊन पहिली पायरी चढा आणि शिकायला सुरुवात करा .</string>
+    <string name="data_submited_not_valid">तुम्ही पंजीकृत केलेली माहिती अमान्य आहे, कृपया व्यवस्थापकाशी संपर्क साधा .</string>
+    <string name="error">त्रुटी </string>
+    <string name="user_should_be_guardian">वापरकर्ता पालक असणे आवश्यक आहे</string>
+    <string name="digital_school_doesnot_exist">डिजिटल शाळा उपलब्ध नाहीं </string>
+    <string name="center_doesnot_exist">केंद्र उपलब्ध नाहीं आहे </string>
+    <string name="could_not_able_to_fetch_data">डेटा आणण्यात सक्षम नाही. कृपया व्यवस्थापकाशी संपर्क साधा</string>
+
+    <string name="label_timetable">टाइम टेबल </string>
+    <string name="label_subjects">विषय </string>
+    <string name="label_course_timetable">पाठ्यक्रम टाइम टेबल </string>
+
+    <string name="label_toolbar_title_classes">वर्ग </string>
+    <string name="label_faculty">शिक्षक : </string>
+
+    <string name="please_select_course">वर्ग सुरु करा </string>
+    <string name="hi">"नमस्ते"</string>
+    <string name="today">"Today, "</string>
+    <string name="congratulations_you_may_begin_your_classes_now">अभिनंदन<br/>तुम्ही तुमचा वर्ग सुरु करू शकता </string>
+    <string name="err_network">माहिती चुकलेली आहे, कृपया थोड्या या वेळानी प्रयत्न करा </string>
+    <string name="attend">उपस्तित राहने </string>
+
+
+    <!-- Landing Schedule Course-->
+    <string name="label_pick_your_day">शिकायला सुरुवात करण्यासाठी आपला दिवस आणि वेड निश्चित करा</string>
+    <string name="label_i_would_like">मला यावर अध्ययन करायच आहे </string>
+    <string name="label_begin_class">वर्ग सुरु करा </string>
+    <string name="label_cancel">रद्द करा </string>
+    <string name="label_save">जमा करा </string>
+
+    <string name="guardian_not_active">पालक सक्रिय नाही आहे .</string>
+    <string name="select_more_time">विषयाला समाऊन ठेवण्यासाठी आपला वेळ वाढवा .</string>
+
+    <string name="monday">सोमवार</string>
+    <string name="tuesday">मंगळवार</string>
+    <string name="wednesday">बुधवार</string>
+    <string name="thursday">गुरुवार</string>
+    <string name="friday">शुक्रवार</string>
+    <string name="saturday">शनिवार </string>
+    <string name="sunday">रविवार</string>
+
+    <string name="early_morning">पहाटे सकाळी </string>
+    <string name="morning">सकाळी </string>
+    <string name="afternoon">दुपारी </string>
+    <string name="evening">संद्याकाळी </string>
+
+    <string name="early_morning_timing">सकाळी 6 वाजता - रात्री 9 वाजता </string>
+    <string name="morning_timing">सकाळी 9 वाजता - दुपारी 12 वाजता </string>
+    <string name="afternoon_timing">दुपारी 12 वाजता - संद्याकाळी 4 वाजता </string>
+    <string name="evening_timing">संध्याकाळी 4 वाजता - संद्याकाळी 7 वाजता </string>
+
+    <string name="min_1_study_time">कमीतकमी आपली एक वेळ निश्चित करा .</string>
+    <string name="min_3_study_day">कमीतकमी आपले तीन दिवस निश्चित करा .</string>
+    <string name="min_1_time_3_days">कमीतकमी आपली एक वेळ आणि तीन दिवस निश्चित करा .</string>
+    <string name="menu_my_school">माझी शाळा </string>
+    <string name="menu_your_doubts">आपलं संशय </string>
+    <string name="menu_terms_of_use">उपयोगी अटी </string>
+    <string name="menu_privacy_policy">गोपनीयता धोरण </string>
+    <string name="menu_support">सहयोगी </string>
+    <string name="student">विद्यार्थी </string>
+    <string name="parent">पालक </string>
+    <string name="grade">वर्ग </string>
+    <string name="join_class">वर्गमध्ये प्रवेश करा </string>
+    <string name="live_class">लाईव्ह वर्ग </string>
+    <string name="live_session_link_missing">लाईव्ह वर्ग ची लिंक जहाळ झाली आहे </string>
+    <string name="open_with">चालू करा </string>
+
+    <string name="you_have_no_classes">आज तुमच्याकडे %d वर्ग आहेत</string>
+    <string name="you_will_have_no_classes_next">तुमचे पुढल्या वर्गात %d असणार </string>
+    <string name="you_have_no_subtopics">तुमचे %d उपविषय आहेत </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Course Timetable -->
+    <string name="label_heading_course_timetable">पाठ्यक्रम वेळापत्रक </string>
+    <string name="labeL_all_class">सर्व </string>
+    <string name="labeL_missed_class">सुटलेलं वर्ग </string>
+    <string name="label_scheduled">वेळापत्रक </string>
+    <string name="label_class_taken">वर्ग झाला </string>
+    <string name="label_bt_apply">अर्ज करा </string>
+    <string name="label_bt_reset">पुनर्प्रस्थापित करा</string>
+    <string name="join">जोडा </string>
+
+    <string name="label_filter" >फिल्टर </string>
+    <string name="plural_classes">%d वर्गांमध्ये </string>
+    <string name="singular_classes">%d वर्ग </string>
+
+    <!--worksheet/activity-->
+    <string name="label_bt_view">पाहणे </string>
+    <string name="label_bt_read">वाचा </string>
+    <string name="label_bt_done">करून झालंय </string>
+
+    <!-- RTC View -->
+    <string name="label_doubt">शक ?</string>
+    <string name="label_asked_doubt">शक विचारा </string>
+    <string name="label_bookmark">बुकमार्क </string>
+
+    <!--TABS -->
+    <string name="label_video_lessons">विडिओ धडा </string>
+    <string name="label_worksheet">कार्यपत्रक</string>
+    <string name="label_activity">क्रियाकलाप </string>
+    <string name="label_textbook">पाठयपुस्तक</string>
+    <string name="video_not_found">विडिओ नाही मिळाला</string>
+    <string name="video_is_not_playable">विडिओ खेळण्यायोग्य नाहीं </string>
+    <string name="unknown_error">अज्ञात त्रुटी</string>
+    <string name="invalid_video_url">अमान्य वीडियो url</string>
+    <string name="device_memory_full">डिव्हाइस मेमरी भरली आहे </string>
+    <string name="choose">निवडा</string>
+    <string name="rationale_storage_doubt">कृपया शंका चित्र अपलोड करण्यासाठी a सक्षम करा आणि संचय प्रवेश मंजूर करा. </string>
+    <string name="rationale_camera_storage_doubt">कृपया आपल्या संशयाचे चित्र काढून अ‍ॅपला सक्षम करण्यासाठी कॅमेरा आणि स्टोरेज प्रवेश मंजूर करा</string>
+    <string name="video_not_allow_to_play_embed">एम्बेडमध्ये व्हिडिओ प्ले करण्याची परवानगी नाही</string>
+    <string name="submit">जमा करा</string>
+    <string name="ask_doubt">शंका विचारा</string>
+    <string name="camera">कॅमेरा</string>
+    <string name="gallery">गॅलरी</string>
+    <string name="field_missing">भरलेल्या रखान्यात कुठेतरी गहाळ आहे</string>
+    <string name="invalid_request">अवैध विनंती</string>
+    <string name="student_is_not_related_to_guardian">विद्यार्थी पालकांशी संबंधित नाहीत</string>
+    <string name="invalid_session">अमान्य सत्र</string>
+    <string name="file_does_not_exist">फाईल अस्तित्वात नाही</string>
+    <string name="your_doubt_submitted_successfully">आपली शंका यशस्वीरित्या सबमिट केली गेली आहे</string>
+    <string name="success">यश</string>
+    <string name="failed">अयशस्वी</string>
+    <string name="no_content">या विषयासाठी कोणतीही सामग्री नाही</string>
+
+    <!--Doubts -->
+    <string name="label_no_doubts">आपण अद्याप शंका विचारली नाही.</string>
+    <string name="label_heading_your_doubts">माझी शंका</string>
+    <string name="no_of_doubt_singular">%d शंका</string>
+    <string name="no_of_doubt_plural">%d शंका</string>
+    <string name="label_today">आज </string>
+
+    <!--Doubts -->
+    <string name="label_heading_asked_doubts">शंका विचारा </string>
+    <string name="label_bt_make_correction">दुरुस्ती सुधारा </string>
+    <string name="subject_count">%d चे %d धडे</string>
+    <string name="title_lessons">%s धडे</string>
+    <string name="no_document_available">कागदजत्र उपलब्ध नाही</string>
+
+    <!-- PDF Error -->
+    <string name="device_not_supported">डिव्हाइस समर्थित नाही, कृपया प्रशासकाशी संपर्क साधा.</string>
+    <string name="pdf_on_fail">पीडीएफ डाउनलोड करताना एक त्रुटी येत आहे. कृपया प्रशासनाशी संपर्क साधा.</string>
+
+    <!-- Attendance -->
+    <string name="attendance_submit_error"> सत्राची हजरी जमा करण्यास सक्षम नाही.</string>
+    <string name="please_attend_previous_class">कृपया हा वर्ग पाहण्यासाठी मागील वर्गात हजर रहा</string>
+    <string name="steps_to_ask_you_doubt">आपल्या शंकांचे निरसन करण्यासाठी खालिल प्रक्रिया करा,</string>
+    <string name="_1_write_down_your_doubt_in_your_notebook_paper">१. आपली शंका आपल्या नोटबुक / पेपरमध्ये लिहा</string>
+    <string name="_2_click_a_picture">२. त्या पेपरचा फोटो काढा</string>
+    <string name="_3_upload_here">३. तो फोटो येथे अपलोड करा</string>
+    <string name="one_of_the_teachers_will_clarify_your_doubts_as_a_reply_here_shortly">तुमच्या शंकांचे उत्तर लवकरच आमचे शिक्षक येथे रिप्लाय विभागात देतील.</string>
+
+    <string name="student_greeting_4">आपला शिक्षण प्रवास सुरू करा!</string>
+
+    <!-- MySchools -->
+    <string name="label_my_courses">माझे पाठ्यक्रम</string>
+    <string name="label_tv_study_timings">अभ्यासाची वेळ</string>
+    <string name="label_tv_study_timing">अभ्यासाची वेळ</string>
+    <string name="label_tv_change_timing">वेळ बदलविणे</string>
+    <string name="label_tv_change_timings">वेळ बदलविणे</string>
+
+    <string name="label_school_count_plural">%d शाळा जुळलेल्या आहेत</string>
+    <string name="label_school_count_singular">%d शाळा जुळलेली आहे</string>
+
+    <string name="label_my_study_days">माझ्या अभ्यासाचे दिवस</string>
+    <string name="label_my_study_time">माझ्या अभ्यासाची वेळ</string>
+
+    <string name="you_do_not_have_an_active_internet_connection_please_check_your_internet_connection_and_retry">तुमचं इंटरनेट कनेक्शन सुरु नाही आहे, कृपया तुमचं इंटरनेट तपासा आणि पुनः प्रयत्न करा</string>
+    <string name="no_internet_connection">इंटरनेट कनेक्शन नाही</string>
+    <string name="retry">पुन्हा प्रयत्न करा</string>
+    <string name="rating_submit_error">सत्राची रेटिंग प्रस्तुत करण्यास सक्षम नाही.</string>
+
+    <string name="label_all_subjects">सर्व - </string>
+
+    <string name="menu_home">मुख्यपृष्ठ</string>
+    <string name="menu_classes">वर्गांमध्ये</string>
+    <string name="menu_feedback">फीडबॅक</string>
+
+    <string name="error_invalid_offerings">ऑफरिंग अमान्य</string>
+    <string name="error_invalid_student">अवैध विद्यार्थी</string>
+    <string name="error_slots_not_enough">स्लॉट्स पुरेसे नाहीत.</string>
+    <string name="error_system_settings_defined_wrong">सिस्टम सेटिंग्ज चुकीची परिभाषित केली आहेत.</string>
+
+    <string name="login">सदस्य प्रवेश </string>
+
+
+    <string name="menu_language">इंग्रजी</string>
+    <string name="video">वीडियो</string>
+    <string name="audio">ऑडियो</string>
+    <string name="chat">गप्पा</string>
+    <string name="link">लिंक </string>
+    <string name="you_have_no_class">तुमच्याकडे  पुढील %d वर्ग असेल</string>
+    <string name="you_will_have_no_class_next">आज आपल्याकडे %d वर्ग आहे</string>
+    <string name="you_were_absent_for_some_classes_click_here_to_attend">आपण काही वर्ग अनुपस्थित होते. उपस्थित राहण्यासाठी येथे क्लिक करा.</string>
+    <string name="click_on_the_link_below_to_join_class">वर्गात सामील होण्यासाठी खालील दुव्यावर क्लिक करा</string>
+    <string name="like">आवडले</string>
+    <string name="error_otp_used">ओटीपी आधीपासून वापरली गेली आहे..</string>
+    <string name="student_error_user_not_exist">वापरकर्ता विद्यमान नाही. कृपया नोंदणी करण्यासाठी आपल्या पालक / पालकांना सांगा..</string>
+    <string name="get_started">सुरु करूया</string>
+    <string name="dear_parent">प्रिय पालक</string>
+    <string name="label_login_to_your_account">कृपया आपल्या खात्यात लॉगिन करा</string>
+    <string name="no_account_create_parent">माझ्याकडे खाते नाही. <b> <u> खाते तयार करा </u> </b></string>
+
+
+    <string name="label_join_thank_you">आमच्यात सामील झाल्याबद्दल धन्यवाद!</string>
+    <string name="label_join_like_to_know_more">आम्ही आपल्याबद्दल अधिक जाणून घेऊ इच्छितो.</string>
+    <string name="label_join_relation_with_child">मुलाशी नाते</string>
+    <string name="label_location">स्थान</string>
+    <string name="label_guardian">पालक</string>
+    <string name="rationale_location">कृपया स्थान प्रवेश मंजूर करा जेणेकरून आम्ही आपल्याला चांगले परिणाम प्रदान करू.</string>
+    <string name="geocoder_error">आपले स्थान शोधू शकले नाही, कृपया पिन कोड स्वहस्ते प्रविष्ट करा .</string>
+    <string name="label_enter_pincode">कृपया आपला पिन कोड प्रविष्ट करा</string>
+    <string name="label_child_class">माझे मुल वर्गात आहे</string>
+    <string name="label_next">पुढे</string>
+    <string name="student_preference">विद्यार्थ्यांची पसंती</string>
+    <string name="error_guardian_exists">पालक / पालक आधीपासूनच आमच्याकडे नोंदणीकृत आहेत. कृपया लॉगिन करा.</string>
+    <string name="school_board">आपला शाळा बोर्ड निवडा</string>
+    <string name="student_enrolled_success_msg">आम्हाला आपला अर्ज यशस्वीरित्या प्राप्त झाला आहे .</string>
+    <string name="thank_you">धन्यवाद!</string>
+    <string name="enroll_another_student">दुसर्‍या विद्यार्थ्याची नोंद घ्या</string>
+    <string name="start_learning">शिकणे प्रारंभ करा</string>
+    <string name="boy">मुलगा</string>
+    <string name="girl">मुलगी</string>
+    <string name="gender">लिंग</string>
+    <string name="father">वडील</string>
+    <string name="mother">आई</string>
+    <string name="guardian">पालक</string>
+    <string name="student_full_name">विद्यार्थी पूर्ण नाव *</string>
+    <string name="student_s_date_of_birth">विद्यार्थ्याची जन्मतारीख *</string>
+    <string name="student_grade">विद्यार्थी श्रेणी *</string>
+    <string name="student_s_school_name">विद्यार्थ्याचे शाळेचे नाव *</string>
+    <string name="student_s_medium_of_study">विद्यार्थ्यांच्या अभ्यासाचे माध्यम *</string>
+    <string name="please_select_grade_first">कृपया प्रथम श्रेणी निवडा</string>
+    <string name="taken_parent_guardian_consent">पालक / पालकांची संमती घेतली</string>
+    <string name="invalid_name">कृपया एखादे वैध नाव जोडा</string>
+    <string name="invalid_grade">ग्रेड निवडा</string>
+    <string name="invalid_school_details">अवैध शाळेचा तपशील</string>
+    <string name="invalid_medium">कृपया वैध माध्यम निवडा</string>
+    <string name="invalid_school_board">कृपया वैध शाळा बोर्ड निवडा</string>
+    <string name="rationale_read_storage">कृपया चित्र अपलोड करण्यासाठी अॅप सक्षम करण्यासाठी संचय प्रवेश मंजूर करा</string>
+    <string name="invalid_image">अवैध फाईल. कृपया आणखी एक निवडा.</string>
+    <string name="student_form_title">विद्यार्थ्यांचा फॉर्म</string>
+    <string name="join_to">मध्ये सामील व्हा %s</string>
+    <string name="access_the_entire_course_and_start_learning">संपूर्ण कोर्समध्ये प्रवेश करा आणि शिकण्यास प्रारंभ करा!</string>
+    <string name="join_us">आमच्यात सामील व्हा!</string>
+    <string name="join_school">शाळेत जा</string>
+    <string name="please_wait">कृपया थांबा…</string>
+    <string name="missed_class">सुटलेला वर्ग</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="live">राहतात</string>
+    <string name="your_timetable_will_be_available_shortly">आपले वेळापत्रक लवकरच उपलब्ध होईल..</string>
+    <string name="i_consent_to_my_child_using_the_evidyaloka_learning_app_for_learning_purpose">मी माझ्या मुलास शिकण्याच्या उद्देशाने एविद्यालोका शिक्षण अॅप ला वापरण्यास सहमती देतो.</string>
+    <string name="no_class_today">आज वर्ग नाही</string>
+    <string name="there_is_no_class_scheduled_for_today">आज कोणताही वर्ग नियोजित नाही</string>
+    <string name="only_1_class_per_subject">कृपया लक्षात ठेवा: एका दिवसात प्रति विषय फक्त 1 वर्ग ठरविला जाईल</string>
+    <string name="invalid_language_type">अवैध भाषा प्रकार</string>
+    <string name="enrollment_failed_contact_admin">विद्यार्थी नोंदणी अयशस्वी. कृपया प्रशासकाशी संपर्क साधा</string>
+    <string name="invalid_gender_type">अवैध लिंग प्रकार</string>
+    <string name="menu_learn_through_television">टेलिव्हिजनद्वारे शिका</string>
+    <string name="learn_throuht_tv">टेलिव्हिजनद्वारे शिका</string>
+    <string name="join_this_digital_school_for_free">या डिजिटल शाळेत विनामूल्य सामील व्हा!</string>
+    <string name="menu_faq">सामान्य प्रश्न</string>
+    <string name="medium">मध्यम</string>
+    <string name="downloaded">डाउनलोड केले</string>
+    <string name="delete_offline_content_alert">तुम्हाला खात्री आहे की तुम्ही डाउनलोड केलेली %s फाइल हटवू इच्छिता?</string>
+    <string name="delete">हटवा</string>
+    <string name="content_can_be_viewed_offline">%s सामग्री ऑफलाइन पाहिली जाऊ शकते</string>
+    <string name="menu_downloads">डाउनलोड</string>
+    <string name="not_enough_space">%s फाइल डाउनलोड करण्यासाठी या डिव्हाइसकडे पुरेशी जागा नाही.</string>
+    <string name="unable_to_download_file">%s फाइल डाउनलोड करण्यास असक्षम आहे.</string>
+    <string name="do_not_have_access">या अॅपला फाईल लोकेशनमध्ये प्रवेश नाही</string>
+    <string name="both">दोन्ही</string>
+    <string name="select_student">विद्यार्थी निवडा</string>
+    <string name="select_content_type">सामग्री प्रकार निवडा</string>
+    <string name="you_are_offline_please_click_on_downloads_under_menu_to_view_the_downloaded_videos_worksheets">तुम्ही ऑफलाइन आहात. कृपया डाउनलोड केलेले व्हिडिओ / दस्तऐवज पाहण्यासाठी डाउनलोडवर क्लिक करा.</string>
+    <string name="Please_connect_to_internet_to_like_the_video">कृपया इंटरनेटशी कनेक्ट करा आणि व्हिडिओला लाईक करा</string>
+    <string name="Please_connect_to_internet_to_ask_doubt">कृपया शंका विचारण्यासाठी इंटरनेटशी कनेक्ट करा</string>
+    <string name="Please_connect_to_internet_to_view_asked_doubts">कृपया विचारलेल्या शंका पाहण्यासाठी इंटरनेटशी कनेक्ट करा</string>
+    <string name="your_course_started_on">तुमचा कोर्स %s वर सुरू झाला आहे. कृपया चुकलेले वर्ग पहा.</string>
+</resources>

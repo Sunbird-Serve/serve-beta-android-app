@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_right_round_corner_sedondary"
+    android:padding="@dimen/padding_30dp"
+    tools:context=".ui.student.StudentsDetailsFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_status"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:checked="true"
+            android:clickable="false"
+            android:text="Active"
+            app:textEndPadding="16dp"
+            app:textStartPadding="16dp" />
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="@dimen/size_90dp"
+            android:layout_height="@dimen/size_90dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_student_placeholder" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16dp"
+            android:textAppearance="@style/TextAppearance.Subtitle1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_26dp"
+            android:text="@string/students_information"
+            android:textSize="@dimen/size_13sp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/margin_16dp"
+            android:background="#DBDFE3" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parent_guardian_name"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_parent_name"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parent_guardian_contact_number"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_parent_contact"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relationship_with_student"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_relationship"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/students_date_of_birth"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_dob"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_grade"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_grade"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_school"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_school"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medium_of_study"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_medium"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enrolled_course"
+            android:textColor="@color/colorOnSecondary_60opc" />
+
+        <TextView
+            android:id="@+id/tv_enrolled_course"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:visibility="gone" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleLine="false">
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

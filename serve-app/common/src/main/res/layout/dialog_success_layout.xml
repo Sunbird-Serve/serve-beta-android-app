@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MaterialAlertDialogTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:elevation="@dimen/size_10dp"
+    app:layout_anchorGravity="center">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_20dp"
+        android:paddingEnd="@dimen/padding_20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_26dp"
+            android:background="@drawable/ic_oval"
+            android:padding="25dp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_25dp"
+            android:text="@string/thank_you"
+            android:textColor="@color/success"
+            android:textSize="@dimen/size_20sp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/size_30dp"
+            android:layout_marginTop="@dimen/size_3dp"
+            android:layout_marginRight="@dimen/size_30dp"
+            android:layout_marginBottom="@dimen/size_36dp"
+            android:gravity="center"
+            android:text="@string/received_application_success"
+            android:textColor="#02122C" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/buttonnegative"
+            style="@style/Theme.Button.OnSurface.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_54dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonPositive"
+            style="@style/Theme.Button.OnSurface.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_54dp"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

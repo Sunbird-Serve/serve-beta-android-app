@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/size_17dp"
+    android:paddingBottom="@dimen/size_16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_profile_pic"
+            android:layout_width="@dimen/size_61dp"
+            android:layout_height="@dimen/size_61dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/size_23dp"
+            android:layout_marginRight="@dimen/size_23dp"
+            android:layout_weight="0.9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                android:textAppearance="@style/TextAppearance.Subtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.Overline"
+                android:maxLines="1"
+                android:text="anitha@gmail.com" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.Overline"
+                android:maxLines="1"
+                android:text="9926387788" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_schools_assigned"
+            style="@style/Theme.TextView.OnSurface.White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="0.1"
+            android:background="@drawable/button_capsule_border_orange"
+            android:textColor="@color/colorOnSecondary_60opc"
+            android:textSize="@dimen/size_10sp"
+            android:visibility="visible" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

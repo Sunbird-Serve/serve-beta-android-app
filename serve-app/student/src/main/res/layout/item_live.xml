@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/live_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_5dp"
+    android:paddingStart="@dimen/padding_10dp">
+
+    <org.evidyaloka.common.view.RippleBackground
+        android:layout_width="@dimen/size_18dp"
+        android:layout_height="@dimen/size_18dp"
+        android:layout_gravity="center"
+        app:rb_color="@color/live_color"
+        app:rb_radius="@dimen/live_ripple_radius"
+        app:rb_rippleAmount="3"
+        app:rb_scale="4">
+
+    </org.evidyaloka.common.view.RippleBackground>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Theme.Text.PrimaryColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_5dp"
+        android:layout_marginEnd="@dimen/margin_10dp"
+        android:text="@string/live"
+        android:textAppearance="@style/TextAppearance.Caption" />
+
+</LinearLayout>

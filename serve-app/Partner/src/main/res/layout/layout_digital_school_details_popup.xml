@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_10dp"
+    android:color="@color/white"
+    android:elevation="@dimen/size_5dp"
+    android:padding="@dimen/size_10dp"
+    app:cardCornerRadius="@dimen/size_10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/size_5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rlPromotStudents"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_menu_user"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:drawablePadding="@dimen/padding_20dp"
+            android:drawableTint="@color/gray"
+            android:gravity="start"
+            android:padding="@dimen/padding_14dp"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingRight="@dimen/size_10dp"
+            android:text="@string/promote_students"
+            android:textColor="@color/colorOnSecondary" />
+        <Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1dp"
+            android:layout_below="@+id/rlPromotStudents"
+            android:background="@color/viewSeparatorColor" />
+
+        <TextView
+            android:id="@+id/rlAllStudents"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_menu_user"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:drawablePadding="@dimen/padding_20dp"
+            android:drawableTint="@color/gray"
+            android:gravity="start"
+            android:padding="@dimen/padding_14dp"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingRight="@dimen/size_10dp"
+            android:text="@string/menu_all_students"
+            android:textColor="@color/colorOnSecondary"
+            android:visibility="gone" />
+        <Space
+            android:id="@+id/space1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1dp"
+            android:layout_below="@+id/rlAllStudents"
+            android:background="@color/viewSeparatorColor" />
+
+        <TextView
+            android:id="@+id/rlStudentsEnrolled"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_user"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:drawablePadding="@dimen/padding_20dp"
+            android:drawableTint="@color/gray"
+            android:padding="@dimen/padding_14dp"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingRight="@dimen/size_10dp"
+            android:text="@string/menu_students_enrolled"
+            android:textColor="@color/colorOnSecondary" />
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1dp"
+            android:layout_below="@+id/rlStudentsEnrolled"
+            android:background="@color/viewSeparatorColor" />
+
+        <TextView
+            android:id="@+id/rlCourses"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_user"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:drawablePadding="@dimen/padding_20dp"
+            android:drawableTint="@color/gray"
+            android:padding="@dimen/padding_14dp"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingRight="@dimen/size_10dp"
+            android:text="@string/menu_courses"
+            android:textColor="@color/colorOnSecondary" />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

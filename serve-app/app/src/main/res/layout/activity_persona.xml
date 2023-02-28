@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical"
+    tools:context=".main.ui.PersonaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_30dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_25sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/choose_your_account_type"
+            android:textColor="#9DA0C0"
+            app:layout_constraintStart_toStartOf="@+id/textView4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@drawable/top_right_round_corner_sedondary"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/size_30dp"
+        android:paddingTop="@dimen/size_25dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/size_40dp">
+
+                <org.evidyaloka.common.view.RecursiveRadioGroup
+                    android:id="@+id/rg_persona"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_23dp"
+                            android:fontFamily="@font/poppins_semi_bold"
+                            android:text="@string/i_am"
+                            android:textColor="@color/colorOnSecondary"
+                            android:textSize="@dimen/size_20sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+                            <RadioButton
+                                android:id="@+id/rb_parent"
+                                android:layout_width="@dimen/size_140dp"
+                                android:layout_height="@dimen/size_120dp"
+                                android:layout_marginRight="@dimen/margin_10dp"
+                                android:layout_marginBottom="@dimen/margin_15dp"
+                                android:background="@drawable/selector_persona_radio_button"
+                                android:button="@null"
+                                android:checked="true"
+                                android:drawableTop="@drawable/ic_parent__1_"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:gravity="center"
+                                android:padding="@dimen/padding_20dp"
+                                android:text="@string/parent"
+                                android:textColor="@color/persona_radio"
+                                android:textSize="@dimen/size_16sp" />
+
+                            <RadioButton
+                                android:id="@+id/rb_student"
+                                android:layout_width="@dimen/size_140dp"
+                                android:layout_height="@dimen/size_120dp"
+                                android:layout_marginLeft="@dimen/margin_10dp"
+                                android:layout_marginBottom="@dimen/margin_15dp"
+                                android:background="@drawable/selector_persona_radio_button"
+                                android:button="@null"
+                                android:drawableTop="@drawable/ic_student"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:gravity="center"
+                                android:padding="@dimen/padding_20dp"
+                                android:text="@string/student"
+                                android:textColor="@color/persona_radio"
+                                android:textSize="@dimen/size_16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/rb_teacher"
+                                android:layout_width="@dimen/size_140dp"
+                                android:layout_height="@dimen/size_120dp"
+                                android:layout_marginTop="@dimen/margin_15dp"
+                                android:layout_marginRight="@dimen/margin_10dp"
+                                android:background="@drawable/selector_persona_radio_button"
+                                android:button="@null"
+                                android:drawableTop="@drawable/ic_teacher"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:gravity="center"
+                                android:padding="@dimen/padding_20dp"
+                                android:text="@string/teacher"
+                                android:textColor="@color/persona_radio"
+                                android:textSize="@dimen/size_16sp"
+                                android:visibility="gone" />
+
+                            <RadioButton
+                                android:id="@+id/rb_partner"
+                                android:layout_width="@dimen/size_140dp"
+                                android:layout_height="@dimen/size_120dp"
+                                android:layout_marginLeft="@dimen/margin_10dp"
+                                android:layout_marginTop="@dimen/margin_15dp"
+                                android:background="@drawable/selector_persona_radio_button"
+                                android:button="@null"
+                                android:drawableTop="@drawable/ic_partner"
+                                android:fontFamily="@font/poppins_semi_bold"
+                                android:gravity="center"
+                                android:padding="@dimen/padding_20dp"
+                                android:text="@string/partner"
+                                android:textColor="@color/persona_radio"
+                                android:textSize="@dimen/size_16sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </org.evidyaloka.common.view.RecursiveRadioGroup>
+
+                <Button
+                    android:id="@+id/bt_login"
+                    style="@style/Theme.Button.OnSurface.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_48dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/margin_30dp"
+                    android:background="@drawable/button_capsule_border_orange"
+                    android:text="@string/login"
+                    android:textAllCaps="false"
+                    android:textColor="@color/buttoncolor" />
+
+                <Button
+                    android:id="@+id/bt_join"
+                    style="@style/Theme.Button.OnSurface.PrimaryColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_48dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:text="@string/join_now"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    android:id="@+id/bt_volunteer"
+                    style="@style/Theme.LabelText.OnSurface.PrimaryColor.Bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_48dp"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:gravity="center"
+                    android:text="@string/volunteer_explore"
+                    android:textAppearance="@style/TextAppearance.Subtitle2"
+                    android:textColor="@color/buttoncolor" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

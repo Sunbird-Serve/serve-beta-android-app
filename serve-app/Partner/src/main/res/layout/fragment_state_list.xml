@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.stateList.StateListFragment">
+
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        android:id="@+id/etv_search"
+        style="@style/Theme.EditText.OnSurface.SecondaryColor.Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_20dp"
+        android:layout_marginRight="@dimen/size_20dp"
+        android:layout_marginBottom="@dimen/size_20dp"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="@dimen/size_5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/search_state"
+        android:imeOptions="actionSearch"
+        android:padding="@dimen/size_10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_right_round_corner_sedondary"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_stateList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/bt_select_pincode"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/margin_30dp"
+            android:layout_weight="0.8"
+            app:layout_constraintBottom_toTopOf="@+id/bt_select_pincode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/bt_select_pincode"
+            style="@style/Theme.Button.OnSurface.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bt_confirm_state"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/button_capsule_border_orange"
+            android:enabled="false"
+            android:text="@string/select_pincode"
+            android:textAllCaps="false"
+            android:textColor="@color/buttoncolor"
+            app:layout_constraintBottom_toTopOf="@+id/bt_confirm_state"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rc_stateList" />
+
+        <Button
+            android:id="@+id/bt_confirm_state"
+            style="@style/Theme.Button.OnSurface.PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.1"
+            android:enabled="false"
+            android:text="@string/confirm_state"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

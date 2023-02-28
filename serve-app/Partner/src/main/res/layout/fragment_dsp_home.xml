@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeActivity">
+
+    <TextView
+        android:id="@+id/tv_dsp_date"
+        style="@style/Theme.LabelText.OnSurface.PrimaryColor.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_dsp_name"
+        style="@style/Theme.LabelText.OnSurface.PrimaryColor.Large"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_30dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_dsp_profile_pic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dsp_date" />
+
+    <ImageView
+        android:id="@+id/iv_dsp_profile_pic"
+        android:layout_width="@dimen/size_50dp"
+        android:layout_height="@dimen/size_50dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_dsp_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_dsp_date" />
+
+    <include
+        android:id="@+id/view_is_activated"
+        layout="@layout/layout_home_is_partner_activated"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dsp_name" />
+
+    <LinearLayout
+        android:id="@+id/view_schools"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dsp_name"
+        tools:visibility="visible">
+
+        <include
+            layout="@layout/layout_home_partner_schools"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_add_digital_school"
+                style="@style/Theme.Button.OnSurface.PrimaryColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_marginLeft="@dimen/size_70dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/size_70dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:drawableStart="@drawable/ic_plus_white_20dp"
+                android:drawablePadding="@dimen/padding_20dp"
+                android:text="@string/home_add_digital_school" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

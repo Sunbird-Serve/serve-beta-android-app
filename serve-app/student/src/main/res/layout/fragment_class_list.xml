@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_group_class"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioGroup
+            android:id="@+id/rb_group_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_23dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:layout_marginEnd="@dimen/margin_23dp"
+            android:layout_marginBottom="@dimen/margin_23dp"
+            android:background="@drawable/radio_unchecked_student"
+            android:checkedButton="@id/rb_timetable"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/rb_timetable"
+                style="@style/ToggleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_radio_class"
+                android:text="@string/label_timetable"
+                android:textColor="@color/radio_text_color" />
+
+            <RadioButton
+                android:id="@+id/rb_subjects"
+                style="@style/ToggleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_radio_class"
+                android:text="@string/label_subjects"
+                android:textColor="@color/radio_text_color" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/ll_timetable"
+        style="@android:style/Widget.Material.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_group_class"
+        tools:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/padding_30dp"
+                android:paddingEnd="@dimen/padding_30dp"
+                android:paddingBottom="@dimen/padding_20dp"
+                tools:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/rlCalendarHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_calendar_left"
+                        android:layout_width="@dimen/size_28dp"
+                        android:layout_height="@dimen/size_28dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/ic_left" />
+
+                    <TextView
+                        android:id="@+id/tv_current_date"
+                        style="@style/Theme.Text.PrimaryColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:textColor="@color/student_black"></TextView>
+
+                    <ImageView
+                        android:id="@+id/iv_calendar_right"
+                        android:layout_width="@dimen/size_28dp"
+                        android:layout_height="@dimen/size_28dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_right" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutCalendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_15dp"
+                    android:orientation="vertical">
+
+                    <org.evidyaloka.student.utils.calendar.widget.CollapsibleCalendar
+                        android:id="@+id/calendarView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:selectedItem_background="@drawable/calendar_selected_day"
+                        app:selectedItem_textColor="@color/white"
+                        app:textColor="@color/calendar_weekday_color"
+                        app:todayItem_background="@drawable/calendar_today_day"
+                        app:todayItem_textColor="@color/buttoncolor"
+                        app:unselectedItem_background="@drawable/calendar_unselected_day"
+                        app:unselectedItem_textColor="@color/calendar_text_color">
+
+                    </org.evidyaloka.student.utils.calendar.widget.CollapsibleCalendar>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/timetable_bg"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/size_30dp"
+                android:paddingTop="@dimen/size_20dp"
+                android:paddingBottom="@dimen/size_20dp"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/bt_course_timetable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/size_30dp"
+                    android:background="@drawable/button_white"
+                    android:drawableLeft="@drawable/ic_timetable"
+                    android:drawablePadding="@dimen/size_5dp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/padding_10dp"
+                    android:paddingTop="@dimen/size_5dp"
+                    android:paddingRight="@dimen/padding_10dp"
+                    android:paddingBottom="@dimen/size_5dp"
+                    android:text="@string/label_course_timetable"
+                    android:textColor="@color/orange_v1"
+                    android:textSize="@dimen/size_12sp" />
+
+                <LinearLayout
+                    android:id="@+id/no_class_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/margin_30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_30dp"
+                        android:layout_marginBottom="40dp"
+                        app:srcCompat="@drawable/ic_no_classes" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/no_class_today"
+                        android:textAppearance="@style/TextAppearance.Headline6" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/there_is_no_class_scheduled_for_today"
+                        android:textAppearance="@style/TextAppearance.Subtitle2"
+                        android:textColor="@color/colorOnSecondary_60opc" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_classes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/size_20dp"
+                    android:isScrollContainer="false"
+                    android:nestedScrollingEnabled="false"
+                    android:paddingBottom="@dimen/bottom_nav_height"
+                    android:visibility="visible"
+                    tools:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <GridView
+        android:id="@+id/ll_subject"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/timetable_bg"
+        android:numColumns="2"
+        android:paddingStart="@dimen/padding_20dp"
+        android:paddingTop="@dimen/padding_30dp"
+        android:paddingEnd="@dimen/padding_20dp"
+        android:stretchMode="columnWidth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_group_class"
+        tools:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

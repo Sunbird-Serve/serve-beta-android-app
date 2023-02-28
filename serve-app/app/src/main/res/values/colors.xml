@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D256E</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorOnSecondary">#02122C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#DEDEDE</color>
+    <color name="transparent">#00000000</color>
+    <color name="buttoncolor">#FF7F2D</color>
+    <color name="color_gray">#BABCD9</color>
+
+    <color name="colorOnPrimary_60opc">#99FFFFFF</color>
+    <color name="colorOnSecondary_40">#6602122C</color>
+
+    <color name="colorOnSecondary_30opc">#4D02122C</color>
+    <color name="colorOnSecondary_60opc">#9902122C</color>
+    <color name="colorOnSecondary_80opc">#8002122C</color>
+
+    <color name="white_45opc">#75FFFFFF</color>
+
+    <color name="cv_landing_active">#1D256E</color>
+    <color name="cv_landing_inactive">#DEE1E2</color>
+    <color name="cv_under_verification_color">#4050A7</color>
+
+    <color name="green_approved">#5EB670</color>
+    <color name="red_rejected">#FF5757</color>
+    <color name="yellow_pending">#F9AA27</color>
+
+    <color name="passwordToggleTint">#1D256E</color>
+    <color name="item_decoration_dot_color">#4DD8D8D8</color>
+    <color name="dash">#CCD0D5</color>
+
+    <color name="viewSeparatorColor">#DBDFE3</color>
+    <color name="radio_button_selected_color">#FFFFFF</color>
+    <color name="radio_button_unselected_color">#653D8BFF</color>
+    <color name="colorAlert">#FF002E</color>
+
+    <color name="success">#1D256E</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color">@color/white</color>
+
+
+    <color name="red">#FFFFFF</color>
+
+    <color name="list_even">#FFF5F5</color>
+    <color name="list_odd">#F3FFFF</color>
+    <color name="list_selected">#455FB6</color>
+
+    <color name="stroke_border">#D7D7D7</color>
+
+</resources>

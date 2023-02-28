@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_20dp"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+
+        <ImageView
+            android:id="@+id/iv_step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/indicator_selector"
+            app:layout_constraintBottom_toBottomOf="@+id/divider_step"
+            app:layout_constraintEnd_toStartOf="@+id/divider_step"
+            app:layout_constraintTop_toTopOf="@+id/divider_step" />
+
+        <View
+            android:id="@+id/divider_step"
+            android:layout_width="84dp"
+            android:layout_height="1.5dp"
+            android:background="#80CCD0D5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.389" />
+
+        <ImageView
+            android:id="@+id/iv_step2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/divider_step"
+            app:layout_constraintStart_toEndOf="@+id/divider_step"
+            app:layout_constraintTop_toTopOf="@+id/divider_step"
+            app:srcCompat="@drawable/indicator_selector" />
+
+        <TextView
+            android:id="@+id/tv_step1"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/organization_information"
+            android:textColor="@color/colorOnPrimary"
+            android:textSize="9sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_step1"
+            app:layout_constraintStart_toStartOf="@+id/iv_step1"
+            app:layout_constraintTop_toBottomOf="@+id/iv_step1" />
+
+        <TextView
+            android:id="@+id/tv_step2"
+            style="@style/Theme.LabelText.OnSurface.SecondaryColor"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/contact_person_details"
+            android:textColor="@color/colorOnPrimary"
+            android:textSize="9sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_step2"
+            app:layout_constraintStart_toEndOf="@+id/divider_step"
+            app:layout_constraintTop_toBottomOf="@+id/iv_step2" />
+
+
+</merge>

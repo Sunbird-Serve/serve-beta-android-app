@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:layout_marginBottom="@dimen/size_10dp"
+                    android:text="@string/label_user_details"
+                    android:textColor="@color/buttoncolor"
+                    android:textSize="@dimen/size_14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_edit_user_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:layout_marginBottom="@dimen/size_10dp"
+                    android:src="@drawable/ic_edit_21dp"
+                    app:tint="@color/buttoncolor" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fname"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+
+            <TextView
+                android:id="@+id/etv_first_name"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/lname"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+
+            <TextView
+                android:id="@+id/etv_last_name"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/personal_email_id"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <TextView
+                android:id="@+id/etv_mail"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/personal_contact_no"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <TextView
+                android:id="@+id/etv_phone"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/taluk"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <TextView
+                android:id="@+id/etv_taluk"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/district"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+
+            <TextView
+                android:id="@+id/etv_district"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/state"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <TextView
+                android:id="@+id/etv_state"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/size_10sp"
+                android:text="@string/pincode"
+                android:textColor="@color/colorOnSecondary_60opc" />
+
+            <TextView
+                android:id="@+id/etv_pincode"
+                style="@style/Theme.LabelText.OnSurface.SecondaryColor.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

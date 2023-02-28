@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EVidyalokaPartner" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnSurface">@color/buttoncolor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/Theme.Button.OnSurface.PrimaryColor</item>
+        <item name="android:editTextStyle">@style/Theme.EditText.OnSurface.PrimaryColor</item>
+        <item name="android:listDivider">@color/viewSeparatorColor</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+
+    </style>
+
+    <style name="Theme.EVidyalokaPartner.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSurface">@color/buttoncolor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/Theme.Button.OnSurface.PrimaryColor</item>
+        <item name="android:editTextStyle">@style/Theme.EditText.OnSurface.PrimaryColor</item>
+        <item name="android:listDivider">@color/viewSeparatorColor</item>
+    </style>
+
+
+</resources>
